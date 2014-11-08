@@ -1,0 +1,59 @@
+Field Name              Definition   
+RefID                   Unique (sequential) number assigned to vehicles   <ignore>
+IsBadBuy                Identifies if the kicked vehicle was an avoidable purchase <label> 
+PurchDate               The Date the vehicle was Purchased at Auction <nominal>
+Auction                 Auction provider at which the  vehicle was purchased <nominal>
+VehYear                 The manufacturer's year of the vehicle <nominal>
+VehicleAge              The Years elapsed since the manufacturer's year <integer>
+Make                    Vehicle Manufacturer <nominal>
+Model                   Vehicle Model <nominal>
+Trim                    Vehicle Trim Level <nominal>
+SubModel                Vehicle Submodel <nominal>
+Color                   Vehicle Color <nominal>
+Transmission                Vehicles transmission type (Automatic, Manual) <enum[auto,man]>
+WheelTypeID             The type id of the vehicle wheel <nominal>
+WheelType               The vehicle wheel type description (Alloy, Covers) <enum[all,cov]>
+VehOdo                  The vehicles odometer reading <integer>
+Nationality             The Manufacturer's country <nominal>
+Size                    The size category of the vehicle (Compact, SUV, etc.) <nominal>
+TopThreeAmericanName            Identifies if the manufacturer is one of the top three American manufacturers
+MMRAcquisitionAuctionAveragePrice   Acquisition price for this vehicle in average condition at time of purchase 
+MMRAcquisitionAuctionCleanPrice     Acquisition price for this vehicle in the above Average condition at time of purchase
+MMRAcquisitionRetailAveragePrice    Acquisition price for this vehicle in the retail market in average condition at time of purchase
+MMRAcquisitonRetailCleanPrice       Acquisition price for this vehicle in the retail market in above average condition at time of purchase
+MMRCurrentAuctionAveragePrice       Acquisition price for this vehicle in average condition as of current day   
+MMRCurrentAuctionCleanPrice     Acquisition price for this vehicle in the above condition as of current day
+MMRCurrentRetailAveragePrice        Acquisition price for this vehicle in the retail market in average condition as of current day
+MMRCurrentRetailCleanPrice      Acquisition price for this vehicle in the retail market in above average condition as of current day
+PRIMEUNIT               Identifies if the vehicle would have a higher demand than a standard purchase
+AcquisitionType             Identifies how the vehicle was aquired (Auction buy, trade in, etc)
+AUCGUART                The level guarntee provided by auction for the vehicle (Green light - Guaranteed/arbitratable, Yellow Light - caution/issue, red light - sold as is)
+X   KickDate                Date the vehicle was kicked back to the auction,
+X   BYRNO                   Unique number assigned to the buyer that purchased the vehicle <not relevant>
+VNZIP                                   Zipcode where the car was purchased 
+VNST                                    State where the the car was purchased 
+VehBCost                Acquisition cost paid for the vehicle at time of purchase 
+IsOnlineSale                Identifies if the vehicle was originally purchased online
+WarrantyCost                            Warranty price (term=36month  and millage=36K) ??
+
+
+Concept Hierarchy
+Make
+    -Model
+        -SubModel
+            -Trim
+
+Concept Hierarchy
+Vnst
+    -Vnzip
+
+1.Fill in missing values
+2.Find out the distinct values of all the nomimal attributes.
+3.First discretize numeric attributes and find out distinct values.
+4.Convert the features into boolean attribute vectors.
+4. Build a confusion matrix-*chi-sq) and run PCA on it.
+5. If your features are boolean artribute vectors then you can also define a cosine similarity between them.
+6. Frequent pattern mining. Use association rules as weak learners ?
+7. Decision tree , stumps.
+
+3.Generate boolean features
