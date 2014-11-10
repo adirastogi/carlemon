@@ -1,3 +1,4 @@
+--SQL to create the table schema---
 create table raw_data(
 RefId varchar(200),
 IsBadBuy varchar(200),
