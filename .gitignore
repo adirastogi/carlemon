@@ -52,3 +52,8 @@ docs/_build/
 
 # PyBuilder
 target/
+
+#Other directories
+Submissions/
+resources/
+data/
