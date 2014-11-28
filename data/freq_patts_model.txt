@@ -1,0 +1,1032 @@
+['V6']   28571
+['4C']   11229
+['2WD']   11009
+['I4']   9070
+['FWD']   7197
+['V6', 'FWD']   5713
+['IMPALA']   4784
+['GRAND']   4222
+['2.4L']   3777
+['CRUISER']   3729
+['CRUISER', 'PT']   3728
+['PT']   3728
+['V8']   3706
+['V6', 'V6']   3496
+['4WD']   3429
+['MALIBU']   3410
+['4C', 'I4']   3399
+['I4', '2.4L']   3379
+['PICKUP']   3280
+['V6', '2WD']   3275
+['SFI']   3154
+['V6', '3.5L']   3126
+['3.5L']   3126
+['S']   3082
+['EFI']   3075
+['V6', 'IMPALA']   3049
+['V6', 'IMPALA']   3049
+['V6', 'V6', 'IMPALA']   3049
+['2WD', 'PICKUP']   2970
+['TAURUS']   2756
+['V6', 'GRAND']   2720
+['2.0L']   2633
+['2WD', 'V8']   2561
+['SEBRING']   2542
+['V6', 'STRATUS']   2535
+['STRATUS']   2535
+['V6', '3.0L']   2511
+['3.0L']   2511
+['2.2L']   2444
+['MPI']   2428
+['I4', '2.0L']   2391
+['I4', '2.2L']   2348
+['4C', '2.4L']   2289
+['1500']   2196
+['CARAVAN']   2128
+['FWD', 'CARAVAN']   2122
+['V6', '2.7L']   2031
+['2.7L']   2031
+['V6', 'M']   2023
+['M']   2023
+['I4', '4C', '2.4L']   2010
+['4C', 'MALIBU']   1979
+['V6', 'SFI']   1968
+['V6', 'CARAVAN']   1935
+['FWD', 'V6', 'CARAVAN']   1932
+['6C']   1909
+['I4', 'S']   1902
+['V6', 'MALIBU']   1874
+['CALIBER']   1864
+['I4', '2.4L', 'S']   1822
+['2.4L', 'S']   1822
+['4C', 'SEBRING']   1821
+['GRAND', 'PRIX']   1819
+['PRIX']   1819
+['TRAILBLAZER']   1784
+['V']   1727
+['I4', 'MPI']   1707
+['DURANGO']   1699
+['V6', 'V6', '2.7L']   1648
+['V6', '3.8L']   1628
+['3.8L']   1628
+['V6', 'EFI']   1607
+['COBALT']   1578
+['FOCUS']   1493
+['V6', 'EFI', '3.0L']   1489
+['V6', 'EFI', '3.0L']   1489
+['V6', 'V6', 'EFI', '3.0L']   1489
+['EFI', '3.0L']   1489
+['V8', 'DURANGO']   1477
+['MP']   1453
+['IMPALA', 'SFI']   1440
+['V6', 'IMPALA', 'SFI']   1439
+['6C', 'TRAILBLAZER']   1420
+['V6', '3.4L']   1403
+['3.4L']   1403
+['2.4L', 'PT']   1399
+['CRUISER', '2.4L', 'PT']   1399
+['2.4L', 'CRUISER']   1399
+['2WD', '1500']   1349
+['I4', 'EFI']   1345
+['V6', 'V6', 'M']   1341
+['4C', '2.2L']   1332
+['V6', 'TAURUS']   1331
+['I4', 'PT']   1319
+['CRUISER', 'I4', 'PT']   1319
+['2.4L', 'I4', 'PT']   1319
+['CRUISER', '2.4L', 'I4', 'PT']   1319
+['I4', 'CRUISER']   1319
+['2.4L', 'I4', 'CRUISER']   1319
+['I4', 'SFI']   1295
+['PICKUP', '1500']   1294
+['V6', 'GRAND', 'CARAVAN']   1292
+['GRAND', 'CARAVAN']   1292
+['FWD', 'GRAND', 'CARAVAN']   1289
+['V6', 'FWD', 'GRAND', 'CARAVAN']   1289
+['V6', 'FWD', 'GRAND']   1289
+['FWD', 'GRAND']   1289
+['V6', 'TAURUS', '3.0L']   1288
+['TAURUS', '3.0L']   1288
+['V6', '2.7L', 'M']   1287
+['V6', '2.7L', 'M']   1287
+['V6', 'V6', '2.7L', 'M']   1287
+['2.7L', 'M']   1287
+['V6', 'STRATUS', 'M']   1283
+['V6', 'STRATUS', 'M']   1283
+['V6', 'V6', 'STRATUS', 'M']   1283
+['STRATUS', 'M']   1283
+['I4', '4C', '2.2L']   1281
+['2WD', '6C']   1252
+['SFI', '2.0L']   1239
+['EFI', 'TAURUS', '3.0L']   1236
+['V6', 'EFI', 'TAURUS', '3.0L']   1236
+['EFI', 'TAURUS']   1236
+['V6', 'EFI', 'TAURUS']   1236
+['V6', 'S']   1194
+['G6']   1192
+['PICKUP', 'RAM']   1174
+['RAM']   1174
+['I4', 'SFI', '2.0L']   1174
+['PICKUP', '1500', 'RAM']   1158
+['1500', 'RAM']   1158
+['AVENGER']   1142
+['ION']   1128
+['PICKUP', '2WD', 'RAM']   1114
+['2WD', 'RAM']   1114
+['V6', '4WD']   1111
+['PT', 'CRUISER', 'S']   1104
+['2.4L', 'CRUISER', 'S']   1104
+['I4', 'CRUISER', 'S']   1104
+['PT', '2.4L', 'CRUISER', 'S']   1104
+['PT', 'I4', 'CRUISER', 'S']   1104
+['2.4L', 'I4', 'CRUISER', 'S']   1104
+['PT', '2.4L', 'I4', 'CRUISER', 'S']   1104
+['CRUISER', 'S']   1104
+['2.4L', 'PT', 'S']   1104
+['I4', 'PT', 'S']   1104
+['2.4L', 'I4', 'PT', 'S']   1104
+['PT', 'S']   1104
+['PACIFICA']   1103
+['1500', '2WD', 'RAM']   1101
+['PICKUP', '1500', '2WD', 'RAM']   1101
+['2WD', 'PICKUP', '1500']   1101
+['2WD', 'TRAILBLAZER']   1095
+['V6', 'IMPALA', '3.5L']   1089
+['V6', 'IMPALA', '3.5L']   1089
+['V6', 'V6', 'IMPALA', '3.5L']   1089
+['IMPALA', '3.5L']   1089
+['2WD', 'DURANGO']   1075
+['4C', 'AVENGER']   1063
+['4C', '2WD']   1042
+['V6', 'SFI', '3.5L']   1039
+['SFI', '3.5L']   1039
+['V8', '4WD']   1039
+['V6', 'SF']   1035
+['SF']   1035
+['4']   1026
+['FORENZA']   1013
+['V6', 'V6', 'STRATUS']   998
+['SPECTRA']   997
+['V6', 'STRATUS', '2.7L']   992
+['V6', 'STRATUS', '2.7L']   992
+['V6', 'V6', 'STRATUS', '2.7L']   992
+['STRATUS', '2.7L']   992
+['2.7L', 'STRATUS', 'M']   991
+['V6', '2.7L', 'STRATUS', 'M']   991
+['V6', '2.7L', 'STRATUS', 'M']   991
+['V6', 'V6', '2.7L', 'STRATUS', 'M']   991
+['2WD', 'V']   990
+['4C', 'STRATUS']   990
+['4C', 'MP']   984
+['4C', 'I4', 'MP']   980
+['I4', 'MP']   980
+['UPLANDER']   975
+['V6', 'UPLANDER']   974
+['FIVE', 'HUNDRED']   965
+['HUNDRED']   965
+['FIVE']   965
+['V6', 'FWD', 'UPLANDER']   962
+['FWD', 'UPLANDER']   962
+['V6', 'SEBRING']   954
+['V8', 'PICKUP']   950
+['V6', 'G6']   933
+['GRAND', 'V6', 'PRIX']   933
+['V6', 'PRIX']   933
+['ALTIMA']   922
+['2.2L', 'MPI']   917
+['V6', 'MP']   912
+['TOWN']   903
+['GRAND', 'S', 'PRIX']   903
+['S', 'PRIX']   903
+['GRAND', 'S']   903
+['V6', 'S', 'PRIX']   902
+['GRAND', 'V6', 'S', 'PRIX']   902
+['V6', 'GRAND', 'S']   902
+['V6', 'V6', '3.5L']   897
+['FWD', 'PACIFICA']   893
+['V6', 'PRIX', '3.8L']   893
+['PRIX', '3.8L']   893
+['PRIX', 'GRAND', '3.8L']   893
+['V6', 'GRAND', '3.8L']   893
+['PRIX', 'V6', 'GRAND', '3.8L']   893
+['GRAND', '3.8L']   893
+['6C', '2WD', 'TRAILBLAZER']   892
+['V6', 'S', '3.8L']   891
+['S', '3.8L']   891
+['PICKUP', 'F150']   888
+['F150']   888
+['I4', '2.2L', 'MPI']   881
+['2WD', 'V8', 'PICKUP']   871
+['TOWN', '&']   870
+['TOWN', 'V', '&']   870
+['V', '&']   870
+['&']   870
+['&', 'TOWN', 'COUNTRY']   870
+['TOWN', 'COUNTRY']   870
+['TOWN', 'V', 'COUNTRY']   870
+['&', 'V', 'COUNTRY']   870
+['TOWN', '&', 'V', 'COUNTRY']   870
+['V', 'COUNTRY']   870
+['&', 'COUNTRY']   870
+['COUNTRY']   870
+['V', 'TOWN']   870
+['GRAND', 'PRIX', 'S', '3.8L']   862
+['V6', 'PRIX', 'S', '3.8L']   862
+['GRAND', 'V6', 'PRIX', 'S', '3.8L']   862
+['PRIX', 'S', '3.8L']   862
+['V6', 'GRAND', 'S', '3.8L']   862
+['GRAND', 'S', '3.8L']   862
+['V8', '2WD', 'DURANGO']   853
+['V6', 'IMPALA', 'SFI', '3.5L']   849
+['IMPALA', 'SFI', '3.5L']   849
+['PICKUP', '2WD', 'F150']   822
+['2WD', 'F150']   822
+['EXPLORER']   812
+['I-4']   804
+['E']   781
+['LIBERTY']   767
+['EFI', '2.0L']   763
+['4C', 'MALIBU', '2.2L']   753
+['MALIBU', '2.2L']   753
+['4C', 'I4', 'MALIBU']   753
+['I4', 'MALIBU']   753
+['I4', 'MALIBU', '2.2L']   752
+['4C', 'I4', 'MALIBU', '2.2L']   752
+['AWD']   751
+['V6', 'EXPLORER']   748
+['HHR']   745
+['NEON']   744
+['V6', 'LIBERTY']   744
+['V6', 'EQUINOX']   737
+['EQUINOX']   737
+['I4', 'EFI', '2.0L']   733
+['V8', 'EXPEDITION']   726
+['EXPEDITION']   726
+['FUSION']   723
+['4C', '2.2L', 'MP']   719
+['2.2L', 'MP']   719
+['4C', 'S']   718
+['2WD', '4']   716
+['I4', 'MALIBU', 'MP']   716
+['4C', 'MALIBU', 'MP']   716
+['I4', '4C', 'MALIBU', 'MP']   716
+['MALIBU', 'MP']   716
+['2.4L', '4C', 'S']   716
+['I4', '4C', 'S']   716
+['2.4L', 'I4', '4C', 'S']   716
+['FWD', 'FREESTAR']   715
+['V6', 'FREESTAR']   715
+['FWD', 'V6', 'FREESTAR']   715
+['FREESTAR']   715
+['2.2L', 'MALIBU', 'MP']   715
+['I4', '2.2L', 'MALIBU', 'MP']   715
+['4C', '2.2L', 'MALIBU', 'MP']   715
+['I4', '4C', '2.2L', 'MALIBU', 'MP']   715
+['I4', '2.2L', 'MP']   715
+['4C', 'I4', '2.2L', 'MP']   715
+['ESCAPE']   698
+['4WD', 'TRAILBLAZER']   689
+['V6', 'CHARGER']   683
+['CHARGER']   683
+['V6', 'V6', 'SF']   666
+['2.4L', 'SEBRING']   666
+['4C', '2.4L', 'SEBRING']   664
+['TRAILBLAZER', '6C', '4']   659
+['6C', '4']   659
+['TRAILBLAZER', '4']   659
+['PICKUP', 'V8', 'F150']   650
+['V8', 'F150']   650
+['4WD', '6C']   649
+['FWD', '3.5L']   642
+['V6', 'FWD', '3.5L']   639
+['V6', '3.9L']   637
+['3.9L']   637
+['SONATA']   633
+['2.4L', 'I4', 'SEBRING']   632
+['I4', 'SEBRING']   632
+['4C', 'I4', 'SEBRING']   630
+['2.4L', '4C', 'I4', 'SEBRING']   630
+['V6', 'PICKUP']   628
+['V8', '4WD', 'DURANGO']   624
+['4WD', 'DURANGO']   624
+['SILVERADO']   616
+['CAMRY']   609
+['2WD', 'V6', 'PICKUP']   600
+['OPTIMA']   599
+['SILVERADO', 'PICKU']   598
+['PICKU']   598
+['I4', 'M']   597
+['1500', 'PICKU']   596
+['SILVERADO', '1500', 'PICKU']   596
+['1500', 'SILVERADO']   596
+['2WD', 'V8', 'F150']   587
+['PICKUP', '2WD', 'V8', 'F150']   587
+['V6', 'MPI']   584
+['V6', 'MUSTANG']   580
+['MUSTANG']   580
+['ELANTRA']   576
+['CHEROKEE']   573
+['AVEO']   569
+['GRAND', 'CHEROKEE']   565
+['V6', 'PACIFICA']   561
+['/']   549
+['2WD', 'ESCAPE']   545
+['V6', 'E']   542
+['4C', 'CAVALIER']   535
+['CAVALIER']   535
+['V6', '3.5L', 'SF']   531
+['V6', '3.5L', 'SF']   531
+['V6', 'V6', '3.5L', 'SF']   531
+['3.5L', 'SF']   531
+['V8', '2WD', 'EXPEDITION']   528
+['2WD', 'EXPEDITION']   528
+['6C', '4WD', 'TRAILBLAZER']   528
+['V6', 'AWD']   525
+['V6', 'SFI', '3.4L']   525
+['SFI', '3.4L']   525
+['2.4L', 'M']   524
+['V6', '3.3L']   523
+['3.3L']   523
+['2.0L', 'FOCUS']   520
+['2WD', 'EXPLORER']   517
+['V6', 'FWD', 'EQUINOX']   509
+['FWD', 'EQUINOX']   509
+['V6', 'MAGNUM']   507
+['V6', 'MAGNUM']   507
+['V6', 'V6', 'MAGNUM']   507
+['MAGNUM']   507
+['V6', 'FWD', '3.9L']   506
+['FWD', '3.9L']   506
+['SFI', 'IMPALA', '3.4L']   505
+['V6', 'IMPALA', '3.4L']   505
+['SFI', 'V6', 'IMPALA', '3.4L']   505
+['IMPALA', '3.4L']   505
+['4C', 'CAMRY']   503
+['I4', 'FOCUS']   501
+['V8', '4.7L']   500
+['4.7L']   500
+['4C', 'FUSION']   500
+['I4', '2.4L', 'M']   498
+['4C', 'E']   497
+['2.4L', 'STRATUS']   493
+['V8', 'DURANGO', '4.7L']   492
+['DURANGO', '4.7L']   492
+['V', 'FWD', '&']   489
+['TOWN', 'FWD', '&']   489
+['V', 'TOWN', 'FWD', '&']   489
+['FWD', '&']   489
+['V', 'FWD', 'COUNTRY']   489
+['TOWN', 'FWD', 'COUNTRY']   489
+['&', 'FWD', 'COUNTRY']   489
+['V', 'TOWN', 'FWD', 'COUNTRY']   489
+['V', '&', 'FWD', 'COUNTRY']   489
+['TOWN', '&', 'FWD', 'COUNTRY']   489
+['V', 'TOWN', '&', 'FWD', 'COUNTRY']   489
+['FWD', 'COUNTRY']   489
+['V', 'FWD', 'TOWN']   489
+['FWD', 'TOWN']   489
+['FWD', 'V']   489
+['SFI', 'CALIBER']   489
+['I4', 'CALIBER']   489
+['SFI', 'I4', 'CALIBER']   489
+['4C', '2.4L', 'STRATUS']   489
+['2.0L', 'CALIBER']   488
+['SFI', '2.0L', 'CALIBER']   488
+['I4', '2.0L', 'CALIBER']   488
+['SFI', 'I4', '2.0L', 'CALIBER']   488
+['V6', '4.0L']   485
+['4.0L']   485
+['V6', '2WD', 'EXPLORER']   485
+['4C', '2.4L', 'E']   484
+['2.4L', 'E']   484
+['2.4L', 'SEBRING', 'E']   478
+['4C', 'SEBRING', 'E']   478
+['2.4L', '4C', 'SEBRING', 'E']   478
+['SEBRING', 'E']   478
+['SEBRING', 'I4', 'E']   478
+['2.4L', 'I4', 'E']   478
+['4C', 'I4', 'E']   478
+['SEBRING', '2.4L', 'I4', 'E']   478
+['SEBRING', '4C', 'I4', 'E']   478
+['2.4L', '4C', 'I4', 'E']   478
+['SEBRING', '2.4L', '4C', 'I4', 'E']   478
+['I4', 'E']   478
+['V6', 'MALIBU', '3.5L']   475
+['V6', 'MALIBU', '3.5L']   475
+['V6', 'V6', 'MALIBU', '3.5L']   475
+['MALIBU', '3.5L']   475
+['300']   474
+['2.4L', 'I4', 'STRATUS']   473
+['4C', 'I4', 'STRATUS']   473
+['2.4L', '4C', 'I4', 'STRATUS']   473
+['I4', 'STRATUS']   473
+['MPI', 'COBALT']   472
+['2.2L', 'COBALT']   472
+['MPI', '2.2L', 'COBALT']   472
+['I4', 'COBALT']   466
+['MPI', 'I4', 'COBALT']   466
+['2.2L', 'I4', 'COBALT']   466
+['MPI', '2.2L', 'I4', 'COBALT']   466
+['V6', 'SONATA']   464
+['V6', 'GRAND', 'AM']   461
+['V6', 'GRAND', 'AM']   461
+['V6', 'V6', 'GRAND', 'AM']   461
+['GRAND', 'AM']   461
+['V6', 'AM']   461
+['AM']   461
+['GALANT']   461
+['4C', 'OPTIMA']   461
+['I4', '/']   456
+['V6', 'V6', 'MP']   455
+['2.0L', 'I4', 'FOCUS']   455
+['FWD', 'V6', 'PACIFICA']   452
+['4C', 'G6']   448
+['V6', 'V6', 'MALIBU']   444
+['V6', 'ESCAPE']   440
+['3.0L', 'HUNDRED']   440
+['V6', 'HUNDRED']   440
+['FIVE', '3.0L', 'HUNDRED']   440
+['FIVE', 'V6', 'HUNDRED']   440
+['3.0L', 'V6', 'HUNDRED']   440
+['FIVE', '3.0L', 'V6', 'HUNDRED']   440
+['3.0L', 'FIVE']   440
+['V6', 'FIVE']   440
+['3.0L', 'V6', 'FIVE']   440
+['2WD', 'LIBERTY']   428
+['MFI']   424
+['SERIES']   424
+['V6', 'MALIBU', 'SF']   421
+['V6', 'MALIBU', 'SF']   421
+['V6', 'V6', 'MALIBU', 'SF']   421
+['MALIBU', 'SF']   421
+['GRAND', 'V']   419
+['V6', '3.7L']   418
+['3.7L']   418
+['4C', 'GALANT']   418
+['GRAND', 'V', 'CHEROKEE']   410
+['V', 'CHEROKEE']   410
+['2WD', 'GRAND']   410
+['V6', '2WD', 'LIBERTY']   407
+['V6', '3.5L', 'PACIFICA']   407
+['3.5L', 'PACIFICA']   407
+['MALIBU', 'MAXX']   400
+['V6', 'MAXX']   400
+['MALIBU', 'V6', 'MAXX']   400
+['MAXX']   400
+['4C', 'M']   398
+['2WD', '6C', '4']   395
+['TRAILBLAZER', '2WD', '6C', '4']   395
+['2WD', 'TRAILBLAZER', '4']   395
+['SFI', 'FOCUS']   394
+['1.6L']   392
+['2.3L']   389
+['FWD', '3.4L']   389
+['V6', 'FREESTYLE']   386
+['FREESTYLE']   386
+['V6', 'FWD', '3.3L']   385
+['FWD', '3.3L']   385
+['2WD', 'CHEROKEE']   384
+['S', 'AVENGER']   384
+['2.4L', 'AVENGER']   384
+['I4', 'AVENGER']   384
+['4C', 'S', 'AVENGER']   384
+['4C', '2.4L', 'AVENGER']   384
+['4C', 'I4', 'AVENGER']   384
+['S', '2.4L', 'AVENGER']   384
+['S', 'I4', 'AVENGER']   384
+['2.4L', 'I4', 'AVENGER']   384
+['4C', 'S', '2.4L', 'AVENGER']   384
+['4C', 'S', 'I4', 'AVENGER']   384
+['4C', '2.4L', 'I4', 'AVENGER']   384
+['S', '2.4L', 'I4', 'AVENGER']   384
+['4C', 'S', '2.4L', 'I4', 'AVENGER']   384
+['2.0L', 'SFI', 'FOCUS']   383
+['SABLE']   382
+['V', '2WD', '&']   379
+['TOWN', '2WD', '&']   379
+['V', 'TOWN', '2WD', '&']   379
+['2WD', '&']   379
+['V', '2WD', 'COUNTRY']   379
+['TOWN', '2WD', 'COUNTRY']   379
+['&', '2WD', 'COUNTRY']   379
+['V', 'TOWN', '2WD', 'COUNTRY']   379
+['V', '&', '2WD', 'COUNTRY']   379
+['TOWN', '&', '2WD', 'COUNTRY']   379
+['V', 'TOWN', '&', '2WD', 'COUNTRY']   379
+['2WD', 'COUNTRY']   379
+['V', '2WD', 'TOWN']   379
+['2WD', 'TOWN']   379
+['GRAND', '2WD', 'CHEROKEE']   378
+['V6', 'FWD', '3.4L']   376
+['VUE']   375
+['I4', 'ION']   372
+['I4', '4C', 'M']   371
+['SENTRA']   369
+['MAZDA6']   369
+['ENVOY']   368
+['2.0L', 'NEON']   368
+['SFI', 'NEON']   368
+['2.0L', 'SFI', 'NEON']   368
+['FWD', 'CARAVAN', '3.3L']   367
+['V6', 'CARAVAN', '3.3L']   367
+['FWD', 'V6', 'CARAVAN', '3.3L']   367
+['CARAVAN', '3.3L']   367
+['2.2L', 'ION']   366
+['2.0L', 'FORENZA']   364
+['I4', 'FORENZA']   364
+['2.0L', 'I4', 'FORENZA']   364
+['I4', 'NEON']   363
+['2.0L', 'I4', 'NEON']   363
+['SFI', 'I4', 'NEON']   363
+['2.0L', 'SFI', 'I4', 'NEON']   363
+['V6', 'EXPLORER', '4.0L']   362
+['EXPLORER', '4.0L']   362
+['TRAILBLAZER', 'EXT']   360
+['EXT']   360
+['FWD', 'FREESTAR', '3.9L']   358
+['V6', 'FREESTAR', '3.9L']   358
+['FWD', 'V6', 'FREESTAR', '3.9L']   358
+['FREESTAR', '3.9L']   358
+['EFI', 'FORENZA']   356
+['2.0L', 'EFI', 'FORENZA']   356
+['I4', 'EFI', 'FORENZA']   356
+['2.0L', 'I4', 'EFI', 'FORENZA']   356
+['6C', 'ENVOY']   355
+['4C', 'FWD']   355
+['V6', 'VENTURE']   352
+['VENTURE']   352
+['2.0L', 'MPI']   350
+['V6', 'FWD', 'VENTURE']   343
+['FWD', 'VENTURE']   343
+['I4', '2.2L', 'ION']   343
+['CARLO']   341
+['CARLO', 'MONTE']   341
+['MONTE']   341
+['2WD', 'VUE']   339
+['4WD', 'LIBERTY']   339
+['V6', '4WD', 'LIBERTY']   337
+['I4', 'SFI', 'FOCUS']   334
+['I4', '2.0L', 'MPI']   328
+['V6', '2.7L', 'MP']   327
+['V6', '2.7L', 'MP']   327
+['V6', 'V6', '2.7L', 'MP']   327
+['2.7L', 'MP']   327
+['2.0L', 'I4', 'SFI', 'FOCUS']   323
+['V6', 'LIBERTY', '3.7L']   322
+['LIBERTY', '3.7L']   322
+['SERIES', 'L']   321
+['L']   321
+['2.4L', '4C', 'M']   319
+['ACCORD']   315
+['RIO']   315
+['FWD', '3.5L', 'PACIFICA']   314
+['V6', 'FWD', '3.5L', 'PACIFICA']   314
+['PICKUP', '4']   311
+['V6', 'FWD', '3.8L']   310
+['FWD', '3.8L']   310
+['2WD', 'V6', 'ESCAPE']   309
+['SORENTO']   307
+['PICKUP', '4', 'F150']   307
+['4', 'F150']   307
+['V6', 'V']   307
+['EFI', 'SPECTRA']   305
+['V8', '2WD', '4.7L']   303
+['2WD', '4.7L']   303
+['3.5L', 'MALIBU', 'SF']   303
+['V6', '3.5L', 'MALIBU', 'SF']   303
+['V6', '3.5L', 'MALIBU', 'SF']   303
+['V6', 'V6', '3.5L', 'MALIBU', 'SF']   303
+['V6', '3.4L', 'EQUINOX']   300
+['3.4L', 'EQUINOX']   300
+['2.2L', 'CAVALIER']   297
+['4C', '2.2L', 'CAVALIER']   297
+['2.0L', 'SPECTRA']   297
+['I4', 'SPECTRA']   297
+['TAHOE']   296
+['DURANGO', '2WD', '4.7L']   296
+['V8', 'DURANGO', '2WD', '4.7L']   296
+['2.2L', 'EFI', 'ION']   295
+['EFI', 'ION']   295
+['EFI', '2.2L']   295
+['PICKUP', '2WD', '4', 'F150']   294
+['2WD', '4', 'F150']   294
+['2WD', 'PICKUP', '4']   294
+['MP', 'MAGNUM']   293
+['V6', 'MP', 'MAGNUM']   293
+['V6', 'MP', 'MAGNUM']   293
+['V6', 'V6', 'MP', 'MAGNUM']   293
+['EFI', '2.0L', 'SPECTRA']   293
+['EFI', 'I4', 'SPECTRA']   293
+['I4', '2.4L', '4C', 'M']   293
+['4WD', 'EXPLORER']   292
+['2.4L', 'STRATUS', '4C', 'M']   292
+['I4', 'STRATUS', '4C', 'M']   292
+['2.4L', 'I4', 'STRATUS', '4C', 'M']   292
+['STRATUS', '4C', 'M']   292
+['STRATUS', '2.4L', 'M']   292
+['I4', 'STRATUS', '2.4L', 'M']   292
+['STRATUS', 'I4', 'M']   292
+['5.']   291
+['I4', 'EFI', 'ION']   291
+['2.2L', 'I4', 'EFI', 'ION']   291
+['I4', 'EFI', '2.2L']   291
+['4.2L']   286
+['EF']   285
+['2.0L', 'I4', 'SPECTRA']   285
+['V6', 'MPI', '2.7L']   283
+['V6', 'MPI', '2.7L']   283
+['V6', 'V6', 'MPI', '2.7L']   283
+['MPI', '2.7L']   283
+['EFI', '2.0L', 'I4', 'SPECTRA']   281
+['FWD', 'FREESTYLE']   279
+['V6', 'FWD', 'FREESTYLE']   279
+['V6', '3.5L', 'UPLANDER']   279
+['3.5L', 'UPLANDER']   279
+['4WD', '4']   279
+['I4', '1.6L']   278
+['I4', 'CAVALIER']   276
+['4C', 'I4', 'CAVALIER']   276
+['2.2L', 'I4', 'CAVALIER']   276
+['4C', '2.2L', 'I4', 'CAVALIER']   276
+['4C', 'VUE']   275
+['V', '2WD', 'CHEROKEE']   274
+['GRAND', 'V', '2WD', 'CHEROKEE']   274
+['4C', 'SONATA']   274
+['2WD', 'GRAND', 'V']   274
+['FWD', '3.5L', 'UPLANDER']   272
+['V6', 'FWD', '3.5L', 'UPLANDER']   272
+['V6', 'V6', 'E']   271
+['PICKUP', 'DAKOTA']   268
+['DAKOTA']   268
+['ACCENT']   267
+['I4', '2.4L', 'MP']   265
+['4C', '2.4L', 'MP']   265
+['I4', '4C', '2.4L', 'MP']   265
+['2.4L', 'MP']   265
+['6C', '4WD', '4']   264
+['TRAILBLAZER', '4WD', '4']   264
+['6C', 'TRAILBLAZER', '4WD', '4']   264
+['2WD', '4C', 'VUE']   263
+['V6', '3.1L']   261
+['V6', '3.1L']   261
+['V6', 'V6', '3.1L']   261
+['3.1L']   261
+['V6', '2WD', '3.7L']   261
+['2WD', '3.7L']   261
+['V6', 'MFI']   261
+['V6', 'MFI']   261
+['V6', 'V6', 'MFI']   261
+['PICKUP', 'RANGER']   260
+['RANGER']   260
+['2WD', '4.0L']   260
+['V6', '4WD', 'EXPLORER']   260
+['4C', 'ESCAPE']   257
+['2.5L']   256
+['PICKUP', '2WD', 'DAKOTA']   256
+['2WD', 'DAKOTA']   256
+['V6', 'FUSION']   256
+['V6', '2WD', '4.0L']   255
+['FWD', 'WINDSTAR']   254
+['V6', 'WINDSTAR']   254
+['FWD', 'V6', 'WINDSTAR']   254
+['WINDSTAR']   254
+['V6', 'E', 'MUSTANG']   253
+['V6', 'E', 'MUSTANG']   253
+['V6', 'V6', 'E', 'MUSTANG']   253
+['E', 'MUSTANG']   253
+['4C', 'ACCORD']   251
+['I4', '2.3L']   251
+['2WD', 'SORENTO']   248
+['2WD', 'ENVOY']   248
+['2.4L', 'I-4']   248
+['PICKUP', '2WD', 'RANGER']   247
+['2WD', 'RANGER']   247
+['EXPLORER', '2WD', '4.0L']   246
+['V6', 'EXPLORER', '2WD', '4.0L']   246
+['V6', 'IMPALA', 'SF']   245
+['V6', 'IMPALA', 'SF']   245
+['V6', 'V6', 'IMPALA', 'SF']   245
+['IMPALA', 'SF']   245
+['6C', '2WD', 'ENVOY']   243
+['V6', 'V6', 'MUSTANG']   241
+['PICKUP', 'V6', 'F150']   238
+['V6', 'F150']   238
+['2.7L', 'MAGNUM']   237
+['V6', '2.7L', 'MAGNUM']   237
+['V6', '2.7L', 'MAGNUM']   237
+['MP', '2.7L', 'MAGNUM']   237
+['V6', 'V6', '2.7L', 'MAGNUM']   237
+['V6', 'MP', '2.7L', 'MAGNUM']   237
+['V6', 'MP', '2.7L', 'MAGNUM']   237
+['V6', 'V6', 'MP', '2.7L', 'MAGNUM']   237
+['2WD', '4C', 'ESCAPE']   236
+['2.0L', 'ELANTRA']   235
+['2WD', 'V6', 'F150']   235
+['PICKUP', '2WD', 'V6', 'F150']   235
+['XTERRA']   234
+['V6', 'V6', 'SEBRING']   233
+['MAZDA3']   232
+['4WD', 'V']   229
+['V6', 'AWD', 'EQUINOX']   228
+['AWD', 'EQUINOX']   228
+['3.5L', 'IMPALA', 'SF']   228
+['V6', '3.5L', 'IMPALA', 'SF']   228
+['V6', '3.5L', 'IMPALA', 'SF']   228
+['V6', 'V6', '3.5L', 'IMPALA', 'SF']   228
+['ALTIMA', '2.5L']   226
+['2WD', 'V6', 'V']   226
+['MONTANA']   222
+['MPI', '300']   222
+['V6', '300']   222
+['MPI', 'V6', '300']   222
+['2WD', 'V6', 'DURANGO']   222
+['V6', 'DURANGO']   222
+['ALERO']   221
+['LANCER']   219
+['2WD', 'TAHOE']   218
+['4C', '2.3L']   217
+['6C', '4.2L']   216
+['I4', 'ALTIMA']   216
+['V8', '4']   216
+['V6', '2.7L', 'CHARGER']   215
+['V6', '2.7L', 'CHARGER']   215
+['V6', 'V6', '2.7L', 'CHARGER']   215
+['2.7L', 'CHARGER']   215
+['ALTIMA', 'I4', '2.5L']   213
+['I4', '2.5L']   213
+['I4', 'EF']   213
+['PACIFICA', 'AWD']   210
+['2WD', 'XTERRA']   208
+['V6', 'XTERRA']   208
+['MP', 'OPTIMA']   206
+['V6', '2WD', '3.0L']   206
+['V6', '2WD', '3.0L']   206
+['V6', 'V6', '2WD', '3.0L']   206
+['2WD', '3.0L']   206
+['2.4L', 'PT', 'M']   205
+['I4', 'PT', 'M']   205
+['2.4L', 'I4', 'PT', 'M']   205
+['PT', 'M']   205
+['PT', 'CRUISER', 'M']   205
+['2.4L', 'CRUISER', 'M']   205
+['I4', 'CRUISER', 'M']   205
+['PT', '2.4L', 'CRUISER', 'M']   205
+['PT', 'I4', 'CRUISER', 'M']   205
+['2.4L', 'I4', 'CRUISER', 'M']   205
+['PT', '2.4L', 'I4', 'CRUISER', 'M']   205
+['CRUISER', 'M']   205
+['TRIBUTE']   204
+['4.']   204
+['V6', 'V6', '3.4L']   204
+['FE', 'SANTA']   203
+['SANTA']   203
+['FE']   203
+['4C', 'EF']   202
+['V6', 'SEBRING', 'M']   202
+['V6', 'SEBRING', 'M']   202
+['V6', 'V6', 'SEBRING', 'M']   202
+['SEBRING', 'M']   202
+['EXPEDITION', 'V8', '5.']   201
+['V8', '5.']   201
+['EXPEDITION', '5.']   201
+['MPI', '1.6L']   201
+['4C', 'I-4']   201
+['VIBE']   200
+['TRAILBLAZER', '2WD', 'EXT']   200
+['2WD', 'EXT']   200
+['V6', 'SABLE']   199
+['2.0L', 'I-4']   199
+['V8', '4WD', 'EXPEDITION']   198
+['4WD', 'EXPEDITION']   198
+['3.0L', 'SABLE']   197
+['V6', '3.0L', 'SABLE']   197
+['V8', '4WD', '4.7L']   197
+['4WD', '4.7L']   197
+['DURANGO', '4WD', '4.7L']   196
+['V8', 'DURANGO', '4WD', '4.7L']   196
+['MPI', 'HHR']   196
+['PICKUP', 'V8', '4', 'F150']   196
+['V8', '4', 'F150']   196
+['PICKUP', 'V8', '4']   196
+['3.5L', 'MPI']   196
+['2WD', 'V8', '4']   195
+['V6', '3.5L', 'MPI']   195
+['COROLLA']   194
+['EXPEDITION', 'V8', '4.']   194
+['V8', '4.']   194
+['EXPEDITION', '4.']   194
+['GRAND', '4WD']   194
+['V6', 'V6', 'SFI']   193
+['MPI', '/']   192
+['V6', 'V', 'ESCAPE']   192
+['V', 'ESCAPE']   192
+['V', '3.0L', 'ESCAPE']   192
+['V6', '3.0L', 'ESCAPE']   192
+['V', 'V6', '3.0L', 'ESCAPE']   192
+['3.0L', 'ESCAPE']   192
+['V6', '3.0L', 'V']   192
+['3.0L', 'V']   192
+['I4', '4C', 'EF']   191
+['FWD', '4C', 'CARAVAN']   190
+['4C', 'CARAVAN']   190
+['4WD', 'CHEROKEE']   189
+['V6', 'OPTIMA']   189
+['V6', 'V6', 'G6']   189
+['I4', '2.2L', '/']   188
+['2.2L', '/']   188
+['2WD', '4C', 'PICKUP']   188
+['4C', 'PICKUP']   188
+['1.8L']   187
+['GRAND', '4WD', 'CHEROKEE']   187
+['PICKUP', 'V6', 'DAKOTA']   186
+['V6', 'DAKOTA']   186
+['AVEO', '1.6L']   185
+['V6', '3.5L', 'G6']   185
+['V6', '3.5L', 'G6']   185
+['V6', 'V6', '3.5L', 'G6']   185
+['3.5L', 'G6']   185
+['V6', 'CENTURY']   184
+['V6', 'CENTURY']   184
+['V6', 'V6', 'CENTURY']   184
+['CENTURY']   184
+['FREESTYLE', '3.0']   184
+['V6', '3.0']   184
+['FREESTYLE', 'V6', '3.0']   184
+['3.0']   184
+['2WD', '5.']   184
+['2WD', 'V8', '4', 'F150']   183
+['PICKUP', '2WD', 'V8', '4', 'F150']   183
+['PICKUP', '2WD', 'V8', '4']   183
+['V6', 'V6', 'SFI', '3.5L']   183
+['2WD', 'V6', 'XTERRA']   182
+['S', 'STRATUS']   182
+['MPI', 'ELANTRA']   181
+['I4', 'ELANTRA']   181
+['2.0L', 'MPI', 'ELANTRA']   181
+['2.0L', 'I4', 'ELANTRA']   181
+['MPI', 'I4', 'ELANTRA']   181
+['2.0L', 'MPI', 'I4', 'ELANTRA']   181
+['I4', 'S', 'STRATUS']   181
+['2.4L', 'S', 'STRATUS']   181
+['4C', 'S', 'STRATUS']   181
+['I4', '2.4L', 'S', 'STRATUS']   181
+['I4', '4C', 'S', 'STRATUS']   181
+['2.4L', '4C', 'S', 'STRATUS']   181
+['I4', '2.4L', '4C', 'S', 'STRATUS']   181
+['V6', 'SEBRING', '2.7L']   180
+['V6', 'SEBRING', '2.7L']   180
+['V6', 'V6', 'SEBRING', '2.7L']   180
+['SEBRING', '2.7L']   180
+['V6', 'SFI', 'G6']   179
+['V6', 'SFI', 'G6']   179
+['V6', 'V6', 'SFI', 'G6']   179
+['SFI', 'G6']   179
+['2.7L', 'SEBRING', 'M']   179
+['V6', '2.7L', 'SEBRING', 'M']   179
+['V6', '2.7L', 'SEBRING', 'M']   179
+['V6', 'V6', '2.7L', 'SEBRING', 'M']   179
+['2WD', 'V6', 'DAKOTA']   178
+['PICKUP', '2WD', 'V6', 'DAKOTA']   178
+['4C', 'MPI']   177
+['FWD', '3.4L', 'EQUINOX']   176
+['V6', 'FWD', '3.4L', 'EQUINOX']   176
+['V8', 'SF']   176
+['3.5L', 'SFI', 'G6']   175
+['V6', '3.5L', 'SFI', 'G6']   175
+['V6', '3.5L', 'SFI', 'G6']   175
+['V6', 'V6', '3.5L', 'SFI', 'G6']   175
+['2.7L', '300']   174
+['MPI', '2.7L', '300']   174
+['V6', '2.7L', '300']   174
+['MPI', 'V6', '2.7L', '300']   174
+['2WD', '4.']   172
+['6C', 'ENVOY', '4.2L']   172
+['ENVOY', '4.2L']   172
+['V6', '2WD', '3.5L']   172
+['V6', '2WD', '3.5L']   172
+['V6', 'V6', '2WD', '3.5L']   172
+['2WD', '3.5L']   172
+['4WD', 'PICKUP']   172
+['SF', 'V8', 'TAHOE']   171
+['V8', 'TAHOE']   171
+['SF', 'TAHOE']   171
+['V6', '3.4L', 'VENTURE']   171
+['3.4L', 'VENTURE']   171
+['V6', 'GRAND', '3.4L', 'AM']   171
+['V6', 'GRAND', '3.4L', 'AM']   171
+['V6', 'V6', 'GRAND', '3.4L', 'AM']   171
+['GRAND', '3.4L', 'AM']   171
+['V6', '3.4L', 'AM']   171
+['3.4L', 'AM']   171
+['V6', 'GRAND', '3.4L']   171
+['V6', 'GRAND', '3.4L']   171
+['V6', 'V6', 'GRAND', '3.4L']   171
+['GRAND', '3.4L']   171
+['2WD', 'TRIBUTE']   170
+['V6', 'V6', '3.4L', 'AM']   170
+['V6', 'V6', 'AM']   170
+['I4', '4C', 'MPI']   170
+['V6', 'V6', 'GRAND']   170
+['SUNFIRE']   169
+['FE', '2WD', 'SANTA']   169
+['2WD', 'SANTA']   169
+['2WD', 'FE']   169
+['MPI', '2.5L']   169
+['V6', 'LIBERTY', '2WD', '3.7L']   168
+['LIBERTY', '2WD', '3.7L']   168
+['MAXIMA']   167
+['2WD', '4.2L']   167
+['6C', '2WD', '4.2L']   166
+['MPI', 'I4', 'HHR']   166
+['I4', 'HHR']   166
+['PICKUP', 'TITAN']   165
+['V8', 'TITAN']   165
+['PICKUP', 'V8', 'TITAN']   165
+['TITAN']   165
+['V8', '2WD', '4.']   165
+['EXPEDITION', '2WD', '4.']   165
+['V8', 'EXPEDITION', '2WD', '4.']   165
+['FWD', '3.4L', 'VENTURE']   165
+['V6', 'FWD', '3.4L', 'VENTURE']   165
+['4C', '2.4L', 'OPTIMA']   165
+['2.4L', 'OPTIMA']   165
+['2.4L', 'I4', 'OPTIMA']   164
+['MP', 'I4', 'OPTIMA']   164
+['4C', 'I4', 'OPTIMA']   164
+['2.4L', 'MP', 'I4', 'OPTIMA']   164
+['2.4L', '4C', 'I4', 'OPTIMA']   164
+['MP', '4C', 'I4', 'OPTIMA']   164
+['2.4L', 'MP', '4C', 'I4', 'OPTIMA']   164
+['I4', 'OPTIMA']   164
+['MP', '2.4L', 'OPTIMA']   164
+['4C', 'MP', '2.4L', 'OPTIMA']   164
+['4C', 'MP', 'OPTIMA']   164
+['MARINER']   163
+['V6', 'CARLO']   163
+['V6', 'MONTE']   163
+['CARLO', 'V6', 'MONTE']   163
+['MPI', 'ALTIMA']   163
+['6']   162
+['V6', 'MP', 'SONATA']   162
+['V6', 'MP', 'SONATA']   162
+['V6', 'V6', 'MP', 'SONATA']   162
+['MP', 'SONATA']   162
+['4C', 'ALERO']   161
+['TRAILBLAZER', '4WD', 'EXT']   160
+['4WD', 'EXT']   160
+['I4', 'MPI', '1.6L']   160
+['2WD', 'TITAN']   159
+['PICKUP', '2WD', 'TITAN']   159
+['V8', '2WD', 'TITAN']   159
+['PICKUP', 'V8', '2WD', 'TITAN']   159
+['FE', 'V6', 'SANTA']   158
+['V6', 'SANTA']   158
+['V6', 'FE']   158
+['MPI', '2.2L', 'HHR']   158
+['2.2L', 'HHR']   158
+['V6', '4WD', '3.7L']   157
+['4WD', '3.7L']   157
+['MPI', 'I-4']   157
+['GRAND', '6']   156
+['SF', '/']   156
+['RENO']   155
+['CHEROKEE', '6']   155
+['GRAND', 'CHEROKEE', '6']   155
+['PICKUP', 'V6', 'RANGER']   155
+['V6', 'RANGER']   155
+['I4', 'SF', '/']   155
+['I4', 'SF']   155
+['AURA']   154
+['I4', 'MPI', '2.5L']   154
+['ALTIMA', 'MPI', '2.5L']   154
+['I4', 'ALTIMA', 'MPI', '2.5L']   154
+['V6', 'LIBERTY', '4WD', '3.7L']   154
+['LIBERTY', '4WD', '3.7L']   154
+['I4', 'MPI', 'ALTIMA']   154
+['S', 'SEBRING']   154
+['I4', 'MPI', '/']   153
+['I4', 'S', 'SEBRING']   153
+['2.4L', 'S', 'SEBRING']   153
+['I4', '2.4L', 'S', 'SEBRING']   153
+['2.2L', 'SF', '/']   152
+['I4', '2.2L', 'SF', '/']   152
+['4WD', 'ESCAPE']   152
+['I4', '2.2L', 'SF']   152
+['2.2L', 'SF']   152
+['I4', '1.8L']   151
+['I4', '2.2L', 'HHR']   151
+['MPI', 'I4', '2.2L', 'HHR']   151
+['4C', 'S', 'SEBRING']   151
+['I4', '4C', 'S', 'SEBRING']   151
+['2.4L', '4C', 'S', 'SEBRING']   151
+['I4', '2.4L', '4C', 'S', 'SEBRING']   151
+['3.5L', 'MAXX']   149
+['MALIBU', '3.5L', 'MAXX']   149
+['V6', '3.5L', 'MAXX']   149
+['MALIBU', 'V6', '3.5L', 'MAXX']   149
+['5']   148
+['EFI', '1.6L']   148
+['FWD', 'UPLANDER', '3.9L']   148
+['V6', 'UPLANDER', '3.9L']   148
+['FWD', 'V6', 'UPLANDER', '3.9L']   148
+['UPLANDER', '3.9L']   148

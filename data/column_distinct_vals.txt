@@ -1,0 +1,35 @@
+   Column               |          Type          | Modifiers 
+-----------------------------------+------------------------+-----------
+ isbadbuy                          | character varying(200) | 
+ purchdate                         | character varying(200) | 
+ auction                           | character varying(200) | 
+ vehyear                           | character varying(200) | 
+ vehicleage                        | character varying(200) | 
+ make                              | character varying(200) | 
+ model                             | character varying(200) | 
+ trim                              | character varying(200) | 
+ submodel                          | character varying(200) | 
+ color                             | character varying(200) | 
+ transmission                      | character varying(200) | 
+ wheeltypeid                       | character varying(200) | 
+ vehodo                            | character varying(200) | 
+ nationality                       | character varying(200) | 
+ size                              | character varying(200) | 
+ topthreeamericanname              | character varying(200) | 
+ mmracquisitionauctionaverageprice | character varying(200) | 
+ mmracquisitionauctioncleanprice   | character varying(200) | 
+ mmracquisitionretailaverageprice  | character varying(200) | 
+ mmracquisitonretailcleanprice     | character varying(200) | 
+ mmrcurrentauctionaverageprice     | character varying(200) | 
+ mmrcurrentauctioncleanprice       | character varying(200) | 
+ mmrcurrentretailaverageprice      | character varying(200) | 
+ mmrcurrentretailcleanprice        | character varying(200) | 
+ primeunit                         | character varying(200) | 
+ aucguart                          | character varying(200) | 
+ byrno                             | character varying(200) | 
+ vnzip1                            | character varying(200) | 
+ vnst                              | character varying(200) | 
+ vehbcost                          | character varying(200) | 
+ isonlinesale                      | character varying(200) | 
+ warrantycost                      | character varying(200) | 
+

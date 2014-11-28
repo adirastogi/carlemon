@@ -1,0 +1,548 @@
+['4D']   59830
+['SEDAN']   42228
+['4D', 'SEDAN']   42164
+['LS']   9143
+['SUV']   8391
+['4D', 'SUV']   8309
+['4D', 'LS']   8092
+['SE']   5949
+['SEDAN', 'LS']   5546
+['4D', 'SEDAN', 'LS']   5546
+['4D', 'SE']   4986
+['SEDAN', 'SE']   4459
+['4D', 'SEDAN', 'SE']   4459
+['WAGON']   4162
+['CAB']   3908
+['4D', 'WAGON']   3618
+['SPORT']   3538
+['FFV']   3394
+['2D']   3354
+['MINIVAN']   3296
+['LT']   3226
+['4D', 'SPORT']   3084
+['4D', 'LT']   3001
+['4D', 'FFV']   2946
+['3.5L']   2858
+['COUPE']   2668
+['2D', 'COUPE']   2631
+['EXT']   2551
+['SXT']   2385
+['4D', 'SEDAN', 'LT']   2372
+['SEDAN', 'LT']   2372
+['4.2L']   2369
+['3.3L']   2317
+['MINIVAN', '3.3L']   2300
+['PASSENGER']   2293
+['UTILITY']   2236
+['LS', 'SUV']   2225
+['4D', 'LS', 'SUV']   2225
+['4D', 'SEDAN', 'FFV']   2170
+['SEDAN', 'FFV']   2170
+['4D', '4.2L']   2129
+['LX']   2122
+['4D', 'UTILITY']   2115
+['4D', 'SXT']   1989
+['4D', '3.5L']   1930
+['4.7L']   1899
+['4D', 'SEDAN', '3.5L']   1802
+['SEDAN', '3.5L']   1802
+['4D', 'SUV', '4.2L']   1763
+['SUV', '4.2L']   1763
+['4D', 'CUV']   1715
+['CUV']   1715
+['SPORT', 'UTILITY']   1625
+['EX']   1557
+['4D', 'SEDAN', 'SXT']   1516
+['SEDAN', 'SXT']   1516
+['4D', 'SPORT', 'UTILITY']   1505
+['4D', 'EX']   1440
+['SLT']   1421
+['4D', 'LX']   1394
+['XLT']   1372
+['CAB', 'EXT']   1296
+['SEL']   1273
+['4D', 'SEDAN', 'LX']   1232
+['SEDAN', 'LX']   1232
+['QUAD']   1230
+['3.0L']   1227
+['4D', 'SEL']   1209
+['4D', 'XLT']   1206
+['SUV', 'LS', '4.2L']   1193
+['4D', 'LS', '4.2L']   1193
+['SUV', '4D', 'LS', '4.2L']   1193
+['LS', '4.2L']   1193
+['LT', '3.5L']   1162
+['LEVEL']   1129
+['SUV', '4.7L']   1125
+['SUV', '4D', '4.7L']   1125
+['4D', '4.7L']   1125
+['FFV', 'SXT']   1123
+['4D', 'FFV', 'SXT']   1120
+['4D', '3.0L']   1103
+['SEDAN', 'LT', '3.5L']   1102
+['4D', 'LT', '3.5L']   1102
+['SEDAN', '4D', 'LT', '3.5L']   1102
+['3.9L']   1096
+['SEDAN', 'FFV', 'SXT']   1094
+['4D', 'SEDAN', 'FFV', 'SXT']   1094
+['CAB', 'QUAD']   1079
+['CAB', 'REG']   1077
+['REG']   1077
+['2.2L']   1076
+['4D', 'SEDAN', 'EX']   1033
+['SEDAN', 'EX']   1033
+['4D', '2.2L']   1025
+['EXT', 'PASSENGER']   1001
+['4D', 'LEVEL']   978
+['4D', 'SEDAN', 'LEVEL']   977
+['SEDAN', 'LEVEL']   977
+['4D', 'SEDAN', 'SEL']   939
+['SEDAN', 'SEL']   939
+['4D', 'CUV', '3.0L']   935
+['CUV', '3.0L']   935
+['PASSENGER', '3.9L']   920
+['LS', '3.5L']   889
+['4.6L']   888
+['4.7L', 'SLT']   884
+['4.0L']   838
+['SUV', 'XLT']   833
+['4D', 'SUV', 'XLT']   831
+['2.7L']   823
+['TOURING']   817
+['LIMITED']   812
+['3.8L']   812
+['SEDAN', 'FFV', '3.5L']   802
+['SEDAN', '4D', 'FFV', '3.5L']   802
+['4D', 'FFV', '3.5L']   802
+['FFV', '3.5L']   802
+['SUV', '4.0L']   797
+['S']   793
+['5.3L']   785
+['2']   781
+['LEVEL', '2']   779
+['3.5L', 'EXT']   776
+['XLS']   774
+['CAB', '4.7L']   774
+['4D', 'S']   765
+['4D', 'LIMITED']   764
+['3.5L', 'PASSENGER']   755
+['4D', 'SLT']   752
+['4D', 'SUV', '2.2L']   750
+['SUV', '2.2L']   750
+['4D', 'XLS']   741
+['4D', 'TOURING']   727
+['4D', '4.0L']   727
+['4D', 'SUV', 'SLT']   719
+['SUV', 'SLT']   719
+['SUV', '4D', '4.0L']   717
+['4D', 'LS', 'FFV']   703
+['LS', 'FFV']   703
+['EXT', '3.5L', 'PASSENGER']   689
+['CAB', 'SLT']   671
+['SEDAN', '2']   668
+['SEDAN', '4D', '2']   668
+['4D', '2']   668
+['3.7L']   667
+['LEVEL', 'SEDAN', '2']   666
+['LEVEL', '4D', '2']   666
+['SEDAN', 'LEVEL', '4D', '2']   666
+['4D', 'SUV', 'FFV']   659
+['SUV', 'FFV']   659
+['GT']   658
+['SEDAN', 'S']   642
+['4D', 'SEDAN', 'S']   635
+['5.4L']   627
+['CAB', '4.7L', 'QUAD']   627
+['4.7L', 'QUAD']   627
+['4D', 'SUV', 'LT']   620
+['SUV', 'LT']   620
+['ES']   617
+['GLS']   612
+['5.7L']   609
+['4D', 'ES']   607
+['SEDAN', 'LS', '3.5L']   598
+['4D', 'LS', '3.5L']   598
+['SEDAN', '4D', 'LS', '3.5L']   598
+['CAB', 'SLT', 'QUAD']   597
+['SLT', 'QUAD']   597
+['4D', 'GLS']   592
+['SE', 'MINIVAN']   565
+['SE1']   562
+['4D', '5.3L']   557
+['SEDAN', 'LS', 'FFV']   555
+['4D', 'SEDAN', 'LS', 'FFV']   555
+['SEDAN', 'SE1']   553
+['4D', 'SE1']   553
+['SEDAN', '4D', 'SE1']   553
+['4D', 'LS', 'FFV', '3.5L']   553
+['SEDAN', 'LS', 'FFV', '3.5L']   553
+['4D', 'SEDAN', 'LS', 'FFV', '3.5L']   553
+['LS', 'FFV', '3.5L']   553
+['I']   551
+['MINIVAN', '3.8L']   539
+['4D', 'CLASSIC']   536
+['CLASSIC']   536
+['SEDAN', 'CLASSIC']   535
+['4D', 'SEDAN', 'CLASSIC']   535
+['3.4L']   523
+['SEDAN', 'ES']   521
+['4D', 'SEDAN', 'ES']   521
+['4D', 'I']   519
+['4D', 'GT']   518
+['SEDAN', 'GT']   514
+['4D', 'SEDAN', 'GT']   514
+['SE', '3.3L']   514
+['SES']   513
+['4D', 'SES']   512
+['MINIVAN', 'SE', '3.3L']   512
+['LS', 'EXT']   508
+['4D', 'FFV', '4.0L']   492
+['SUV', 'FFV', '4.0L']   492
+['4D', 'SUV', 'FFV', '4.0L']   492
+['FFV', '4.0L']   492
+['SUV', 'SPORT']   489
+['SEDAN', 'ZX4']   480
+['4D', 'ZX4']   480
+['SEDAN', '4D', 'ZX4']   480
+['ZX4']   480
+['SEDAN', 'TOURING']   480
+['4D', 'SEDAN', 'TOURING']   479
+['LS', 'PASSENGER']   476
+['SEDAN', 'GLS']   475
+['4D', 'SEDAN', 'GLS']   475
+['SE', 'FFV']   472
+['2D', 'CONVERTIBLE']   467
+['CONVERTIBLE']   467
+['SUV', '4.6L']   463
+['SUV', '4D', '4.6L']   463
+['4D', '4.6L']   463
+['WAGON', 'SXT']   447
+['4.7L', 'CAB', 'SLT']   445
+['4D', '2.7L']   444
+['SEDAN', 'I']   439
+['4.7L', 'SUV', 'SLT']   439
+['4D', '4.7L', 'SUV', 'SLT']   439
+['4.7L', '4D', 'SLT']   439
+['CAB', 'CREW']   436
+['CREW']   436
+['LS', '2.2L']   435
+['WAGON', 'LAREDO']   430
+['4D', 'LAREDO']   430
+['WAGON', '4D', 'LAREDO']   430
+['LAREDO']   430
+['SUV', 'LS', '2.2L']   429
+['4D', 'LS', '2.2L']   429
+['SUV', '4D', 'LS', '2.2L']   429
+['CAB', '4.6L']   425
+['4D', 'SEDAN', 'I']   423
+['4D', 'SEDAN', 'LIMITED']   420
+['SEDAN', 'LIMITED']   420
+['4.7L', 'SLT', 'QUAD']   419
+['CAB', '4.7L', 'SLT', 'QUAD']   419
+['4D', 'SUV', 'SPORT']   409
+['XLT', '4.6L']   404
+['SLE']   400
+['SEDAN', 'SES']   396
+['4D', 'SEDAN', 'SES']   396
+['SUV', '5.4L']   395
+['SUV', '4D', '5.4L']   395
+['4D', '5.4L']   395
+['SUV', 'XLS']   390
+['LE']   386
+['AUTO']   386
+['WAGON', '2.7L']   377
+['4D', 'CUV', 'XLT']   369
+['CUV', 'XLT']   369
+['XLT', '3.0L']   366
+['4D', 'WAGON', 'SXT']   366
+['4.8L']   360
+['PASSENGER', 'LX']   360
+['4D', 'XLT', '3.0L']   359
+['MINIVAN', 'FFV', '3.3L']   358
+['FFV', '3.3L']   358
+['FFV', 'MINIVAN']   358
+['4D', 'SUV', 'XLS']   357
+['4D', '4.2L', 'UTILITY']   355
+['4.2L', 'UTILITY']   355
+['CUV', 'XLT', '3.0L']   354
+['4D', 'CUV', 'XLT', '3.0L']   354
+['2.3L']   349
+['4D', 'SLE']   349
+['PASSENGER', '3.4L']   349
+['UTILITY', 'SPORT', 'EX']   339
+['4D', 'SPORT', 'EX']   339
+['UTILITY', '4D', 'SPORT', 'EX']   339
+['SPORT', 'EX']   339
+['4D', 'UTILITY', 'EX']   339
+['UTILITY', 'EX']   339
+['UTILITY', 'SLE']   338
+['4D', 'UTILITY', 'SLE']   338
+['4D', 'SEDAN', '2.7L']   338
+['SEDAN', '2.7L']   338
+['EXT', 'LS', 'PASSENGER']   338
+['SUV', '3.7L']   336
+['SUV', '4D', '3.7L']   336
+['4D', '3.7L']   336
+['SLT', '5.7L']   332
+['CAB', '3.7L']   331
+['SUV', '4.0L', 'XLS']   331
+['4.0L', 'XLS']   331
+['CE']   323
+['SEDAN', 'CE']   321
+['4D', 'CE']   321
+['SEDAN', '4D', 'CE']   321
+['4D', 'CUV', 'XLS']   316
+['CUV', 'XLS']   316
+['CAB', '4.3L']   312
+['4.3L']   312
+['XLT', '4.0L']   312
+['EXT', '3.4L']   311
+['SUV', 'XLT', '4.0L']   310
+['4D', 'LE']   309
+['4D', 'XLT', '4.0L']   309
+['SUV', '4D', 'XLT', '4.0L']   308
+['SUV', '5.7L']   307
+['SUV', '4D', '5.7L']   307
+['4D', '5.7L']   307
+['GS']   304
+['CAB', 'STX']   303
+['STX']   303
+['CAB', '5.7L']   302
+['SEDAN', 'CUSTOM']   299
+['4D', 'CUSTOM']   299
+['SEDAN', '4D', 'CUSTOM']   299
+['CUSTOM']   299
+['4D', '4.0L', 'XLS']   298
+['SUV', '4D', '4.0L', 'XLS']   298
+['2D', 'LS', 'COUPE']   298
+['LS', 'COUPE']   298
+['LS', '2D']   298
+['4D', 'XLT', '4.6L']   288
+['SUV', 'XLT', '4.6L']   288
+['4D', 'SUV', 'XLT', '4.6L']   288
+['4D', 'AUTO']   287
+['2.4L']   283
+['4D', 'SEDAN', 'AUTO']   282
+['SEDAN', 'AUTO']   282
+['4D', 'FFV', 'LT']   281
+['FFV', 'LT']   281
+['LS', '5.3L']   279
+['LS', 'CAB']   277
+['MINIVAN', 'LX']   276
+['MINIVAN', 'SXT']   276
+['4D', 'CUV', '2.2L']   275
+['CUV', '2.2L']   275
+['CAB', 'QUAD', '5.7L']   274
+['QUAD', '5.7L']   274
+['SE', 'FFV', '3.3L']   270
+['MINIVAN', 'SE', 'FFV', '3.3L']   270
+['SE', 'FFV', 'MINIVAN']   270
+['4D', 'CX']   268
+['CX']   268
+['SEDAN', 'FFV', 'LT']   268
+['4D', 'SEDAN', 'FFV', 'LT']   268
+['LXI']   263
+['SEDAN', '1.8']   263
+['4D', '1.8']   263
+['SEDAN', '4D', '1.8']   263
+['1.8']   263
+['SEDAN', 'LE']   260
+['4D', 'SEDAN', 'LE']   260
+['XLT', '5.4L']   260
+['CAB', 'EXT', '4.6L']   259
+['EXT', '4.6L']   259
+['3.5L', 'LS', 'PASSENGER']   257
+['MINIVAN', '3.3L', 'LX']   256
+['3.3L', 'LX']   256
+['4.2L', 'SLE']   255
+['4D', '4.2L', 'SLE']   255
+['UTILITY', '4.2L', 'SLE']   255
+['4D', 'UTILITY', '4.2L', 'SLE']   255
+['PASSENGER', '3.8L']   254
+['MINIVAN', 'EXT']   251
+['4.0L', 'FFV', 'XLS']   249
+['SUV', 'FFV', 'XLS']   249
+['4D', 'FFV', 'XLS']   249
+['4.0L', 'SUV', 'FFV', 'XLS']   249
+['4.0L', '4D', 'FFV', 'XLS']   249
+['SUV', '4D', 'FFV', 'XLS']   249
+['4.0L', 'SUV', '4D', 'FFV', 'XLS']   249
+['FFV', 'XLS']   249
+['4D', 'LT', 'FFV', '3.5L']   249
+['SEDAN', 'LT', 'FFV', '3.5L']   249
+['4D', 'SEDAN', 'LT', 'FFV', '3.5L']   249
+['LT', 'FFV', '3.5L']   249
+['4D', '2.3L']   248
+['2D', 'ZX3']   246
+['ZX3']   246
+['4D', 'LS', 'UTILITY']   244
+['LS', 'UTILITY']   244
+['4D', 'SPORT', 'TOURING']   243
+['SPORT', 'TOURING']   243
+['SE', 'PASSENGER']   242
+['4D', 'EXT']   240
+['CAB', '4.2L']   238
+['SUV', 'LT', '2.2L']   237
+['4D', 'LT', '2.2L']   237
+['SUV', '4D', 'LT', '2.2L']   237
+['LT', '2.2L']   237
+['4D', 'MINIVAN']   236
+['4D', 'SUV', 'LIMITED']   234
+['SUV', 'LIMITED']   234
+['4D', 'XLT', '5.4L']   233
+['SUV', 'XLT', '5.4L']   233
+['4D', 'SUV', 'XLT', '5.4L']   233
+['4D', '3.9L']   233
+['CAB', '5.4L']   232
+['CUV', '2.3L']   231
+['4D', 'CUV', '2.3L']   231
+['4D', 'FFV', '5.3L']   231
+['FFV', '5.3L']   231
+['4D', 'FFV', 'XLT']   231
+['FFV', 'XLT']   231
+['4D', 'FFV', 'XLT', '4.0L']   230
+['SUV', 'FFV', 'XLT', '4.0L']   230
+['4D', 'SUV', 'FFV', 'XLT', '4.0L']   230
+['FFV', 'XLT', '4.0L']   230
+['SUV', 'FFV', 'XLT']   230
+['4D', 'SUV', 'FFV', 'XLT']   230
+['HATCHBACK']   229
+['CAB', '5.3L']   228
+['4D', 'UTILITY', '5.3L']   226
+['UTILITY', '5.3L']   226
+['4.6L', 'STX']   224
+['CAB', '4.6L', 'STX']   224
+['COUPE', 'ZX3']   221
+['2D', 'COUPE', 'ZX3']   221
+['PASSENGER', 'LX', '3.9L']   221
+['LX', '3.9L']   221
+['XLS', '2.3L']   218
+['4D', 'XLS', '2.3L']   218
+['CUV', 'XLS', '2.3L']   218
+['4D', 'CUV', 'XLS', '2.3L']   218
+['CAB', '4.8L']   215
+['XE']   214
+['SPORT', 'TOURER']   214
+['4D', 'TOURER']   214
+['SPORT', '4D', 'TOURER']   214
+['TOURER']   214
+['BAUER', 'EDDIE']   213
+['SUV', 'EDDIE']   213
+['4D', 'EDDIE']   213
+['BAUER', 'SUV', 'EDDIE']   213
+['BAUER', '4D', 'EDDIE']   213
+['SUV', '4D', 'EDDIE']   213
+['BAUER', 'SUV', '4D', 'EDDIE']   213
+['EDDIE']   213
+['SUV', 'BAUER']   213
+['4D', 'BAUER']   213
+['SUV', '4D', 'BAUER']   213
+['BAUER']   213
+['MINIVAN', '4D', 'EXT']   213
+['SPORT', 'MINIVAN']   213
+['MINIVAN', '2.4L']   210
+['4D', 'LS', '5.3L']   209
+['4D', 'PASSENGER']   209
+['4D', 'GS']   208
+['4D', 'SUV', '5.3L']   207
+['SUV', '5.3L']   207
+['3.5L', 'LS', 'EXT']   202
+['4D', 'SE', 'FFV']   202
+['SEDAN', 'SE', 'FFV']   201
+['4D', 'SEDAN', 'SE', 'FFV']   201
+['SEDAN', 'GS']   200
+['SEDAN', 'LXI']   198
+['4D', 'LXI']   198
+['SEDAN', '4D', 'LXI']   198
+['4D', 'SEDAN', 'GS']   197
+['MINIVAN', 'SXT', '3.8L']   194
+['SXT', '3.8L']   194
+['XL']   192
+['EXT', '3.5L', 'LS', 'PASSENGER']   191
+['SE', '2D']   191
+['SLT', 'SUV', '5.7L']   187
+['SLT', '4D', '5.7L']   187
+['SUV', 'SLT', '4D', '5.7L']   187
+['PREMIUM']   186
+['CAB', 'EDGE']   186
+['EDGE']   186
+['CUV', 'SEL', '3.0L']   185
+['4D', 'SEL', '3.0L']   185
+['CUV', '4D', 'SEL', '3.0L']   185
+['SEL', '3.0L']   185
+['4D', 'CUV', 'SEL']   185
+['CUV', 'SEL']   185
+['2D', 'SE', 'COUPE']   185
+['SE', 'COUPE']   185
+['4D', 'PREMIUM']   184
+['SE', '3.0L']   183
+['LS', 'PREMIUM']   182
+['4D', 'LS', 'PREMIUM']   182
+['EXT', 'STX']   182
+['CAB', 'EXT', 'STX']   182
+['4.6L', 'EXT', 'STX']   182
+['CAB', '4.6L', 'EXT', 'STX']   182
+['CAB', 'XL']   181
+['PASSENGER', 'LS', '3.9L']   181
+['LS', '3.9L']   181
+['PASSENGER', 'SE', '3.9L']   180
+['SE', '3.9L']   180
+['MINIVAN', 'SPORT', '3.3L']   180
+['SPORT', '3.3L']   180
+['LEVEL', '3']   179
+['3']   179
+['4D', 'XE']   179
+['CUV', 'SE', '3.0L']   178
+['4D', 'SE', '3.0L']   178
+['CUV', '4D', 'SE', '3.0L']   178
+['SE', 'CUV']   178
+['4D', 'SE', 'CUV']   178
+['LX', 'AUTO']   174
+['4D', 'DURATEC']   172
+['DURATEC']   172
+['4.2L', 'REG']   172
+['CAB', '4.2L', 'REG']   172
+['EXT', '3.9L']   172
+['LEVEL', '1']   171
+['SEDAN', '1']   171
+['4D', '1']   171
+['LEVEL', 'SEDAN', '1']   171
+['LEVEL', '4D', '1']   171
+['SEDAN', '4D', '1']   171
+['LEVEL', 'SEDAN', '4D', '1']   171
+['1']   171
+['CAB', 'XLT']   170
+['CAB', 'LS', 'EXT']   170
+['REG', '4.3L']   167
+['CAB', 'REG', '4.3L']   167
+['CAB', '5.6L']   165
+['5.6L']   165
+['MINIVAN', '4D', '3.4L']   164
+['4D', '3.4L']   164
+['MINIVAN', '3.4L']   164
+['PASSENGER', 'EXT', '3.4L']   163
+['SEDAN', 'PREMIUM']   162
+['4D', 'SEDAN', 'PREMIUM']   162
+['LS', 'SEDAN', 'PREMIUM']   162
+['4D', 'LS', 'SEDAN', 'PREMIUM']   162
+['EX', 'AUTO']   161
+['SE', 'WAGON']   153
+['SEDAN', 'DURATEC']   152
+['4D', 'SEDAN', 'DURATEC']   152
+['4D', 'LX', 'AUTO']   152
+['GL2']   151
+['COUPE', '2D', 'LEVEL']   151
+['QUAD', '2D', 'LEVEL']   151
+['COUPE', 'QUAD', '2D', 'LEVEL']   151
+['2D', 'LEVEL']   151
+['QUAD', 'COUPE', 'LEVEL']   151
+['COUPE', 'LEVEL']   151
+['QUAD', 'LEVEL']   151
+['COUPE', '2D', 'QUAD']   151
+['2D', 'QUAD']   151
+['COUPE', 'QUAD']   151
+['PASSENGER', 'EXT', '3.9L']   149
+['SEDAN', 'LX', 'AUTO']   148
+['4D', 'SEDAN', 'LX', 'AUTO']   148
+['LS', 'FFV', '5.3L']   148
+['4D', 'LS', 'FFV', '5.3L']   148
