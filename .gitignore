@@ -57,3 +57,5 @@ target/
 Submissions/
 resources/
 data/
+*.pyc
+weka-3-6-11/
