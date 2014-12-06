@@ -1,0 +1,123 @@
+ <GROW: Trim >
+ <Split_Feature:	Trim : Adv 
+		CONF_CLASS < label0 1 >
+ <Split_Feature:	Trim : Tou 
+		CONF_CLASS < label0 1 >
+ <Split_Feature:	Trim : 2.0 
+		CONF_CLASS < label0 1 >
+ <Split_Feature:	Trim : GLS 
+		CONF_CLASS < label0 1 >
+ <Split_Feature:	Trim : SES 
+		CONF_CLASS < label0 1 >
+ <Split_Feature:	Trim : LT 
+		CONF_CLASS < label0 1 >
+ <Split_Feature:	Trim : ZX3 
+		<GROW: WarrantyCost >
+		<Split_Feature:	WarrantyCost : '\'(1165.6-1400.133333]\'' 
+				CONF_CLASS < label0 1 >
+		<Split_Feature:	WarrantyCost : '\'(1634.666667-1869.2]\'' 
+				CONF_CLASS < label1 1 >
+		<Split_Feature:	WarrantyCost : '\'(931.066667-1165.6]\'' 
+				CONF_CLASS < label0 1 >
+ <Split_Feature:	Trim : SXT 
+		CONF_CLASS < label0 1 >
+ <Split_Feature:	Trim : LS 
+		<GROW: Make >
+		<Split_Feature:	Make : MERCURY 
+				CONF_CLASS < label1 1 >
+		<Split_Feature:	Make : CHEVROLET 
+				CONF_CLASS < label0 1 >
+ <Split_Feature:	Trim : SR5 
+		CONF_CLASS < label1 1 >
+ <Split_Feature:	Trim : SEL 
+		CONF_CLASS < label0 1 >
+ <Split_Feature:	Trim : Lar 
+		CONF_CLASS < label0 1 >
+ <Split_Feature:	Trim : GT 
+		CONF_CLASS < label1 1 >
+ <Split_Feature:	Trim : XLT 
+		<GROW: WarrantyCost >
+		<Split_Feature:	WarrantyCost : '\'(1400.133333-1634.666667]\'' 
+				CONF_CLASS < label0 1 >
+		<Split_Feature:	WarrantyCost : '\'(931.066667-1165.6]\'' 
+				CONF_CLASS < label1 1 >
+ <Split_Feature:	Trim : Bas 
+		<GROW: VehOdo >
+		<Split_Feature:	VehOdo : '\'(38092.6-43637.2]\'' 
+				CONF_CLASS < label0 1 >
+		<Split_Feature:	VehOdo : '\'(82449.4-87994]\'' 
+				<GROW: WarrantyCost >
+				<Split_Feature:	WarrantyCost : '\'(1869.2-2103.733333]\'' 
+						CONF_CLASS < label1 1 >
+				<Split_Feature:	WarrantyCost : '\'(1400.133333-1634.666667]\'' 
+						CONF_CLASS < label1 1 >
+				<Split_Feature:	WarrantyCost : '\'(931.066667-1165.6]\'' 
+						CONF_CLASS < label0 1 >
+				<Split_Feature:	WarrantyCost : '\'(-inf-696.533333]\'' 
+						CONF_CLASS < label1 1 >
+		<Split_Feature:	VehOdo : '\'(76904.8-82449.4]\'' 
+				CONF_CLASS < label0 1 >
+		<Split_Feature:	VehOdo : '\'(65815.6-71360.2]\'' 
+				CONF_CLASS < label0 1 >
+		<Split_Feature:	VehOdo : '\'(54726.4-60271]\'' 
+				CONF_CLASS < label0 1 >
+		<Split_Feature:	VehOdo : '\'(49181.8-54726.4]\'' 
+				CONF_CLASS < label0 1 >
+		<Split_Feature:	VehOdo : '\'(32548-38092.6]\'' 
+				CONF_CLASS < label0 1 >
+		<Split_Feature:	VehOdo : '\'(71360.2-76904.8]\'' 
+				CONF_CLASS < label0 1 >
+		<Split_Feature:	VehOdo : '\'(60271-65815.6]\'' 
+				<GROW: WarrantyCost >
+				<Split_Feature:	WarrantyCost : '\'(696.533333-931.066667]\'' 
+						CONF_CLASS < label1 1 >
+				<Split_Feature:	WarrantyCost : '\'(931.066667-1165.6]\'' 
+						CONF_CLASS < label1 1 >
+				<Split_Feature:	WarrantyCost : '\'(-inf-696.533333]\'' 
+						CONF_CLASS < label0 1 >
+ <Split_Feature:	Trim : XL 
+		CONF_CLASS < label0 1 >
+ <Split_Feature:	Trim : SLT 
+		CONF_CLASS < label0 1 >
+ <Split_Feature:	Trim : 150.0 
+		CONF_CLASS < label0 1 >
+ <Split_Feature:	Trim : CE 
+		CONF_CLASS < label1 1 >
+ <Split_Feature:	Trim : EX 
+		CONF_CLASS < label0 1 >
+ <Split_Feature:	Trim : SLE 
+		CONF_CLASS < label0 1 >
+ <Split_Feature:	Trim : ES 
+		CONF_CLASS < label0 1 >
+ <Split_Feature:	Trim : i 
+		CONF_CLASS < label0 1 >
+ <Split_Feature:	Trim : ST 
+		CONF_CLASS < label0 1 >
+ <Split_Feature:	Trim : SS 
+		CONF_CLASS < label0 1 >
+ <Split_Feature:	Trim : GXP 
+		CONF_CLASS < label1 1 >
+ <Split_Feature:	Trim : LX 
+		CONF_CLASS < label1 1 >
+ <Split_Feature:	Trim : Spo 
+		<GROW: WarrantyCost >
+		<Split_Feature:	WarrantyCost : '\'(1165.6-1400.133333]\'' 
+				CONF_CLASS < label1 1 >
+		<Split_Feature:	WarrantyCost : '\'(-inf-696.533333]\'' 
+				CONF_CLASS < label0 1 >
+ <Split_Feature:	Trim : SE 
+		<GROW: MMRAcquisitonRetailCleanPrice >
+		<Split_Feature:	MMRAcquisitonRetailCleanPrice : '\'(8296.4-9679.133333]\'' 
+				<GROW: WarrantyCost >
+				<Split_Feature:	WarrantyCost : '\'(1400.133333-1634.666667]\'' 
+						CONF_CLASS < label0 1 >
+				<Split_Feature:	WarrantyCost : '\'(931.066667-1165.6]\'' 
+						CONF_CLASS < label1 1 >
+		<Split_Feature:	MMRAcquisitonRetailCleanPrice : '\'(6913.666667-8296.4]\'' 
+				CONF_CLASS < label0 1 >
+		<Split_Feature:	MMRAcquisitonRetailCleanPrice : '\'(12444.6-13827.333333]\'' 
+				CONF_CLASS < label0 1 >
+		<Split_Feature:	MMRAcquisitonRetailCleanPrice : '\'(9679.133333-11061.866667]\'' 
+				CONF_CLASS < label1 1 >
+		<Split_Feature:	MMRAcquisitonRetailCleanPrice : '\'(11061.866667-12444.6]\'' 
+				CONF_CLASS < label1 1 >

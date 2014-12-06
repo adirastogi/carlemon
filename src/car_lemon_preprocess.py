@@ -5,15 +5,12 @@
 import sys
 from pca_logistic_regression import *
 
-data_dir = "../data/"
-training_set_file = data_dir + "training.csv"
-#training_set_file = data_dir + "sample_training.csv"
-#testing_set_file = data_dir + "sample_test.csv"
+data_dir = "../data/input_files/"
 #total_data_file = data_dir + "sample_total_data.csv"
-total_data_file = data_dir + "total_data.csv"
+#total_data_file = data_dir + "model_submodel_removed_total_data.csv"
+total_data_file = "../data/training.csv"
 #class_label_file = data_dir + "sample_class_labels.txt"
 class_label_file = data_dir + "class_labels.txt"
-testing_set_file = data_dir + "test.csv"
 result_file = "result.txt"
 preprocessed_training_set_file = data_dir + "preprocessed_training.csv"
 vectorized_training_data = "vectorized_data.txt"
@@ -130,7 +127,7 @@ def store_feature_info(features,example_set):
 			numeric_attributes_min_max_bin[feature] = store_min_max_bin_width_numeric_attribute(feature,example_set)
 	return all_possible_values_nominal_attributes,mode_nominal_attributes,mean_numeric_attributes,numeric_attributes_min_max_bin
 
-def convert_string_to_normalized_float_numeric_attributes(numeric_attributes_min_max_bin,example_set):
+def normalize_numeric_attributes(numeric_attributes_min_max_bin,example_set):
 	new_example_set = []
 	for example in example_set:
 		for feature in example:
@@ -193,37 +190,57 @@ def create_csv(training_set):
 				ppr_train_file.write(example[feature] + ",")
 		ppr_train_file.write("\n")
 	ppr_train_file.close()
+
+
+def separate_numeric_nominal(example_set,numeric_attribute_names):
+	example_set_nominal_data = []
+	example_set_numeric_data = []
+	for example in example_set:
+		example_nominal_features = {}
+		example_numeric_features = {}
+		for feature in example:
+			if feature in numeric_attribute_names:
+				example_numeric_features[feature] = example[feature]
+			else:
+				example_nominal_features[feature] = example[feature]
+		example_set_nominal_data.append(example_nominal_features)
+		example_set_numeric_data.append(example_numeric_features)
+	return example_set_nominal_data,example_set_numeric_data
+
+csv_file = "./training_wo_null.csv"
+def write_to_csv(example_set):
+	op_fd = open(csv_file,"w")
+	value = sorted(example_set[0].items(),key=lambda x:x[0])		
+	value = [v for v,x in value]
+	op_fd.write(','.join(value) + "\n")
+	for example in example_set:
+		value = sorted(example.items(),key=lambda x:x[0])		
+		value = [x for v,x in value]
+		op_fd.write(','.join(value) + "\n")
+	op_fd.close()
 	
 
 def pre_process(features,example_set):
 	features.remove("RefId")
 	features.remove("WheelType")
 	features.remove("PurchDate")
+	features.remove("Model")
 	features.remove("AUCGUART")
-	features.remove("SubModel")
 	features.remove("PRIMEUNIT")
-	features.remove("BYRNO")
-	features.remove("TopThreeAmericanName")
-	features.remove("VNST")
-	features.remove("MMRAcquisitionAuctionCleanPrice")
-	features.remove("MMRAcquisitonRetailCleanPrice")
-	features.remove("MMRCurrentAuctionCleanPrice")
-	features.remove("MMRCurrentRetailCleanPrice")
+	features.remove("Transmission")
+	features.remove("IsOnlineSale")
+	features.remove("VNZIP1")
 	new_example_set = []
 	for example in example_set:
 		example.pop("RefId")
 		example.pop("WheelType")
 		example.pop("PurchDate")
+		example.pop("Model")
 		example.pop("AUCGUART")
-		example.pop("SubModel")
 		example.pop("PRIMEUNIT")
-		example.pop("BYRNO")
-		example.pop("TopThreeAmericanName")
-		example.pop("VNST")
-		example.pop("MMRAcquisitionAuctionCleanPrice")
-		example.pop("MMRAcquisitonRetailCleanPrice")
-		example.pop("MMRCurrentAuctionCleanPrice")
-		example.pop("MMRCurrentRetailCleanPrice")
+		example.pop("Transmission")	
+		example.pop("IsOnlineSale")
+		example.pop("VNZIP1")
 		new_example_set.append(example)
 	example_set = new_example_set
 	
@@ -232,18 +249,18 @@ def pre_process(features,example_set):
 
 	print "Done Removing Redundant Features."
 	example_set =  fill_missing_values(mode_nominal_attributes,mean_numeric_attributes,example_set)
+	#TODO remove
+	write_to_csv(example_set)
+	sys.exit(1)
 	print "Done Filling Missing Values."
-	'''
-	example_set,all_possible_values_numeric_binned_attributes = convert_numeric_to_nominal_binning(numeric_attributes_min_max_bin,example_set)
-	print "Done Converting Numeric Values to Nominal Values."
-	all_possible_values_nominal_attributes.update(all_possible_values_numeric_binned_attributes) 
-	print "Done extracting class labels."
-	'''
-	example_set = convert_string_to_normalized_float_numeric_attributes(numeric_attributes_min_max_bin,example_set)
+	
+	example_set = normalize_numeric_attributes(numeric_attributes_min_max_bin,example_set)
+	example_set_nominal_data,example_set_numeric_data = separate_numeric_nominal(example_set,numeric_attributes_min_max_bin.keys())
+
 	vec_data_file = open(vectorized_training_data,"w")
-	vector_data = vectorize_data(example_set,vec_data_file)	
+	vector_data = vectorize_data(example_set_nominal_data,vec_data_file)	
 	vec_data_file.close()
-	return vector_data
+	return vector_data_nominal,example_set_numeric_data
 	print "Done vectorizing data."
 	'''
 	example_set = convert_to_binary_features(example_set,all_possible_values_nominal_attributes)
@@ -251,13 +268,17 @@ def pre_process(features,example_set):
 	create_csv(example_set)
 	print "Done Creating The CSV File for Preprocessed Data."
 	'''
+
 	'''
 	vec_data_file = open(vectorized_training_data,"w")
 	vector_data = vectorize_data(example_set,vec_data_file)	
 	vec_data_file.close()
-	return vector_data
 	print "Done vectorizing data."
-	trans_data = pca_on_vectorized(vector_data,1)
+	return vector_data
+	'''
+
+	'''
+	trans_data = pca_on_vectorized(vector_data,138)
 	print "Done running PCA on the vectorized data."
 	return trans_data
 	'''
@@ -268,7 +289,7 @@ if __name__ == "__main__":
 	features, total_set = store_examples(total_data_fd)
 	print "Done Storing Examples."
 	total_data_fd.close()	
-	total_trans_data = pre_process(features,total_set)
+	total_trans_data_nominal,total_trans_data_numeric = pre_process(features,total_set)
 	#total_trans_data contains each example as a vector.
 	
 	class_labels_fd = open(class_label_file,"r")
@@ -277,23 +298,15 @@ if __name__ == "__main__":
 	class_labels_fd.close()
 
 	num_training_data = len(train_labels) 
-	test_data = total_trans_data[num_training_data:]
-	train_data = total_trans_data[:num_training_data]
-	'''
-	fold_cut = int(0.8*len(train_data))
-	fold_train = train_data[:fold_cut]
-	fold_test = train_data[fold_cut:]	
-	
-	fold_train_labels = train_labels[:fold_cut]
-	fold_test_labels = train_labels[fold_cut:]
-	
-	#acc,predicted_labels = run_logistic_regression(fold_train,fold_test,fold_train_labels,fold_test_labels)
-	acc,predicted_labels = run_logistic_regression(train_data,test_data,train_labels)
-	#print "Accuracy is:\n" + str(acc)
-	'''
-	dt = get_decision_tree_classifier(train_data,train_labels) 
+	train_data_nominal = total_trans_data_nominal[:num_training_data]
+	train_data_numeric = total_trans_data_numeric[:num_training_data]
+	test_data_nominal = total_trans_data_nominal[num_training_data:]
+	test_data_numeric = total_trans_data_numeric[num_training_data:]
 
-	predicted_labels = get_labels_decision_tree_classifier(dt,test_data)	
+	naive_bayes_nominal_model = train_naive_bayes_nominal(train_data_nominal,train_labels)
+
+	#TODO
+	predicted_labels = run_logistic_regression(train_data,test_data,train_labels)
 	
 	result_file_fd = open(result_file,"w")
 	result_file_fd.write("IsBadBuy\n")
