@@ -2,8 +2,8 @@
 import math
 import sys
 import csv
-MAX_DEPTH = 4
-#BREAK_THRES = 0.8
+MAX_DEPTH = 10
+BREAK_THRES = 0.95
 #0.468 corresponds to 90% confidence.
 
 '''Assuming that we have a list of training examples, where each example is a dict indexed by feature name.
@@ -83,14 +83,14 @@ def run_dt(training_data,features,depth):
 		print "\t\t"*depth,"MAX_DEPTH","<",lab,conf,">"
 		#calculate the majority label and return that
 		return [lab,conf]
-	'''
+	
 	# achieved complete classification
 	global BREAK_THRESH
-	if total_entropy_data <= BREAK_THRES:
+	if conf >= BREAK_THRES:
 		print "\t\t"*depth,"CONF_CLASS","<",lab,conf,">"
 		return [lab,conf]
-	'''
-	# if no more features to split then return the majoity label at this node	
+	
+	# if no more features to split then return the majority label at this node	
 	if not features:
 		print "\t\t"*depth,"<",lab,conf,">"
 		return [lab,conf]
@@ -111,31 +111,31 @@ def run_dt(training_data,features,depth):
 	
 	#Split the current data on the different values of split_feature
 	print "\t\t"*depth,"<GROW:",split_feature,">"
-	node = [split_feature,{}]
+	node = [split_feature,{},lab,conf]
 	new_features = list(features)
 	new_features.remove(split_feature)
 	
 	for value in split_feature_values:
 		#print ""
-		print "\t\t"*depth, "<Split_Feature:\t",split_feature,":",value,"\nconditioned data:\n"
+		print "\t\t"*depth, "<Split_Feature:\t",split_feature,":",value
 		sub_tree_root = run_dt(split_feature_values[value][2],new_features,depth + 1)						#Run DT code on the conditioned training examples
 		node[1][value] = sub_tree_root
 
 	return node
 '''
 final node returned will be:
-	node[feature_name, {value1:<node>}]
+	node[feature_name, {value1:<node>},majority_label,confidence]
 At the leaves:
-	node[feature_name, {value: [label,confidence]}]
+	node[feature_name, {value: [label,confidence]},majority_label,confidence]
 '''
 
 def traverse(dt,test_case):
 	attr_name = dt[0]
 	attr_val = test_case[attr_name]
 	#print >> sys.stderr, attr_name,"\t",attr_val
-	if attr_val not in dt[1]:
+	if attr_val not in dt[1]:																																	#Return majority label of conditioned data.
 		#print >> sys.stderr, "Not FOUND"
-		return None;
+		return dt[2],dt[3];
 	else:
 		#print >> sys.stderr,"Matched against\t",dt[1][attr_val][0]
 		next_node = dt[1][attr_val]
@@ -169,7 +169,7 @@ def read_csv(file_name):
 
 
 def usage():
-	return "<python\tdt.py\t<training_data_file>\t<testing_data_file>"
+	return "<python\tdt.py\t<training_data_file>\t<testing_data_file>\t<prediction_file>"
 
 
 def check_predictions(predictions,test_data):	
