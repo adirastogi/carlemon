@@ -34,6 +34,34 @@ class AdaBoost:
 
         return samples_idx;
 
+    def initialize_weights(self,uniform=True):
+        #intialize in uniform fashion
+        if(uniform):
+            for i in xrange(self.num_training_examples):
+                self.weights.append(float(1)/self.num_training_examples);
+        else:
+        #because of the class imbalance initialize the weights in inverse ratio
+            count_p=0
+            count_n=0
+            for i in xrange(self.num_training_examples):
+                if self.data_Y[i]=='-1': count_p +=1
+                else: count_n += 1
+            assert(count_n+count_p==self.num_training_examples)
+            pw = float(count_n)/(float(count_p)*float(count_p+count_n))
+            nw = float(count_p)/(float(count_n)*float(count_p+count_n))
+            print "Weights for -1 and +1 are:",pw," ",nw
+            for i in xrange(self.num_training_examples):
+                if self.data_Y[i]=='-1':
+                    self.weights.append(pw)
+                else: self.weights.append(nw)
+
+        total_sum = 0;
+        for i in xrange(self.num_training_examples):
+            total_sum += self.weights[i];
+        print "Total sum of initial weights:", total_sum
+
+
+
     def train(self,X,Y,class_type):
 
         self.data_X=X;
@@ -44,21 +72,24 @@ class AdaBoost:
         self.alpha_weights = [];
         self.num_training_examples = len(X);
 
-        #intialize
-        for i in xrange(self.num_training_examples):
-            self.weights.append(float(1)/self.num_training_examples);
+        self.initialize_weights(True)
 
         for i in xrange(self.num_iters):
-            #print "-------- iteration ",i,"-------------"
+            print "-------- iteration ",i,"-------------"
 
             #train and predict 
-            samples_idx = self.sample_data(self.num_training_examples);
+            #debug
+
+            samples_idx = self.sample_data(2000);
             train_X = [self.data_X[idx] for idx in samples_idx];
             train_Y = [self.data_Y[idx] for idx in samples_idx];
 
+            print "Instantiated classifier"
             classifier = self.classifier_type();
             classifier.train(train_X,train_Y);
             train_preds = classifier.predict(self.data_X);
+            print  "predicting on ",len(self.data_X)," examples"
+
 
             #calculate the errors
             raw_error = 0;
@@ -70,12 +101,12 @@ class AdaBoost:
 
             alpha  = log((1-error)/error);
             raw_error = float(raw_error)/self.num_training_examples;
-            #print >>sys.stderr,"The weighted errror is :",error;
+            print "The weighted errror is :",error;
             #assert(error<0.5);
             if(error>0.5): alpha = -alpha
             self.alpha_weights += [alpha];
             self.classifiers += [classifier];
-            #print "alpha:",alpha
+            print "alpha:",alpha
             #classifier.dump();
             #z = 2*sqrt(error(1-error));
 

@@ -89,7 +89,7 @@ class NBclassifier:
         for x in X:
             max_prob=0;
             #the class label 0 will never be observed and signifies fail
-            pred_label = '0';
+            pred_label = '?';
             test_attrs = x.keys();
             # take the union of the attribute list in training and test
             attr_list = set(test_attrs) | set(train_attrs);

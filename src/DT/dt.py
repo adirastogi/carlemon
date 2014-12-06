@@ -2,9 +2,26 @@
 import math
 import sys
 import csv
-MAX_DEPTH = 10
+MAX_DEPTH = 3
 BREAK_THRES = 0.95
 #0.468 corresponds to 90% confidence.
+
+class DTclassifier:
+    def  __init__(self):
+        self.tree_root = None
+    
+    def predict(self,X_test):
+        if self.tree_root:
+            predictions,conf=get_predictions(X_test,self.tree_root)
+            prediction = ["+1" if p==1 else "-1"  for p in predictions]
+            return prediction;
+
+    def train(self,X_train,Y_train):
+        print "Inside DT training"
+        features = X_train[0].keys()
+        features.remove(label)
+        self.tree_root=run_dt(X_train,features,0)
+
 
 '''Assuming that we have a list of training examples, where each example is a dict indexed by feature name.
 	We also have "values_features" which is a list of all the distinct values that a feature can take (this information is there for every feature).'''

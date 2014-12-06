@@ -3,6 +3,7 @@ import csv;
 
 def print_metrics(predictions,Y):
     '''prints the 4 metrics'''
+    print "Inside metrics"
     true_pos =0;
     true_neg =0;
     false_pos =0;
@@ -78,6 +79,26 @@ class InputReader:
                 Y += [label];
 
         return X,Y
+
+
+    def read_csv_dt(self,filename):
+        X= []
+        Y = []  
+        with open(filename,'r') as csvfile:
+            reader = csv.DictReader(csvfile);
+            for row in reader:
+                x ={}
+                for k in row.keys():
+                    if k=='IsBadBuy':
+                        label = '+1' if row[k]=='1' else '-1';
+                        x[k] = row[k]
+                    else:
+                        x[k] =  row[k]
+                X+=[x];
+                Y += [label];
+
+        return X,Y
+
 
 
     def read_csv_test(self,filename):
