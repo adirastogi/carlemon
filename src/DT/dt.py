@@ -10,6 +10,14 @@ class DTclassifier:
     def  __init__(self):
         self.tree_root = None
     
+    # calls the DT predictor after converting from the labels to the ones
+    # required by DT, the predictions so calculated are going to be passed to read_data API write_predictions that converts them to output labels. It uses the following mapping 
+    #+1--->IsbadBuy=1
+    #-1-->IsBadBuy=0
+    #The dt returns the prediction
+    #1-->isBadBuy=1
+    #0-->isBadBuy=0
+    # so 1 (dt) --> +1(pred) and 0(dt)---> -1(pred)
     def predict(self,X_test):
         if self.tree_root:
             predictions,conf=get_predictions(X_test,self.tree_root)
