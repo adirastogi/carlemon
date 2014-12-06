@@ -3,7 +3,7 @@ import math
 import sys
 import csv
 MAX_DEPTH = 4
-BREAK_THRES = 0.95
+BREAK_THRES = 0.99
 #0.468 corresponds to 90% confidence.
 
 '''Assuming that we have a list of training examples, where each example is a dict indexed by feature name.
