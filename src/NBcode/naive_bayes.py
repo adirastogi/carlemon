@@ -48,20 +48,26 @@ class NBclassifier:
         for attr_idx,p_x_y in self.p_X_y.items():
             #Handle numeric attribute
             if attr_idx in numeric_attrs:
-                    p_x_y = self.p_X_y[attr_idx];
-                    mean = 0;
-                    stdev = 0;
-                    for y in self.p_y.keys():
-                        #print attr_idx, y
-                        sumval =sum( p_x_y[y])
-                        numvals = len(p_x_y[y]);
-                        mean = float(sumval)/numvals;
-                        var = sum([(v-mean)*(v-mean) for v in p_x_y[y]])
-                        var = float(var)/numvals
-                        # dont need the other values anymore
-                        #print mean,var
-                        p_x_y[y] = (mean,var);
-            # Handle nominal attribute
+                #debug
+                attr_var=0;
+                attr_numval = 0;
+                attr_sum = 0;
+                #debug
+                for y in self.p_y.keys():
+                    sumval =sum( p_x_y[y])
+                    numvals = len(p_x_y[y]);
+                    mean = float(sumval)/numvals;
+                    sqsum = 0.0;
+                    for v in p_x_y[y]:
+                        sqsum += float(mean-v)*float(mean-v)
+                    var = float(sqsum)/numvals
+                    p_x_y[y] = (mean,var);
+                    #debug
+                    attr_var += sqsum;
+                    attr_sum += sumval;
+                    attr_numval += numvals;
+                #print attr_idx, "Mean:",float(attr_sum)/attr_numval," SD:",math.sqrt(float(attr_var)/(attr_numval - 1))," Count:",attr_numval
+
             else:
                 for y in self.p_y.keys():
                     # count the number of times this attribute occurs as None as well for this class and update that
@@ -102,34 +108,33 @@ class NBclassifier:
                         #If the attribute is numeric
                         if attr_idx in numeric_attrs:
                             mean,var = p_x_y[y];
-                            exp_term = math.pow(float(float(x[attr_idx])-mean),2)/var
-                            attr_prob = (1/math.sqrt(2*math.pi*var))*(math.exp(-0.5*exp_term))
-                            #If the attribute is nominal
+                            mean_diff = float(float(x[attr_idx])-mean)
+                            mean_diff_sq = math.pow(mean_diff,2);
+                            exp_term = float(mean_diff_sq)/(2.0*float(var))
+                            multiplier_term = 1/(float(math.sqrt(2.0*math.pi*var)))
+                            attr_prob = multiplier_term*float(math.exp(-exp_term))
+                        #If the attribute is nominal
                         else:
                             if (attr_val,y) in p_x_y:
                                 attr_prob = float(p_x_y[(attr_val,y)]+1)/(count_y+self.count_distinct_x_y[attr_idx,y]);
-                                #debug
-                                #print "P(%s=%s|%s)=%.3f"%(attr_idx,attr_val,y,attr_prob);
                             else:
                                 attr_prob = float(1)/(count_y+self.count_distinct_x_y[(attr_idx,y)]+1);
-                                #debug
-                                #print "P(%s=*%s|%s)=%.3f"%(attr_idx,attr_val,y,attr_prob);
                     #attribute not seen in training data
                     else:
                         #If the attribute is numeric
                         if attr_idx in numeric_attrs:
+                            print "Ignoring attribute",attr_idx
                             attr_prob = 1; #ignore the attribute
-                            #If the attribute is nominal
+                        #If the attribute is nominal
                         else:
                             attr_prob = float(1)/(count_y+2);
                             #debug
-                            attr_val = x[attr_idx];
+                            #attr_val = x[attr_idx];
                             #print "P(*%s=%s|%s)=%.3f"%(attr_idx,attr_val,y,attr_prob);
                             #debug
                     prob = prob*attr_prob;
                 #debug
                 #print ;
-
                 if prob > max_prob:
                     max_prob = prob;
                     pred_label = y;

@@ -80,6 +80,28 @@ class InputReader:
         return X,Y
 
 
+    def read_csv_test(self,filename):
+        X= []
+        with open(filename,'r') as csvfile:
+            reader = csv.DictReader(csvfile);
+            for row in reader:
+                x ={}
+                for k in row.keys():
+                    x[k] =  row[k]
+                X+=[x];
+        return X
+
+
+    def write_predictions(self,filename,predictions):
+        with open(filename,'w') as predfile:
+            predfile.write("IsBadBuy\n")
+            for pred in predictions:
+                if pred=="+1": p = "1" 
+                elif pred=="-1" : p = "0"
+                else: p = "?"
+                predfile.write(p+"\n");
+            
+
 
 
                 

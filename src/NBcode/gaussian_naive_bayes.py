@@ -11,7 +11,7 @@ if __name__=='__main__':
     numeric_attr_names = sys.argv[3].strip().split(",")
     reader = read_data.InputReader()
     X_train,Y_train  = reader.read_csv(sys.argv[1]);
-    X_test,Y_test = reader.read_csv(sys.argv[2]);
+    X_test = reader.read_csv_test(sys.argv[2]);
     classifier = naive_bayes.NBclassifier();
     classifier.train(X_train,Y_train,numeric_attr_names);
     pred_train = classifier.predict(X_train,numeric_attr_names);
@@ -19,8 +19,8 @@ if __name__=='__main__':
     #calculate predictions on training data
     print "Status on training data"
     read_data.print_metrics(pred_train,Y_train);
-    print "Status on testing data"
-    read_data.print_metrics(pred_test,Y_test);
+    print "Writing the new predictions in file predictions.txt"
+    reader.write_predictions("predictions.txt",pred_test)
     
 
     
