@@ -1,0 +1,4 @@
+1. Run process.py on file
+2. Remove 
+   RefId, VehYear, PurchDate, isOnlineSale, VNZIP1, PRIMEUNIT, AUCGUART, Model ,SubModel, Transmission, WheelTypeID.
+3. Convert BYRNO from numeric to nominal
