@@ -183,6 +183,7 @@ def check_predictions(predictions,test_data):
 if __name__ == "__main__":
 	if len(sys.argv) != 4:
 		print usage()
+		sys.exit(1)
 	training_data = read_csv(sys.argv[1])
 	features = training_data[0].keys()
 	features.remove(label)

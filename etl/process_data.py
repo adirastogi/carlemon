@@ -125,7 +125,7 @@ if __name__ == "__main__":
 	data_wo_missing_vals_new_attrs,fields = add_attributes(data_wo_missing_vals,mean_numeric_attributes,fields)
 	print "Done adding new features to the data points"
 	
-	with open(file_name[0:4] + "_no_missing_vals_new_attrs.csv","w") as processed_file:
+	with open(file_name[0:-4] + "_no_missing_vals_new_attrs.csv","w") as processed_file:
 		writer = csv.DictWriter(processed_file,fields)
 		writer.writeheader()
 		for example in data:
