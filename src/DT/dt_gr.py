@@ -3,6 +3,7 @@ import math
 import sys
 import csv
 MAX_DEPTH = 3
+LEN_THRESH = 5
 BREAK_THRES = 0.95
 #0.468 corresponds to 90% confidence.
 
@@ -108,24 +109,32 @@ def calc_gain_ratio_feature(total,training_data,feature_name,total_entropy_data)
 
 
 def run_dt(training_data,features,depth):
+    
 	total_entropy_data,lab,conf = calc_total_entropy(training_data)
 	#print "\n","\t\t" *depth,"total entropy of data:\t",total_entropy_data,"\tlabel\t",lab,"\tconf\t",conf
+    
+	trlen = len(training_data)
+    
+    #th tree must have atleast this many nodes
+	if trlen < LEN_THRESH:
+		print "\t\t"*depth,"MIN_CHILDREN","<",lab,conf,trlen,">"
+		return [lab,conf]
 
 	global MAX_DEPTH
 	if depth >= MAX_DEPTH:
-		print "\t\t"*depth,"MAX_DEPTH","<",lab,conf,">"
+		print "\t\t"*depth,"MAX_DEPTH","<",lab,conf,trlen,">"
 		#calculate the majority label and return that
 		return [lab,conf]
 	
 	# achieved complete classification
 	global BREAK_THRESH
 	if conf >= BREAK_THRES:
-		print "\t\t"*depth,"CONF_CLASS","<",lab,conf,">"
+		print "\t\t"*depth,"CONF_CLASS","<",lab,conf,trlen,">"
 		return [lab,conf]
 	
 	# if no more features to split then return the majority label at this node	
 	if not features:
-		print "\t\t"*depth,"<",lab,conf,">"
+		print "\t\t"*depth,"END <",lab,conf,trlen,">"
 		return [lab,conf]
 
 	# otherwise continue growing the tree
