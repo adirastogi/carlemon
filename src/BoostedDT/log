@@ -1,0 +1,4360 @@
+Starting training
+Total sum of initial weights: 1.0
+-------- iteration  0 -------------
+Instantiated classifier
+Inside DT training
+ <GROW: WheelType >
+ <Split_Feature:	WheelType : Alloy
+		<GROW: r2_minus_r1_avg >
+		<Split_Feature:	r2_minus_r1_avg : '\'(6722-8122.6]\''
+				<GROW: VehOdo_by_VehAge >
+				<Split_Feature:	VehOdo_by_VehAge : '\'(25624.67619-32022.880952]\''
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	VehOdo_by_VehAge : '\'(6430.061905-12828.266667]\''
+						MAX_DEPTH < label0 0.619047619048 21 >
+				<Split_Feature:	VehOdo_by_VehAge : '\'(12828.266667-19226.471429]\''
+						MAX_DEPTH < label0 1 17 >
+		<Split_Feature:	r2_minus_r1_avg : '\'(-7284--5883.4]\''
+				CONF_CLASS < label0 0.975 40 >
+		<Split_Feature:	r2_minus_r1_avg : '\'(2520.2-3920.8]\''
+				<GROW: SubModel >
+				<Split_Feature:	SubModel : '4D SEDAN L300'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN ZX4 ST'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L LX'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN 35TH ANNIVERSARY AWD'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN LTZ'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN 2.7L SE'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN LT 3.5L'
+						MAX_DEPTH < label0 0.961538461538 52 >
+				<Split_Feature:	SubModel : '2D COUPE Z24'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SPORT TOURER'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '2D SUV 4.0L SPORT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SPORT'
+						MAX_DEPTH < label0 1 9 >
+				<Split_Feature:	SubModel : '4D SEDAN SXT'
+						MAX_DEPTH < label0 1 11 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY LIMITED'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 5.3L FFV LS'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'CREW CAB 5.4L KING RANCH'
+						MIN_CHILDREN < label0 0.666666666667 3 >
+				<Split_Feature:	SubModel : '4D SUV 5.3L LS'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L ST'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV CXL'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV 5.4L EDDIE BAUER'
+						MAX_DEPTH < label0 0.909090909091 11 >
+				<Split_Feature:	SubModel : 'MEGA CAB 5.7L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'QUAD CAB 4.7L SLT'
+						MAX_DEPTH < label0 0.857142857143 28 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.8L'
+						MIN_CHILDREN < label0 0.666666666667 3 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.6L STX'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D WAGON OVERLAND'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN LUXURY'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.4L LARIAT'
+						MAX_DEPTH < label0 0.857142857143 7 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.3L SLE'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN LT 3.9L'
+						MAX_DEPTH < label0 1 13 >
+				<Split_Feature:	SubModel : '4D SEDAN LX'
+						MAX_DEPTH < label0 1 14 >
+				<Split_Feature:	SubModel : '4D SEDAN LT 3.5L FFV'
+						MAX_DEPTH < label0 1 18 >
+				<Split_Feature:	SubModel : '2D COUPE ZX3'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'QUAD CAB 5.9L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 4.6L XLT'
+						MAX_DEPTH < label0 0.9 10 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.6L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '2D QUAD COUPE LEVEL 2'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.6L SE'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 5.4L XLT'
+						MAX_DEPTH < label0 0.666666666667 6 >
+				<Split_Feature:	SubModel : '4D SEDAN GT TURBO'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D CUV 3.0L XLS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN LS PREMIUM'
+						MAX_DEPTH < label0 1 8 >
+				<Split_Feature:	SubModel : '2D COUPE LXI'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L EX'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'EXT CAB 3.7L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY LX'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV LS'
+						MIN_CHILDREN < label1 1 3 >
+				<Split_Feature:	SubModel : 'REG CAB 4.7L'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 4.6L XLS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN SE1'
+						MAX_DEPTH < label0 0.95652173913 23 >
+				<Split_Feature:	SubModel : '4D CUV 3.0L SE'
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	SubModel : '4D SEDAN SES DURATEC'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN LS 3.5L FFV'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV SPORT 2.4L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV LT'
+						MAX_DEPTH < label0 0.75 12 >
+				<Split_Feature:	SubModel : '4D SEDAN LE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.4L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D UTILITY 5.3L SLE'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : 'REG CAB 4.2L STX'
+						MIN_CHILDREN < label0 0.75 4 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L'
+						MAX_DEPTH < label0 1 14 >
+				<Split_Feature:	SubModel : '4D CUV 2.3L XLS'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D SEDAN SES'
+						MIN_CHILDREN < label1 0.5 2 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.6L LARIAT'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SUV 3.7L SLT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY ES'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.4L LS'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.6L XLT'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.3L LS'
+						MAX_DEPTH < label0 1 8 >
+				<Split_Feature:	SubModel : '4D SEDAN I'
+						MAX_DEPTH < label0 1 15 >
+				<Split_Feature:	SubModel : '4D SEDAN EX'
+						MAX_DEPTH < label0 1 13 >
+				<Split_Feature:	SubModel : '4D SEDAN S'
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	SubModel : '2D COUPE'
+						MAX_DEPTH < label0 1 12 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.9L SE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'QUAD CAB 5.7L SLT'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SUV 4.0L SPORT TRAC'
+						MAX_DEPTH < label0 0.833333333333 6 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.8L LS'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SUV 4.0L XLT'
+						MIN_CHILDREN < label0 0.75 4 >
+				<Split_Feature:	SubModel : 'REG CAB 4.6L STX'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D WAGON SXT'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D CUV 3.0L'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '2D COUPE LT'
+						MAX_DEPTH < label0 1 10 >
+				<Split_Feature:	SubModel : '4D WAGON ROCKY MOUNTAIN EDITION'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'QUAD CAB 4.7L FFV BIG HORN'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN SE FFV'
+						MAX_DEPTH < label0 1 19 >
+				<Split_Feature:	SubModel : '2D CONVERTIBLE'
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	SubModel : '4D SEDAN ZTS'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN LIMITED'
+						MAX_DEPTH < label0 0.846153846154 13 >
+				<Split_Feature:	SubModel : '4D SEDAN 1.8'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L SPORT'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D WAGON'
+						MAX_DEPTH < label0 0.9375 48 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L SPORT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'CREW CAB 3.5L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D WAGON SE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN SE'
+						MAX_DEPTH < label0 0.957446808511 94 >
+				<Split_Feature:	SubModel : '4D SUV-PICKUP 5.3L'
+						MAX_DEPTH < label0 1 8 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.3L'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '2D COUPE GS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D UTILITY 4.2L SLE'
+						MAX_DEPTH < label0 1 22 >
+				<Split_Feature:	SubModel : '4D SUV RENEGADE'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.5L LS'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D UTILITY 4.2L'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN CUSTOM'
+						MIN_CHILDREN < label0 0.666666666667 3 >
+				<Split_Feature:	SubModel : '4D SUV'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN GS 3.0L FFV'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D UTILITY 5.3L FFV LS'
+						MAX_DEPTH < label0 0.8 5 >
+				<Split_Feature:	SubModel : '4D SEDAN 2.7L'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D PASSENGER 3.8L SE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 3.7L'
+						MAX_DEPTH < label0 0.769230769231 13 >
+				<Split_Feature:	SubModel : 'JEEP X'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 4.0L FFV XLT'
+						MAX_DEPTH < label0 1 8 >
+				<Split_Feature:	SubModel : '4D SEDAN SEL DURATEC'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'CREW CAB 4.7L SR5'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D SEDAN LXI'
+						MAX_DEPTH < label0 0.846153846154 13 >
+				<Split_Feature:	SubModel : '4D WAGON GT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '2D COUPE GL2'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN ES'
+						MAX_DEPTH < label0 0.9 10 >
+				<Split_Feature:	SubModel : '4D SEDAN TOURING'
+						MAX_DEPTH < label0 1 14 >
+				<Split_Feature:	SubModel : 'EXT CAB 3.9L SXT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN GT'
+						MAX_DEPTH < label0 1 14 >
+				<Split_Feature:	SubModel : '4D WAGON LIMITED HEMI'
+						MIN_CHILDREN < label1 0.5 2 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L FFV SLT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV SPORT 2.0L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L'
+						MAX_DEPTH < label0 0.923076923077 13 >
+				<Split_Feature:	SubModel : '4D SEDAN XE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L SXT'
+						MAX_DEPTH < label0 0.75 8 >
+				<Split_Feature:	SubModel : '2D COUPE SE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 5.7L SLT'
+						MAX_DEPTH < label0 0.75 12 >
+				<Split_Feature:	SubModel : '4D SEDAN LT'
+						MAX_DEPTH < label0 1 15 >
+				<Split_Feature:	SubModel : '4D SEDAN HYBRID AUTO'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'WAGON 2.7L'
+						MAX_DEPTH < label0 1 8 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.2L W/T'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.5L LT'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.9L LS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY'
+						MAX_DEPTH < label0 1 12 >
+				<Split_Feature:	SubModel : '4D SEDAN'
+						MAX_DEPTH < label0 0.921708185053 281 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L'
+						MAX_DEPTH < label0 0.942857142857 35 >
+				<Split_Feature:	SubModel : '4D WAGON LIMITED'
+						MIN_CHILDREN < label1 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN GLS'
+						MAX_DEPTH < label0 0.7 10 >
+				<Split_Feature:	SubModel : '4D WAGON SE DURATEC'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV LIMITED'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D CUV 3.5L GLS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV HARDTOP 2.5L ZR2'
+						MIN_CHILDREN < label1 1 2 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L LIMITED'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '2D COUPE EX AUTO'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV 4.0L FFV XLS'
+						MAX_DEPTH < label0 0.884615384615 26 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L SXT'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L SL'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'QUAD CAB 3.7L'
+						MIN_CHILDREN < label1 0.75 4 >
+				<Split_Feature:	SubModel : '4D SEDAN GS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN GT2'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.6L LE'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'WAGON 3.5L SXT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY LE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.9L LIMITED'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 2.2L LT'
+						MAX_DEPTH < label0 0.966666666667 30 >
+				<Split_Feature:	SubModel : 'REG CAB 2.8L'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D UTILITY XUV 4.2L SLE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN 3.5L SE'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'DOUBLE CAB LS 3.7L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '2D COUPE LIMTED'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY XL7'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.9L LX'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 5.7L HEMI SLT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L SXT'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 4.0L PREMIER'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '5D SEDAN I'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'QUAD CAB 5.7L'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SEDAN ZX4'
+						MAX_DEPTH < label0 1 10 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.5L'
+						MAX_DEPTH < label0 0.714285714286 7 >
+				<Split_Feature:	SubModel : 'CREW CAB 4.7L LIMITED'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN 2.5 S'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D CUV 2.2L'
+						MAX_DEPTH < label0 1 8 >
+				<Split_Feature:	SubModel : 'QUAD CAB 4.7L FFV'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '2D SUV 4.0L SPORT XLS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D CUV 3.0L SEL'
+						MAX_DEPTH < label0 1 12 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.9L SEL'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV 4.0L'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'WAGON LX'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 4.2L LS'
+						MAX_DEPTH < label0 0.964705882353 85 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.3L LS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 3.7L'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'REG CAB 4.2L XL'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY LS'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L SE'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SUV SPORT'
+						MAX_DEPTH < label0 0.9 10 >
+				<Split_Feature:	SubModel : '4D SEDAN SE SVG'
+						MIN_CHILDREN < label1 0.5 2 >
+				<Split_Feature:	SubModel : 'EXT CAB 3.9L'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'REG CAB 3.0L EDGE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 3.0L'
+						MAX_DEPTH < label0 1 10 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.3L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'CREW CAB 5.3L'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D UTILITY 4.8L'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SPORT TOURING'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY EX'
+						MAX_DEPTH < label0 0.95652173913 23 >
+				<Split_Feature:	SubModel : '4D SEDAN SEL AWD'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN LEVEL 3'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 2.2L LS'
+						MAX_DEPTH < label0 1 13 >
+				<Split_Feature:	SubModel : 'EXT CAB 3.7L SXT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'QUAD CAB 4.7L'
+						MAX_DEPTH < label0 1 9 >
+				<Split_Feature:	SubModel : 'QUAD CAB 3.7L SLT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '2D COUPE ZX3 S'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.4L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY XLS'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D CUV 2.7L GLS'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '2D CONVERTIBLE TOURING'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'WAGON 3.5L'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN PREMIER'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.9L LT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN EX AUTO'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV CX'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 4.8L LS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'SPORT UTILITY'
+						MAX_DEPTH < label0 0.8 5 >
+				<Split_Feature:	SubModel : '4D SUV HARDTOP 2.0L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 4.3L LS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN LS'
+						MAX_DEPTH < label0 0.925 40 >
+				<Split_Feature:	SubModel : '4D SUV 5.7L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN ZX4 SE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D CUV 3.0L XLT'
+						MAX_DEPTH < label0 0.863636363636 22 >
+				<Split_Feature:	SubModel : '4D CUV 2.2L XE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 3.7L SXT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D CUV DLX'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SUV 2.2L 1LT'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D WAGON S'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 4.2L LT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D WAGON CONVENIENCE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN SEL'
+						MAX_DEPTH < label0 1 36 >
+				<Split_Feature:	SubModel : '4D SUV 5.7L LIMITED'
+						MAX_DEPTH < label0 1 17 >
+				<Split_Feature:	SubModel : '4D SUV 4.6L EDDIE BAUER'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 4.2L'
+						MAX_DEPTH < label0 0.977777777778 45 >
+				<Split_Feature:	SubModel : '4D SUV 4.0L XLS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '2D HATCHBACK ZX3'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L SLT'
+						MAX_DEPTH < label0 0.861111111111 36 >
+				<Split_Feature:	SubModel : '2D COUPE SS'
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	SubModel : 'REG CAB 2.2L FFV'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN GTP'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.9L'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN LEVEL 2'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.8L LX'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D WAGON CX'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D MINIVAN EXT 3.4L'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '2D COUPE LS'
+						MAX_DEPTH < label0 0.9 20 >
+				<Split_Feature:	SubModel : 'CREW CAB 6.0L LS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN CX'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'CREW CAB 4.6L XLT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D WAGON LAREDO'
+						MAX_DEPTH < label0 1 18 >
+		<Split_Feature:	r2_minus_r1_avg : '\'(3920.8-5321.4]\''
+				<GROW: SubModel >
+				<Split_Feature:	SubModel : '4D SPORT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN CLASSIC'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'CREW CAB 5.4L KING RANCH'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D WAGON SE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 5.4L EDDIE BAUER'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'QUAD CAB 4.7L SLT'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.8L'
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.6L STX'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D WAGON OVERLAND'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.4L LARIAT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN LT 3.9L'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '2D COUPE ZX3'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SUV 5.4L XLT'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L EX'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 3.7L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY LX'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV LS'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'REG CAB 4.7L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN SES DURATEC'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY ES'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.4L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.8L LS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 4.2L STX'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'REG CAB 4.3L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN SES'
+						MAX_DEPTH < label0 1 8 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.6L LARIAT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.6L XLT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.3L LS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN EX'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L ADVENTURER'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D WAGON'
+						MIN_CHILDREN < label1 0.5 4 >
+				<Split_Feature:	SubModel : '4D SEDAN SE'
+						MAX_DEPTH < label0 1 12 >
+				<Split_Feature:	SubModel : '4D SUV-PICKUP 5.3L'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.3L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D UTILITY 4.2L SLE'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'MINIVAN 2.4L LX'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV HARDTOP 2.0L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D UTILITY 5.3L FFV LS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'QUAD CAB 4.7L SLT FFV'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 3.7L'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SUV 4.0L FFV XLT'
+						MIN_CHILDREN < label1 1 2 >
+				<Split_Feature:	SubModel : 'CREW CAB 5.6L LE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN LXI'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV 4.6L EDDIE BAUER'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L SLT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.4L XL'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV 5.7L SLT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN SE1'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.5L LT'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN'
+						MAX_DEPTH < label0 0.769230769231 13 >
+				<Split_Feature:	SubModel : '4D CUV 3.5L GLS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN SE COMFORT'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 4.0L FFV XLS'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN CUSTOM'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L FFV SE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.9L LT'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 5.7L HEMI SLT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '2D COUPE GT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'QUAD CAB 5.7L'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SEDAN ZX4'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '2D SUV 4.0L SPORT XLS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 4.2L LS'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SUV 3.0L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.3L'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : 'REG CAB 5.4L XL'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D MINIVAN EXT 3.5L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY EX'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN SEL AWD'
+						MAX_DEPTH < label1 1 5 >
+				<Split_Feature:	SubModel : '4D SEDAN LEVEL 3'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV 4.6L'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'QUAD CAB 4.7L'
+						MIN_CHILDREN < label0 0.666666666667 3 >
+				<Split_Feature:	SubModel : 'CREW CAB 4.6L XLT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN EX AUTO'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D CUV 3.0L SE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 5.3L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.4L XLT'
+						MIN_CHILDREN < label1 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN LS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN 3.5L'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY SE'
+						MIN_CHILDREN < label1 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 4.2L'
+						MAX_DEPTH < label0 0.9 10 >
+				<Split_Feature:	SubModel : '4D SEDAN L200'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN GTP'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D CUV 3.0L XLS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D WAGON CX'
+						MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	r2_minus_r1_avg : '\'(8122.6-9523.2]\''
+				<GROW: r2_avg_minus_vehbc >
+				<Split_Feature:	r2_avg_minus_vehbc : '\'(8057.3-10238.533333]\''
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	r2_avg_minus_vehbc : '\'(-667.633333-1513.6]\''
+						MIN_CHILDREN < label1 1 4 >
+				<Split_Feature:	r2_avg_minus_vehbc : '\'(1513.6-3694.833333]\''
+						MAX_DEPTH < label0 0.95652173913 23 >
+				<Split_Feature:	r2_avg_minus_vehbc : '\'(5876.066667-8057.3]\''
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	r2_avg_minus_vehbc : '\'(3694.833333-5876.066667]\''
+						MIN_CHILDREN < label1 1 2 >
+		<Split_Feature:	r2_minus_r1_avg : '\'(-4482.8--3082.2]\''
+				CONF_CLASS < label0 0.95145631068 103 >
+		<Split_Feature:	r2_minus_r1_avg : '\'(16526.2-17926.8]\''
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	r2_minus_r1_avg : '\'(-8684.6--7284]\''
+				CONF_CLASS < label0 1 17 >
+		<Split_Feature:	r2_minus_r1_avg : '\'(10923.8-12324.4]\''
+				<GROW: Trim >
+				<Split_Feature:	Trim : SEL
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	Trim : Bas
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	Trim : Edd
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	Trim : Lim
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	Trim : 150.0
+						MIN_CHILDREN < label1 1 3 >
+				<Split_Feature:	Trim : ST
+						MIN_CHILDREN < label0 0.75 4 >
+				<Split_Feature:	Trim : LT
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	Trim : SXT
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	Trim : SE
+						MAX_DEPTH < label0 0.666666666667 6 >
+				<Split_Feature:	Trim : Tou
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	Trim : Lar
+						MIN_CHILDREN < label1 1 3 >
+				<Split_Feature:	Trim : LS
+						MIN_CHILDREN < label0 1 4 >
+		<Split_Feature:	r2_minus_r1_avg : '\'(-1681.6--281]\''
+				<GROW: SubModel >
+				<Split_Feature:	SubModel : '4D SEDAN LTZ'
+						MAX_DEPTH < label0 1 9 >
+				<Split_Feature:	SubModel : '4D SEDAN 2.7L SE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY 3.5L XLS'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D SPORT TOURER'
+						MAX_DEPTH < label0 0.947368421053 38 >
+				<Split_Feature:	SubModel : '4D SPORT'
+						MAX_DEPTH < label0 0.964285714286 84 >
+				<Split_Feature:	SubModel : '4D SEDAN SXT'
+						MAX_DEPTH < label0 0.854838709677 62 >
+				<Split_Feature:	SubModel : '4D PASSENGER 3.8L SEL LIMITED'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '4D WAGON SE DURATEC'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D WAGON SE'
+						MAX_DEPTH < label0 1 8 >
+				<Split_Feature:	SubModel : '4D SUV LIMITED 2.4L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '2D HATCHBACK S'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN LT 3.9L'
+						MAX_DEPTH < label0 0.933333333333 30 >
+				<Split_Feature:	SubModel : '4D CUV 2.2L'
+						MAX_DEPTH < label0 0.761904761905 42 >
+				<Split_Feature:	SubModel : '4D SEDAN CXL'
+						MAX_DEPTH < label0 1 8 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.6L'
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	SubModel : 'REG CAB 5.3L LS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN LS PREMIUM'
+						MAX_DEPTH < label0 0.941176470588 34 >
+				<Split_Feature:	SubModel : 'REG CAB 2.2L SL'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN LT 3.5L'
+						MAX_DEPTH < label0 0.943396226415 159 >
+				<Split_Feature:	SubModel : '4D SUV 5.9L R/T'
+						MIN_CHILDREN < label1 1 3 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.4L WARNER BROS'
+						MIN_CHILDREN < label1 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN XLE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D UTILITY 4.8L SLE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN LS 3.5L FFV'
+						MAX_DEPTH < label0 1 9 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.8L SLE'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN CE'
+						MAX_DEPTH < label0 1 12 >
+				<Split_Feature:	SubModel : '4D CUV 2.3L XLS'
+						MAX_DEPTH < label0 0.924528301887 53 >
+				<Split_Feature:	SubModel : '4D SEDAN SES'
+						MAX_DEPTH < label0 0.80487804878 41 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.6L LARIAT'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SPORTBACK LS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.4L LS'
+						MAX_DEPTH < label0 0.833333333333 6 >
+				<Split_Feature:	SubModel : '4D SUV-PICKUP 5.3L Z66'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN GT1'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.6L FX2 SPORT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN EX'
+						MAX_DEPTH < label0 0.944444444444 72 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.9L SE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D WAGON CXL'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 4.0L SPORT TRAC'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '2D COUPE GTS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D WAGON SXT'
+						MAX_DEPTH < label0 0.666666666667 27 >
+				<Split_Feature:	SubModel : '4D WAGON SX'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '2D COUPE LT'
+						MAX_DEPTH < label0 0.933333333333 45 >
+				<Split_Feature:	SubModel : '4D SEDAN AWD'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY I'
+						MAX_DEPTH < label0 0.774193548387 31 >
+				<Split_Feature:	SubModel : '2D CONVERTIBLE'
+						MAX_DEPTH < label0 0.707692307692 65 >
+				<Split_Feature:	SubModel : '4D WAGON SEL'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D PASSENGER 3.8L SEL'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SEDAN SL2'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV 5.3L LS'
+						MAX_DEPTH < label0 1 10 >
+				<Split_Feature:	SubModel : '4D SEDAN SE'
+						MAX_DEPTH < label0 0.882716049383 486 >
+				<Split_Feature:	SubModel : '4D SUV-PICKUP 5.3L'
+						MAX_DEPTH < label0 1 31 >
+				<Split_Feature:	SubModel : 'WAGON ES'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L FFV SXT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV RENEGADE'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : 'REG CAB 2.3L EDGE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN LIMITED AWD'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '2D SPYDER GTS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 5.7L SLT'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY JS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'REG CAB 2.3L STX'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN XL'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV 3.7L'
+						MAX_DEPTH < label0 1 31 >
+				<Split_Feature:	SubModel : '4D SUV 3.0L PREMIER'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN FFV TOURING'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SEDAN ES'
+						MAX_DEPTH < label0 0.777777777778 45 >
+				<Split_Feature:	SubModel : '4D SUV 4.6L EDDIE BAUER'
+						MAX_DEPTH < label0 0.933333333333 15 >
+				<Split_Feature:	SubModel : 'EXT CAB 3.9L SXT'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 3.7L ST'
+						MAX_DEPTH < label0 0.888888888889 9 >
+				<Split_Feature:	SubModel : 'CREW CAB 3.5L SL'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '2D EXT CAB 3.0L EDGE'
+						MIN_CHILDREN < label0 0.75 4 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L'
+						MAX_DEPTH < label0 0.882352941176 34 >
+				<Split_Feature:	SubModel : 'REG CAB 2.5L'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'REG CAB 4.8L LS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D CUV DELUXE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D HATCHBACK AWD'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'QUAD CAB 3.7L SPORT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.5L LT'
+						MAX_DEPTH < label0 0.95 20 >
+				<Split_Feature:	SubModel : '4D UTILITY 5.3L LS'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY'
+						MAX_DEPTH < label0 0.794117647059 34 >
+				<Split_Feature:	SubModel : 'CREW CAB 5.4L XLT'
+						MIN_CHILDREN < label1 0.5 4 >
+				<Split_Feature:	SubModel : '4D SEDAN GLS'
+						MAX_DEPTH < label0 0.88 75 >
+				<Split_Feature:	SubModel : '4D SUV LIMITED'
+						MAX_DEPTH < label0 0.947368421053 19 >
+				<Split_Feature:	SubModel : 'EXT CAB 3.0L SE'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY LE'
+						MAX_DEPTH < label0 0.555555555556 9 >
+				<Split_Feature:	SubModel : '4D SUV SPORT'
+						MAX_DEPTH < label0 0.862745098039 51 >
+				<Split_Feature:	SubModel : '4D SEDAN GLE'
+						MIN_CHILDREN < label1 0.5 4 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.9L LX'
+						MAX_DEPTH < label0 0.714285714286 7 >
+				<Split_Feature:	SubModel : '2D CONVERTIBLE GTC'
+						MAX_DEPTH < label0 1 14 >
+				<Split_Feature:	SubModel : 'QUAD CAB 5.7L'
+						MAX_DEPTH < label0 0.916666666667 24 >
+				<Split_Feature:	SubModel : '4D SEDAN ZX4'
+						MAX_DEPTH < label0 0.914285714286 35 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L LIMITED'
+						MAX_DEPTH < label1 0.5 6 >
+				<Split_Feature:	SubModel : 'MAZDA3 4D I SPORT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN 2.5 S'
+						MAX_DEPTH < label0 0.882352941176 17 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L FFV SPORT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 2.2L'
+						MAX_DEPTH < label0 1 13 >
+				<Split_Feature:	SubModel : '4D SUV 2.5L PREMIER'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D WAGON ZTW'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L LXI'
+						MAX_DEPTH < label0 0.625 8 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.8L'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 3.9L SPORT'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN PKG1'
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	SubModel : '4D EXT CAB 3.0L EDGE'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SUV 5.3L XLT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'CREW CAB 5.3L'
+						MAX_DEPTH < label0 1 10 >
+				<Split_Feature:	SubModel : 'REG CAB 3.7L SLT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D CUV 2.2L XE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN SEL'
+						MAX_DEPTH < label0 0.89605734767 279 >
+				<Split_Feature:	SubModel : '4D WAGON SEL DURATEC'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D PASSENGER 3.9L SES'
+						MAX_DEPTH < label0 0.714285714286 21 >
+				<Split_Feature:	SubModel : '4D SUV 5.3L FFV LS'
+						MAX_DEPTH < label0 1 11 >
+				<Split_Feature:	SubModel : '4D CUV 2.3L XLT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '5D SEDAN ZX5'
+						MIN_CHILDREN < label0 0.75 4 >
+				<Split_Feature:	SubModel : '4D SEDAN DX'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.4L XLT'
+						MAX_DEPTH < label1 1 5 >
+				<Split_Feature:	SubModel : '4D SEDAN LS'
+						MAX_DEPTH < label0 0.896296296296 270 >
+				<Split_Feature:	SubModel : 'QUAD CAB 5.9L SPORT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '2D COUPE SXT'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D CUV 3.0L XLT'
+						MAX_DEPTH < label0 0.907407407407 108 >
+				<Split_Feature:	SubModel : '4D SUV 3.7L SXT'
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	SubModel : '4D SUV 2.2L 1LT'
+						MAX_DEPTH < label0 0.933333333333 15 >
+				<Split_Feature:	SubModel : 'QUAD CAB 3.7L SLT'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 5.7L LIMITED'
+						MAX_DEPTH < label0 0.647058823529 17 >
+				<Split_Feature:	SubModel : '4D SEDAN L200'
+						MAX_DEPTH < label1 0.714285714286 7 >
+				<Split_Feature:	SubModel : '2D COUPE SS'
+						MAX_DEPTH < label1 0.5 10 >
+				<Split_Feature:	SubModel : '4D SEDAN GTP'
+						MAX_DEPTH < label0 1 8 >
+				<Split_Feature:	SubModel : '4D CUV 3.0L XLS'
+						MAX_DEPTH < label0 0.928571428571 14 >
+				<Split_Feature:	SubModel : '4D WAGON CX'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D CROSSOVER SEL'
+						MAX_DEPTH < label0 0.846153846154 13 >
+				<Split_Feature:	SubModel : '2D CONVERTIBLE DREAM CRUISER'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN ZX4 ST'
+						MIN_CHILDREN < label1 0.666666666667 3 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.3L SLE'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '2D HATCKBACK SI 5SP'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 2.3L'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN S'
+						MAX_DEPTH < label0 0.849056603774 53 >
+				<Split_Feature:	SubModel : '4D SUV 4.0L FFV LIMITED'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 5.4L EDDIE BAUER'
+						MAX_DEPTH < label0 0.95 40 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.8L'
+						MAX_DEPTH < label0 0.894736842105 19 >
+				<Split_Feature:	SubModel : '4D SEDAN LUXURY'
+						MAX_DEPTH < label0 1 10 >
+				<Split_Feature:	SubModel : '4D SEDAN LX'
+						MAX_DEPTH < label0 1 45 >
+				<Split_Feature:	SubModel : '4D SEDAN LT 3.5L FFV'
+						MAX_DEPTH < label0 0.948275862069 58 >
+				<Split_Feature:	SubModel : '2D COUPE ZX3'
+						MAX_DEPTH < label0 0.885714285714 35 >
+				<Split_Feature:	SubModel : '2D COUPE R/T'
+						MIN_CHILDREN < label0 0.75 4 >
+				<Split_Feature:	SubModel : 'EXT CAB LS 3.7L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.6L SE'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 5.4L XLT'
+						MAX_DEPTH < label0 0.847222222222 72 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.2L XL'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV LS'
+						MAX_DEPTH < label0 0.84 75 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY SR5'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '5D HATCHBACK I'
+						MAX_DEPTH < label0 0.875 8 >
+				<Split_Feature:	SubModel : 'REG CAB 3.7L SXT'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV LT'
+						MAX_DEPTH < label0 0.855263157895 76 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY ES'
+						MAX_DEPTH < label0 0.785714285714 14 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.8L LS'
+						MAX_DEPTH < label0 0.636363636364 11 >
+				<Split_Feature:	SubModel : 'QUAD CAB 4.7L ST'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D UTILITY 5.3L FFV'
+						MAX_DEPTH < label1 0.8 5 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L SPORT'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'QUAD CAB 4.7L BIG HORN'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D EXT CAB 4.0L EDGE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.5L LS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.6L XLT'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.3L LS'
+						MAX_DEPTH < label0 1 8 >
+				<Split_Feature:	SubModel : '4D SEDAN 2.7L SXT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 4.8L'
+						MAX_DEPTH < label0 0.941176470588 17 >
+				<Split_Feature:	SubModel : 'CREW CAB 3.5L LS'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : 'QUAD CAB 5.7L SLT'
+						MAX_DEPTH < label0 0.772727272727 22 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.4L FX4'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 4.0L XLT'
+						MAX_DEPTH < label0 0.761904761905 21 >
+				<Split_Feature:	SubModel : 'QUAD CAB 3.7L ST'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '2D CONVERTIBLE LXI'
+						MIN_CHILDREN < label1 1 2 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L ADVENTURER'
+						MAX_DEPTH < label0 1 17 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L TOURING'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SEDAN SE FFV'
+						MAX_DEPTH < label0 0.96 50 >
+				<Split_Feature:	SubModel : '4D SEDAN ZTS'
+						MAX_DEPTH < label0 0.923076923077 13 >
+				<Split_Feature:	SubModel : '4D SEDAN LIMITED'
+						MAX_DEPTH < label0 0.835164835165 91 >
+				<Split_Feature:	SubModel : 'REG CAB 4.6L STX'
+						MAX_DEPTH < label0 1 11 >
+				<Split_Feature:	SubModel : 'CREW CAB 5.3L LS'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D PASSENGER 3.8L SE SPORT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'QUAD CAB 4.7L FFV BIG HORN'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '2D COUPE GS'
+						MAX_DEPTH < label0 0.714285714286 14 >
+				<Split_Feature:	SubModel : '4D WAGON EX'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D UTILITY 4.2L SLE'
+						MAX_DEPTH < label0 0.897959183673 49 >
+				<Split_Feature:	SubModel : '4D SEDAN GL2'
+						MAX_DEPTH < label0 0.7 10 >
+				<Split_Feature:	SubModel : '4D SUV HARDTOP 2.0L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D UTILITY 5.3L FFV LS'
+						MAX_DEPTH < label0 0.9375 16 >
+				<Split_Feature:	SubModel : '2D COUPE GLS'
+						MIN_CHILDREN < label1 0.75 4 >
+				<Split_Feature:	SubModel : '4D WAGON LW300'
+						MAX_DEPTH < label0 0.625 8 >
+				<Split_Feature:	SubModel : '4D WAGON S'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D SUV 4.0L'
+						MAX_DEPTH < label0 0.789473684211 19 >
+				<Split_Feature:	SubModel : '4D SEDAN GT'
+						MAX_DEPTH < label0 0.869565217391 92 >
+				<Split_Feature:	SubModel : 'REG CAB 2.2L FFV'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '2D ROADSTER'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 4.3L SLE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.4L XL'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN SXT FFV'
+						MAX_DEPTH < label0 0.666666666667 6 >
+				<Split_Feature:	SubModel : '4D SUV 5.7L SLT'
+						MAX_DEPTH < label0 1 28 >
+				<Split_Feature:	SubModel : '4D SEDAN SE-R'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN LEVEL 1'
+						MAX_DEPTH < label0 0.833333333333 6 >
+				<Split_Feature:	SubModel : 'WAGON 2.7L'
+						MAX_DEPTH < label0 0.888888888889 9 >
+				<Split_Feature:	SubModel : 'REG CAB 4.8L'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D EXT CAB 3.0L XLT'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '2D SPORT UTILITY'
+						MIN_CHILDREN < label1 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN SE COMFORT'
+						MAX_DEPTH < label0 0.846153846154 13 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L LIMITED'
+						MAX_DEPTH < label0 1 10 >
+				<Split_Feature:	SubModel : '3D EXT CAB 4.3L'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '2D COUPE GT'
+						MAX_DEPTH < label0 0.941176470588 17 >
+				<Split_Feature:	SubModel : '4D SEDAN XRS'
+						MAX_DEPTH < label0 0.625 8 >
+				<Split_Feature:	SubModel : '4D SEDAN AWD SE'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : 'WAGON 3.5L SXT'
+						MAX_DEPTH < label0 0.833333333333 6 >
+				<Split_Feature:	SubModel : '2D COUPE LXI'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN LE'
+						MAX_DEPTH < label0 0.842105263158 19 >
+				<Split_Feature:	SubModel : 'MAZDA5 GRAND TOURING'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D SEDAN R/T'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 4.2L LS'
+						MAX_DEPTH < label0 0.944262295082 305 >
+				<Split_Feature:	SubModel : 'REG CAB 3.7L'
+						MAX_DEPTH < label0 0.777777777778 9 >
+				<Split_Feature:	SubModel : '4D SEDAN CARTIER L'
+						MIN_CHILDREN < label1 1 2 >
+				<Split_Feature:	SubModel : '2D COUPE GT1'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L SE'
+						MAX_DEPTH < label0 0.933333333333 15 >
+				<Split_Feature:	SubModel : '5D HATCHBACK S'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 3.0L EDGE'
+						MAX_DEPTH < label0 1 15 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.3L'
+						MAX_DEPTH < label0 0.833333333333 18 >
+				<Split_Feature:	SubModel : '4D SPORT TOURING'
+						MAX_DEPTH < label0 0.912280701754 57 >
+				<Split_Feature:	SubModel : '2D CONVERTIBLE LIMITED'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'CREW CAB 4.6L KING RANCH'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 4.6L'
+						MAX_DEPTH < label0 0.894736842105 19 >
+				<Split_Feature:	SubModel : 'EXT CAB 3.7L SXT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D WAGON LS PREMIUM'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'CREW CAB 4.6L XLT'
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	SubModel : '4D CUV 2.7L GLS'
+						MAX_DEPTH < label0 0.928571428571 14 >
+				<Split_Feature:	SubModel : '5D SEDAN S'
+						MIN_CHILDREN < label1 1 3 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY TOURING'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN XR'
+						MAX_DEPTH < label0 0.666666666667 6 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.3L LT'
+						MIN_CHILDREN < label1 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 5.7L'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'CREW CAB 5.4L LARIAT'
+						MIN_CHILDREN < label0 0.666666666667 3 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L FFV SLT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN GXP'
+						MIN_CHILDREN < label1 0.75 4 >
+				<Split_Feature:	SubModel : '4D SUV 4.2L'
+						MAX_DEPTH < label0 0.902097902098 143 >
+				<Split_Feature:	SubModel : 'REG CAB 4.3L LS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'QUAD CAB 4.7L FFV SLT'
+						MAX_DEPTH < label0 0.75 8 >
+				<Split_Feature:	SubModel : '4D WAGON LAREDO'
+						MAX_DEPTH < label0 0.852272727273 88 >
+				<Split_Feature:	SubModel : '4D SEDAN 3.5L'
+						MAX_DEPTH < label0 0.769230769231 13 >
+				<Split_Feature:	SubModel : '2D COUPE LS'
+						MAX_DEPTH < label0 0.94 50 >
+				<Split_Feature:	SubModel : '4D SEDAN LIMITED TURBO'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D CUV 2.0L XLS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.6L XL'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 2.2L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 4.6L XLT'
+						MAX_DEPTH < label0 0.753623188406 69 >
+				<Split_Feature:	SubModel : 'REG CAB 4.0L EDGE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '2D SUV 4.0L SPORT'
+						MAX_DEPTH < label0 0.666666666667 6 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L ST'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV CXL'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SUV 5.3L'
+						MIN_CHILDREN < label0 0.75 4 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.6L STX'
+						MAX_DEPTH < label0 1 37 >
+				<Split_Feature:	SubModel : '4D SEDAN GTS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN LX AUTO'
+						MAX_DEPTH < label0 1 10 >
+				<Split_Feature:	SubModel : '4D SUV 5.3L FFV'
+						MAX_DEPTH < label0 0.888888888889 9 >
+				<Split_Feature:	SubModel : '4D SEDAN SE SVG'
+						MAX_DEPTH < label0 0.884615384615 26 >
+				<Split_Feature:	SubModel : '4D SUV SPORT 2.0L'
+						MAX_DEPTH < label1 1 9 >
+				<Split_Feature:	SubModel : '2D QUAD COUPE LEVEL 2'
+						MAX_DEPTH < label0 0.733333333333 15 >
+				<Split_Feature:	SubModel : '4D SEDAN GT TURBO'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV 5.7L HEMI'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'EXT CAB 3.7L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY LX'
+						MAX_DEPTH < label0 0.892857142857 28 >
+				<Split_Feature:	SubModel : '4D SEDAN 2.0L GLS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV 4.6L XLS'
+						MAX_DEPTH < label0 0.8 5 >
+				<Split_Feature:	SubModel : '4D SEDAN SEL FFV'
+						MAX_DEPTH < label0 0.666666666667 12 >
+				<Split_Feature:	SubModel : 'DOUBLE CAB DURO CROSS 3.7L'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN SES DURATEC'
+						MAX_DEPTH < label0 0.763157894737 38 >
+				<Split_Feature:	SubModel : '4D SUV SPORT 2.4L'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : 'REG CAB 4.2L STX'
+						MAX_DEPTH < label0 0.769230769231 13 >
+				<Split_Feature:	SubModel : '2D EXT CAB 3.0L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 3.0L XL'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 3.7L SLT'
+						MAX_DEPTH < label0 1 12 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY DX'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN I'
+						MAX_DEPTH < label0 0.861111111111 72 >
+				<Split_Feature:	SubModel : '2D HATCHBACK ZX3'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY SXT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D CUV 3.0L'
+						MAX_DEPTH < label0 0.866666666667 30 >
+				<Split_Feature:	SubModel : '4D SEDAN GL'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY XE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D MINIVAN EXT 3.4L'
+						MAX_DEPTH < label0 0.833333333333 24 >
+				<Split_Feature:	SubModel : '4D SEDAN TYPE S'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '4D HATCHBACK S'
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.9L SEL'
+						MAX_DEPTH < label0 1 8 >
+				<Split_Feature:	SubModel : '4D SEDAN 2.4I'
+						MAX_DEPTH < label0 1 10 >
+				<Split_Feature:	SubModel : 'REG CAB 2.2L FFV SL'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN T5'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D EXT CAB 4.0L XL'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN VALUE PACKAGE AUTO'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN NAVIGATION'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D UTILITY 4.2L'
+						MAX_DEPTH < label0 0.785714285714 14 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L SXT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV'
+						MAX_DEPTH < label0 0.905660377358 106 >
+				<Split_Feature:	SubModel : '4D WAGON LX'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN GS 3.0L FFV'
+						MIN_CHILDREN < label1 0.5 4 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY GRAND TOURING A'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'QUAD CAB 4.7L SLT FFV'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY OFF-ROAD'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN SE AUTO'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN SEL DURATEC'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'CREW CAB 5.6L LE'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SEDAN LXI'
+						MAX_DEPTH < label0 0.819672131148 61 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.2L W/T'
+						MAX_DEPTH < label0 0.857142857143 7 >
+				<Split_Feature:	SubModel : '4D UTILITY 4.2L SLT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'REG CAB 2.4L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D WAGON GRAND TOURING'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN XE'
+						MAX_DEPTH < label0 1 13 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L SXT'
+						MAX_DEPTH < label0 0.9 50 >
+				<Split_Feature:	SubModel : '4D SEDAN LT'
+						MAX_DEPTH < label0 0.853658536585 123 >
+				<Split_Feature:	SubModel : 'CREW CAB 2.8L LS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN SL'
+						MAX_DEPTH < label1 0.8 5 >
+				<Split_Feature:	SubModel : 'CREW CAB 4.6L LARIAT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D WAGON LIMITED'
+						MAX_DEPTH < label0 0.882352941176 17 >
+				<Split_Feature:	SubModel : 'WAGON R/T'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'QUAD CAB 3.7L SXT'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '2D COUPE EX AUTO'
+						MAX_DEPTH < label0 0.777777777778 9 >
+				<Split_Feature:	SubModel : '4D SEDAN GS'
+						MAX_DEPTH < label0 0.777777777778 18 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.6L LE'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'REG CAB 2.8L'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D UTILITY XUV 4.2L SLE'
+						MIN_CHILDREN < label0 0.75 4 >
+				<Split_Feature:	SubModel : 'DOUBLE CAB LS 3.7L'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN LEVEL 2'
+						MAX_DEPTH < label0 0.896551724138 29 >
+				<Split_Feature:	SubModel : '4D SUV 5.7L HEMI SLT'
+						MAX_DEPTH < label0 0.8 5 >
+				<Split_Feature:	SubModel : '4D CUV'
+						MAX_DEPTH < label0 0.846153846154 13 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.9L'
+						MIN_CHILDREN < label1 0.666666666667 3 >
+				<Split_Feature:	SubModel : '5D SEDAN I'
+						MAX_DEPTH < label1 0.5 6 >
+				<Split_Feature:	SubModel : '4D SEDAN 1.8S'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : 'EXT CAB 2.4L XE'
+						MAX_DEPTH < label1 0.5 10 >
+				<Split_Feature:	SubModel : 'EXT CAB 2.9L LS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'QUAD CAB 5.7L BIG HORN'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L SPORT'
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	SubModel : 'QUAD CAB 3.7L'
+						MAX_DEPTH < label0 0.941176470588 17 >
+				<Split_Feature:	SubModel : '4D SEDAN LS CLASSIC'
+						MAX_DEPTH < label0 0.666666666667 6 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.3L LS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN TYPE S NAVIGATION'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN O-Z RALLY'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.9L LS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN 2.5L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN VALUE'
+						MIN_CHILDREN < label1 1 4 >
+				<Split_Feature:	SubModel : '2D HARTOP CONVERTIBLE GT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 3.4L'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'EXT CAB 2.8L LS'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 3.0L'
+						MAX_DEPTH < label0 0.941176470588 17 >
+				<Split_Feature:	SubModel : 'REG CAB 5.4L XL'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY EX'
+						MAX_DEPTH < label0 0.888888888889 81 >
+				<Split_Feature:	SubModel : '4D SEDAN SEL AWD'
+						MAX_DEPTH < label0 0.888888888889 18 >
+				<Split_Feature:	SubModel : 'QUAD CAB 4.7L'
+						MAX_DEPTH < label0 1 28 >
+				<Split_Feature:	SubModel : '4D CROSSOVER SE'
+						MIN_CHILDREN < label0 0.666666666667 3 >
+				<Split_Feature:	SubModel : '4D SEDAN SPECIAL'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'WAGON 3.5L'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D MINIVAN 3.4L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L ES'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV CX'
+						MAX_DEPTH < label0 0.833333333333 18 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.0L EDGE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'EXT CAB 3.7L SLT'
+						MAX_DEPTH < label1 0.5 6 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY SE'
+						MAX_DEPTH < label0 0.818181818182 22 >
+				<Split_Feature:	SubModel : '2D COUPE TYPE S'
+						MIN_CHILDREN < label1 0.666666666667 3 >
+				<Split_Feature:	SubModel : '2D COUPE GL2'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 4.0L XLS'
+						MAX_DEPTH < label0 0.6 15 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY TOURING NAV'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'REG CAB 4.7L SLT'
+						MAX_DEPTH < label0 0.6 5 >
+				<Split_Feature:	SubModel : '4D SEDAN SE AWD'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.8L LX'
+						MAX_DEPTH < label0 0.75 16 >
+				<Split_Feature:	SubModel : '4D SEDAN 2.5L PKG 2'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : 'CREW CAB 6.0L LS'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D CUV 3.6L XE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L LX'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L EX'
+						MAX_DEPTH < label0 0.6 5 >
+				<Split_Feature:	SubModel : '4D SUV 5.4L'
+						MAX_DEPTH < label0 0.6 5 >
+				<Split_Feature:	SubModel : '4D SEDAN CLASSIC'
+						MAX_DEPTH < label0 0.941176470588 17 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY LIMITED'
+						MAX_DEPTH < label0 1 10 >
+				<Split_Feature:	SubModel : '2D EXT CAB 3.0L DUAL SPORT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'CREW CAB 5.4L KING RANCH'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'CREW CAB 2.9L LT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L SPORT'
+						MIN_CHILDREN < label1 0.5 4 >
+				<Split_Feature:	SubModel : '4D CUV 2.7L'
+						MAX_DEPTH < label0 0.666666666667 6 >
+				<Split_Feature:	SubModel : 'QUAD CAB 4.7L SLT'
+						MAX_DEPTH < label0 0.89247311828 93 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L FFV SXT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.4L LARIAT'
+						MAX_DEPTH < label0 0.740740740741 27 >
+				<Split_Feature:	SubModel : 'EXT CAB 3.9L BASE'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'EXT CAB 2.2L LS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN LT 3.8L FFV'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'QUAD CAB 5.9L SLT'
+						MIN_CHILDREN < label1 0.5 4 >
+				<Split_Feature:	SubModel : '4D CUV DLX'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY XLS'
+						MAX_DEPTH < label0 1 9 >
+				<Split_Feature:	SubModel : '4D SEDAN SE2'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'REG CAB 4.7L'
+						MAX_DEPTH < label0 0.714285714286 7 >
+				<Split_Feature:	SubModel : '4D SEDAN SE1'
+						MAX_DEPTH < label0 0.868421052632 76 >
+				<Split_Feature:	SubModel : '4D CUV 3.0L SE'
+						MAX_DEPTH < label0 0.909090909091 33 >
+				<Split_Feature:	SubModel : '4D SEDAN L300'
+						MAX_DEPTH < label0 0.914285714286 35 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.4L'
+						MAX_DEPTH < label0 0.833333333333 12 >
+				<Split_Feature:	SubModel : '4D UTILITY 5.3L SLE'
+						MAX_DEPTH < label0 0.75 12 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L'
+						MAX_DEPTH < label0 0.8 30 >
+				<Split_Feature:	SubModel : 'CREW CAB 5.3L LT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 4.3L'
+						MAX_DEPTH < label0 0.966666666667 30 >
+				<Split_Feature:	SubModel : '4D SUV 4.2L LTZ'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D WAGON ZX5'
+						MAX_DEPTH < label0 1 8 >
+				<Split_Feature:	SubModel : 'REG CAB 3.9L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '2D QUAD COUPE LEVEL 3'
+						MAX_DEPTH < label0 0.818181818182 11 >
+				<Split_Feature:	SubModel : 'CREW CAB 5.4L FFV FX4'
+						MIN_CHILDREN < label1 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN TOURING TURBO'
+						MAX_DEPTH < label0 1 9 >
+				<Split_Feature:	SubModel : 'CREW CAB 5.6L'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '2D COUPE'
+						MAX_DEPTH < label0 0.842105263158 190 >
+				<Split_Feature:	SubModel : '4D HATCHBACK'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN 6SP'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D CUV 3.0L LIMITED'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D WAGON SPORT'
+						MAX_DEPTH < label0 1 9 >
+				<Split_Feature:	SubModel : '4D SEDAN EXECUTIVE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '2D LIFTBACK GT'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN 1.8'
+						MAX_DEPTH < label0 0.944444444444 36 >
+				<Split_Feature:	SubModel : '4D WAGON'
+						MAX_DEPTH < label0 0.873417721519 158 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY X'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN AUTO'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'MINIVAN EX-L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.3L'
+						MAX_DEPTH < label0 0.846153846154 13 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.5L LS'
+						MAX_DEPTH < label0 1 21 >
+				<Split_Feature:	SubModel : '4D SUV 2.3L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN CUSTOM'
+						MAX_DEPTH < label0 0.72 25 >
+				<Split_Feature:	SubModel : 'QUAD CAB 3.9L SLT'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SUV 3.0L LUXURY'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 5.3L LT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN 2.7L'
+						MAX_DEPTH < label0 0.833333333333 6 >
+				<Split_Feature:	SubModel : '2D COUPE SE1'
+						MIN_CHILDREN < label0 0.666666666667 3 >
+				<Split_Feature:	SubModel : '4D SUV 4.0L FFV XLT'
+						MAX_DEPTH < label0 0.702127659574 47 >
+				<Split_Feature:	SubModel : '4D SUV HARDTOP 2.5L'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN TOURING'
+						MAX_DEPTH < label0 0.830508474576 59 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L SLT'
+						MAX_DEPTH < label0 0.905405405405 74 >
+				<Split_Feature:	SubModel : '4D SEDAN SIGNATURE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN LS 3.5L'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.3L LT Z71'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN 2.5 SL'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '2D COUPE SE'
+						MAX_DEPTH < label0 0.928571428571 14 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY S'
+						MAX_DEPTH < label0 1 8 >
+				<Split_Feature:	SubModel : '4D WAGON LAREDO FFV'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'REG CAB 4.6L XL'
+						MAX_DEPTH < label1 0.833333333333 6 >
+				<Split_Feature:	SubModel : '4D SUV 5.9L SLT'
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	SubModel : '4D SUV 5.4L XLS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.2L XLT'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'WAGON DX'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D PASSENGER 3.8L SE'
+						MAX_DEPTH < label0 0.75 8 >
+				<Split_Feature:	SubModel : '4D CUV 3.5L GLS'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'CREW CAB 4.8L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.7L SR5'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SUV 4.0L FFV XLS'
+						MAX_DEPTH < label0 0.770833333333 48 >
+				<Split_Feature:	SubModel : '4D SEDAN GT2'
+						MAX_DEPTH < label0 0.95 20 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L FFV SE'
+						MIN_CHILDREN < label0 0.666666666667 3 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.9L LT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 2.2L LT'
+						MAX_DEPTH < label0 0.979166666667 48 >
+				<Split_Feature:	SubModel : '2D COUPE LIMTED'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY XL7'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D CUV GLS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D PASSENGER 4.2L LIMITED'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.6L HERITAGE XL'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '2D HATCHBACK'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.5L'
+						MAX_DEPTH < label0 1 14 >
+				<Split_Feature:	SubModel : '2D SUV 4.0L SPORT XLS'
+						MAX_DEPTH < label0 0.625 8 >
+				<Split_Feature:	SubModel : '4D CUV 3.0L SEL'
+						MAX_DEPTH < label0 0.967741935484 31 >
+				<Split_Feature:	SubModel : '4D SEDAN AWD SEL'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'WAGON LX'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.9L LS'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L'
+						MAX_DEPTH < label0 0.872549019608 102 >
+				<Split_Feature:	SubModel : 'REG CAB 4.2L XL'
+						MAX_DEPTH < label0 0.961538461538 26 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY LS'
+						MAX_DEPTH < label0 0.954545454545 44 >
+				<Split_Feature:	SubModel : '4D EXT CAB 4.0L XLT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D MINIVAN EXT 3.5L'
+						MAX_DEPTH < label0 0.818181818182 11 >
+				<Split_Feature:	SubModel : '4D SEDAN LEVEL 3'
+						MAX_DEPTH < label0 0.941176470588 34 >
+				<Split_Feature:	SubModel : '4D SUV 2.2L LS'
+						MAX_DEPTH < label0 0.969696969697 33 >
+				<Split_Feature:	SubModel : '2D COUPE ZX3 S'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.4L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '2D CONVERTIBLE TOURING'
+						MAX_DEPTH < label0 0.970588235294 34 >
+				<Split_Feature:	SubModel : '4D SEDAN PREMIER'
+						MAX_DEPTH < label0 0.789473684211 19 >
+				<Split_Feature:	SubModel : '4D SEDAN EX AUTO'
+						MAX_DEPTH < label0 0.9 40 >
+				<Split_Feature:	SubModel : '4D UTILITY 5.3L FFV LT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D MINIVAN EXT 3.4L GLS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY LX AUTO'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 4.8L LS'
+						MAX_DEPTH < label0 0.842105263158 19 >
+				<Split_Feature:	SubModel : 'SPORT UTILITY'
+						MAX_DEPTH < label0 0.9 30 >
+				<Split_Feature:	SubModel : '2D COUPE EX 5SP'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN ZX4 SE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.7L LIMITED'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN ZX4 SES'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 2.3L CONVENIENCE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 4.2L LT'
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	SubModel : '4D SEDAN ES HIGHLINE'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D UTILITY 5.3L SLT'
+						MAX_DEPTH < label0 1 8 >
+				<Split_Feature:	SubModel : '5D SEDAN GS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN'
+						MAX_DEPTH < label0 0.874029335634 1159 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L SXT'
+						MAX_DEPTH < label0 0.888888888889 9 >
+				<Split_Feature:	SubModel : 'EXT CAB 3.5L LS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN CX'
+						MAX_DEPTH < label0 1 9 >
+		<Split_Feature:	r2_minus_r1_avg : '\'(-11485.8--10085.2]\''
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	r2_minus_r1_avg : '\'(-inf--19889.4]\''
+				MIN_CHILDREN < label1 1 1 >
+		<Split_Feature:	r2_minus_r1_avg : '\'(-12886.4--11485.8]\''
+				MIN_CHILDREN < label0 1 3 >
+		<Split_Feature:	r2_minus_r1_avg : '\'(1119.6-2520.2]\''
+				<GROW: SubModel >
+				<Split_Feature:	SubModel : '4D WAGON CONVENIENCE'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '4D SPORT TOURER'
+						MAX_DEPTH < label0 1 23 >
+				<Split_Feature:	SubModel : '4D SPORT'
+						MAX_DEPTH < label0 0.897435897436 39 >
+				<Split_Feature:	SubModel : '4D SEDAN SXT'
+						MAX_DEPTH < label0 0.833333333333 30 >
+				<Split_Feature:	SubModel : '4D WAGON SE'
+						MAX_DEPTH < label0 1 8 >
+				<Split_Feature:	SubModel : '2D EXT CAB 3.0L XLT'
+						MIN_CHILDREN < label1 0.5 2 >
+				<Split_Feature:	SubModel : '4D SEDAN SX'
+						MIN_CHILDREN < label1 1 2 >
+				<Split_Feature:	SubModel : '2D COUPE LX 5SP'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'CREW CAB 3.5L Z71'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN LT 3.9L'
+						MAX_DEPTH < label0 1 16 >
+				<Split_Feature:	SubModel : '4D CUV 2.2L'
+						MAX_DEPTH < label0 1 17 >
+				<Split_Feature:	SubModel : '4D SEDAN CXL'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.6L'
+						MAX_DEPTH < label0 0.869565217391 23 >
+				<Split_Feature:	SubModel : '4D SEDAN LS PREMIUM'
+						MAX_DEPTH < label0 0.727272727273 11 >
+				<Split_Feature:	SubModel : 'REG CAB 2.2L SL'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN LT 3.5L'
+						MAX_DEPTH < label0 0.942857142857 35 >
+				<Split_Feature:	SubModel : '4D SUV 5.9L R/T'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '4D UTILITY 4.8L SLE'
+						MAX_DEPTH < label0 0.6 10 >
+				<Split_Feature:	SubModel : 'CREW CAB 3.5L SLE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN LS 3.5L FFV'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN CE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D CUV 2.3L XLS'
+						MAX_DEPTH < label0 0.866666666667 15 >
+				<Split_Feature:	SubModel : '4D SEDAN SES'
+						MAX_DEPTH < label0 1 16 >
+				<Split_Feature:	SubModel : '4D CUV 3.5L'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SPORTBACK LS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.4L LS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV-PICKUP 5.3L Z66'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SEDAN EX'
+						MAX_DEPTH < label0 0.954545454545 22 >
+				<Split_Feature:	SubModel : '5D MINIVAN LE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.9L SE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'CREW CAB 4.6L KING RANCH'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D WAGON SXT'
+						MAX_DEPTH < label0 1 18 >
+				<Split_Feature:	SubModel : '4D WAGON SX'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '2D COUPE LT'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY EX-P'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY I'
+						MAX_DEPTH < label0 1 8 >
+				<Split_Feature:	SubModel : '2D CONVERTIBLE'
+						MAX_DEPTH < label0 0.625 16 >
+				<Split_Feature:	SubModel : '4D PASSENGER 3.8L SEL'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SUV 5.3L LS'
+						MAX_DEPTH < label0 0.777777777778 9 >
+				<Split_Feature:	SubModel : '4D SEDAN SE'
+						MAX_DEPTH < label0 0.907692307692 195 >
+				<Split_Feature:	SubModel : '4D SUV-PICKUP 5.3L'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '2D COUPE GL'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV RENEGADE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 2.3L EDGE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN LIMITED AWD'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 5.7L SLT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'REG CAB 5.9L SLT'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 3.7L'
+						MAX_DEPTH < label0 0.935483870968 31 >
+				<Split_Feature:	SubModel : '4D SUV 3.0L PREMIER'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 4.8L LT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '2D COUPE GL2'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN ES'
+						MAX_DEPTH < label0 0.75 8 >
+				<Split_Feature:	SubModel : '4D SUV 4.6L EDDIE BAUER'
+						MAX_DEPTH < label0 0.9375 16 >
+				<Split_Feature:	SubModel : 'REG CAB 3.7L ST'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '2D EXT CAB 3.0L EDGE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L'
+						MAX_DEPTH < label0 1 28 >
+				<Split_Feature:	SubModel : 'REG CAB 4.8L LS'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SUV 4.2L LTZ'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D HATCHBACK AWD'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'QUAD CAB 3.7L SPORT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.5L LT'
+						MAX_DEPTH < label0 0.8 5 >
+				<Split_Feature:	SubModel : '4D WAGON FREEDOM'
+						MIN_CHILDREN < label1 0.666666666667 3 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY'
+						MAX_DEPTH < label0 0.925925925926 27 >
+				<Split_Feature:	SubModel : 'CREW CAB 5.4L XLT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN GLS'
+						MAX_DEPTH < label0 0.823529411765 17 >
+				<Split_Feature:	SubModel : '4D SUV LIMITED'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY LE'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SEDAN GLE'
+						MIN_CHILDREN < label1 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN 3.5L SE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.9L LX'
+						MAX_DEPTH < label0 0.6 5 >
+				<Split_Feature:	SubModel : 'QUAD CAB 5.7L'
+						MAX_DEPTH < label0 1 17 >
+				<Split_Feature:	SubModel : '4D SEDAN ZX4'
+						MAX_DEPTH < label0 1 10 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L LIMITED'
+						MIN_CHILDREN < label1 0.5 2 >
+				<Split_Feature:	SubModel : 'MAZDA3 4D I SPORT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN 2.5 S'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 2.2L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L LXI'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SUV HARDTOP 2.2L LT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN PKG1'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : 'CREW CAB 5.3L'
+						MAX_DEPTH < label0 1 14 >
+				<Split_Feature:	SubModel : '4D CUV 2.2L XE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN SEL'
+						MAX_DEPTH < label0 0.96875 64 >
+				<Split_Feature:	SubModel : 'QUAD CAB 3.9L SPORT'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '4D PASSENGER 3.9L SES'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D SUV 5.3L FFV LS'
+						MAX_DEPTH < label0 1 20 >
+				<Split_Feature:	SubModel : '5D SEDAN ZX5'
+						MIN_CHILDREN < label0 0.666666666667 3 >
+				<Split_Feature:	SubModel : '4D SEDAN DX'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 2.4L LUXURY'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN LS'
+						MAX_DEPTH < label0 0.872093023256 86 >
+				<Split_Feature:	SubModel : '4D CUV 3.0L XLT'
+						MAX_DEPTH < label0 0.894736842105 38 >
+				<Split_Feature:	SubModel : '4D SUV 3.7L SXT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'CREW CAB 5.4L HARLEY DAVIDSON'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D UTILITY 4.8L SLT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'QUAD CAB 3.7L SLT'
+						MIN_CHILDREN < label1 0.5 2 >
+				<Split_Feature:	SubModel : '4D SUV 5.7L LIMITED'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SEDAN AWD SE'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'CREW CAB 3.3L XE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L SLT'
+						MAX_DEPTH < label0 0.9375 32 >
+				<Split_Feature:	SubModel : '4D SEDAN GTP'
+						MAX_DEPTH < label0 1 10 >
+				<Split_Feature:	SubModel : '4D CUV 3.0L XLS'
+						MAX_DEPTH < label0 1 9 >
+				<Split_Feature:	SubModel : '4D CROSSOVER SEL'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '2D CONVERTIBLE DREAM CRUISER'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN ZX4 ST'
+						MIN_CHILDREN < label1 0.5 2 >
+				<Split_Feature:	SubModel : '2D HATCKBACK SI 5SP'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN SL1'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN S'
+						MAX_DEPTH < label0 1 18 >
+				<Split_Feature:	SubModel : '4D SUV 5.4L EDDIE BAUER'
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.8L'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN LUXURY'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D SEDAN LX'
+						MAX_DEPTH < label0 1 30 >
+				<Split_Feature:	SubModel : '4D SEDAN LT 3.5L FFV'
+						MAX_DEPTH < label0 1 51 >
+				<Split_Feature:	SubModel : '2D COUPE ZX3'
+						MAX_DEPTH < label0 1 10 >
+				<Split_Feature:	SubModel : '2D COUPE R/T'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'QUAD CAB 5.9L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV 5.4L XLT'
+						MAX_DEPTH < label0 0.705882352941 17 >
+				<Split_Feature:	SubModel : '4D SUV LS'
+						MAX_DEPTH < label0 1 13 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY SR5'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 3.5L LS'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'REG CAB 3.7L SXT'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D PASSENGER 4.2L SEL'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV LT'
+						MAX_DEPTH < label0 0.947368421053 19 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY ES'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.8L LS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'QUAD CAB 4.7L ST'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D UTILITY 5.3L FFV'
+						MAX_DEPTH < label0 1 12 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L SPORT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'QUAD CAB 4.7L BIG HORN'
+						MIN_CHILDREN < label0 0.75 4 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.5L LS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.3L LS'
+						MAX_DEPTH < label0 1 10 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.6L HERITAGE XL'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV 4.8L'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : 'CREW CAB 3.5L LS'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'QUAD CAB 5.7L SLT'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D SUV 4.0L XLT'
+						MAX_DEPTH < label0 0.833333333333 6 >
+				<Split_Feature:	SubModel : 'QUAD CAB 3.7L ST'
+						MAX_DEPTH < label0 1 12 >
+				<Split_Feature:	SubModel : 'REG CAB 4.2L STX'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'EXT CAB 3.0L EDGE'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L ADVENTURER'
+						MAX_DEPTH < label0 1 9 >
+				<Split_Feature:	SubModel : '4D SEDAN SE FFV'
+						MAX_DEPTH < label0 0.888888888889 9 >
+				<Split_Feature:	SubModel : '4D SEDAN ZTS'
+						MIN_CHILDREN < label1 0.5 2 >
+				<Split_Feature:	SubModel : '4D SEDAN LIMITED'
+						MAX_DEPTH < label0 0.913043478261 23 >
+				<Split_Feature:	SubModel : 'JEEP SPORT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 4.6L STX'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : 'CREW CAB 5.3L LS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'QUAD CAB 4.7L FFV BIG HORN'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '2D COUPE GS'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D UTILITY 4.2L SLE'
+						MAX_DEPTH < label0 1 31 >
+				<Split_Feature:	SubModel : '4D SEDAN GL2'
+						MAX_DEPTH < label0 0.8 5 >
+				<Split_Feature:	SubModel : '4D SUV HARDTOP 2.0L'
+						MIN_CHILDREN < label1 0.5 2 >
+				<Split_Feature:	SubModel : '4D UTILITY 5.3L FFV LS'
+						MAX_DEPTH < label0 1 10 >
+				<Split_Feature:	SubModel : '2D COUPE GLS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV 3.7L SLT'
+						MAX_DEPTH < label0 1 9 >
+				<Split_Feature:	SubModel : '4D SUV 4.0L'
+						MAX_DEPTH < label0 0.888888888889 9 >
+				<Split_Feature:	SubModel : '4D SEDAN GT'
+						MAX_DEPTH < label0 0.921875 64 >
+				<Split_Feature:	SubModel : 'REG CAB 2.2L FFV'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 2.5L XLT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 4.3L SLE'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 5.7L SLT'
+						MAX_DEPTH < label0 0.904761904762 21 >
+				<Split_Feature:	SubModel : '4D SEDAN LEVEL 1'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'WAGON 2.7L'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D UTILITY XUV 5.3L SLE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY TOURING NAV DVD'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 5.7L HEMI LIMITED'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN CXS'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN SE COMFORT'
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	SubModel : 'REG CAB 4.0L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L LIMITED'
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	SubModel : '3D EXT CAB 4.3L'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '2D COUPE GT'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'WAGON 3.5L SXT'
+						MAX_DEPTH < label0 1 9 >
+				<Split_Feature:	SubModel : 'CREW CAB 5.6L SE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV HARDTOP 2.5L LT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN LE'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : 'MAZDA5 GRAND TOURING'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN R/T'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 4.2L LS'
+						MAX_DEPTH < label0 0.915966386555 119 >
+				<Split_Feature:	SubModel : 'REG CAB 3.7L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L SE'
+						MAX_DEPTH < label0 0.75 8 >
+				<Split_Feature:	SubModel : 'REG CAB 3.0L EDGE'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.3L'
+						MAX_DEPTH < label0 1 13 >
+				<Split_Feature:	SubModel : '4D SPORT TOURING'
+						MAX_DEPTH < label0 0.814814814815 27 >
+				<Split_Feature:	SubModel : '4D SUV 4.0L SPORT TRAC'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SUV 4.6L'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'EXT CAB 3.7L SXT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D WAGON LS PREMIUM'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'CREW CAB 4.6L XLT'
+						MAX_DEPTH < label0 0.923076923077 13 >
+				<Split_Feature:	SubModel : '4D CUV 2.7L GLS'
+						MAX_DEPTH < label0 0.923076923077 13 >
+				<Split_Feature:	SubModel : 'REG CAB 5.3L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN XR'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 5.7L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'CREW CAB 5.4L LARIAT'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L FFV SLT'
+						MAX_DEPTH < label0 0.6 5 >
+				<Split_Feature:	SubModel : '4D SUV 4.2L'
+						MAX_DEPTH < label0 0.980392156863 51 >
+				<Split_Feature:	SubModel : 'REG CAB 4.3L LS'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D WAGON LAREDO'
+						MAX_DEPTH < label0 0.941176470588 51 >
+				<Split_Feature:	SubModel : '4D SEDAN 3.5L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '2D COUPE LS'
+						MAX_DEPTH < label0 1 15 >
+				<Split_Feature:	SubModel : '4D CUV 2.0L XLS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY SPORT EDITION'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 4.6L XLT'
+						MAX_DEPTH < label0 0.953488372093 43 >
+				<Split_Feature:	SubModel : '2D SUV 4.0L SPORT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D HATCHBACK GS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L ST'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D SUV CXL'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 5.3L'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.6L STX'
+						MAX_DEPTH < label0 0.916666666667 12 >
+				<Split_Feature:	SubModel : '4D SEDAN LX AUTO'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SUV 5.3L FFV Z71'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 5.3L FFV'
+						MAX_DEPTH < label0 1 13 >
+				<Split_Feature:	SubModel : '4D SEDAN SE SVG'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SUV SPORT 2.0L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '2D QUAD COUPE LEVEL 2'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'EXT CAB 3.7L'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY LX'
+						MAX_DEPTH < label0 0.785714285714 14 >
+				<Split_Feature:	SubModel : '4D SUV 4.6L XLS'
+						MIN_CHILDREN < label1 0.75 4 >
+				<Split_Feature:	SubModel : '4D SEDAN SEL FFV'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D SEDAN SES DURATEC'
+						MAX_DEPTH < label0 0.9 10 >
+				<Split_Feature:	SubModel : '4D SUV SPORT 2.4L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D UTILITY 6.0L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.0L LE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D WAGON LW300'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN I'
+						MAX_DEPTH < label0 0.722222222222 36 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY SXT'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D CUV 3.0L'
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	SubModel : '4D SEDAN GL'
+						MIN_CHILDREN < label0 0.666666666667 3 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY XE'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '4D MINIVAN EXT 3.4L'
+						MAX_DEPTH < label1 0.666666666667 12 >
+				<Split_Feature:	SubModel : 'REG CAB 2.3L XLT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D WAGON GS'
+						MIN_CHILDREN < label1 1 2 >
+				<Split_Feature:	SubModel : '2D CONVERTIBLE LX'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.9L SEL'
+						MAX_DEPTH < label0 0.8125 16 >
+				<Split_Feature:	SubModel : '4D SEDAN 2.4I'
+						MAX_DEPTH < label0 1 8 >
+				<Split_Feature:	SubModel : '4D UTILITY 4.2L'
+						MAX_DEPTH < label0 1 19 >
+				<Split_Feature:	SubModel : '4D SUV'
+						MAX_DEPTH < label0 0.965517241379 29 >
+				<Split_Feature:	SubModel : '4D SEDAN SE AUTO'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'CREW CAB 5.6L LE'
+						MAX_DEPTH < label0 0.8 10 >
+				<Split_Feature:	SubModel : '4D SEDAN LXI'
+						MAX_DEPTH < label0 1 12 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.2L W/T'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D UTILITY 4.2L SLT'
+						MAX_DEPTH < label0 1 10 >
+				<Split_Feature:	SubModel : '4D SEDAN XE'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L SXT'
+						MAX_DEPTH < label0 1 18 >
+				<Split_Feature:	SubModel : '4D SEDAN LT'
+						MAX_DEPTH < label0 0.923076923077 39 >
+				<Split_Feature:	SubModel : 'CREW CAB 4.0L LE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN SL'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'CREW CAB 4.6L LARIAT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D WAGON LIMITED'
+						MAX_DEPTH < label1 0.5 8 >
+				<Split_Feature:	SubModel : '3D EXT CAB 2.2L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'WAGON R/T'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '2D COUPE EX AUTO'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '2D SPYDER GT'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.6L LE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 2.8L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'REG CAB 2.8L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D UTILITY XUV 4.2L SLE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'DOUBLE CAB LS 3.7L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN LEVEL 2'
+						MAX_DEPTH < label0 1 17 >
+				<Split_Feature:	SubModel : '4D SUV 5.7L HEMI SLT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB LS SPECIAL 3.7L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.9L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '5D SEDAN I'
+						MAX_DEPTH < label0 0.7 10 >
+				<Split_Feature:	SubModel : 'EXT CAB 2.4L XE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'QUAD CAB 5.7L BIG HORN'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L SPORT'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY 5 PASS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'QUAD CAB 3.7L'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D SEDAN LS CLASSIC'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.3L LS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN TYPE S NAVIGATION'
+						MIN_CHILDREN < label1 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN O-Z RALLY'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV SPORT'
+						MAX_DEPTH < label0 0.8125 16 >
+				<Split_Feature:	SubModel : '2D CONVERTIBLE GTC'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 3.0L'
+						MAX_DEPTH < label0 1 16 >
+				<Split_Feature:	SubModel : 'REG CAB 5.4L XL'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 3.5L Z71 LS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY EX'
+						MAX_DEPTH < label0 0.892857142857 28 >
+				<Split_Feature:	SubModel : '4D SEDAN SEL AWD'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'QUAD CAB 4.7L'
+						MAX_DEPTH < label0 1 11 >
+				<Split_Feature:	SubModel : '4D CROSSOVER SE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'WAGON 3.5L'
+						MAX_DEPTH < label0 1 13 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L ES'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV CX'
+						MAX_DEPTH < label0 0.777777777778 9 >
+				<Split_Feature:	SubModel : 'EXT CAB 3.7L SLT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY SE'
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	SubModel : '2D COUPE TYPE S'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 4.0L XLS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'CREW CAB 4.7L SR5'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'REG CAB 4.7L SLT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '2D CONVERTIBLE GT'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN Z24'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN SE AWD'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.8L LX'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'CREW CAB 3.3L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'MINIVAN 2.4L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L LX'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L EX'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV 5.4L'
+						MIN_CHILDREN < label1 1 2 >
+				<Split_Feature:	SubModel : '4D UTILITY 5.3L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN CLASSIC'
+						MAX_DEPTH < label0 1 8 >
+				<Split_Feature:	SubModel : 'MINIVAN 2.4L SE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY LIMITED'
+						MAX_DEPTH < label0 0.9 10 >
+				<Split_Feature:	SubModel : 'CREW CAB 5.4L KING RANCH'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L SPORT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D CUV 2.7L'
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	SubModel : 'QUAD CAB 4.7L SLT'
+						MAX_DEPTH < label0 1 14 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.4L LARIAT'
+						MAX_DEPTH < label0 0.777777777778 9 >
+				<Split_Feature:	SubModel : '4D UTILITY 5.3L LS'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN LT 3.8L FFV'
+						MAX_DEPTH < label0 1 9 >
+				<Split_Feature:	SubModel : '4D CUV DLX'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY XLS'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : 'REG CAB 4.7L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN SE1'
+						MAX_DEPTH < label0 1 22 >
+				<Split_Feature:	SubModel : '4D CUV 3.0L SE'
+						MAX_DEPTH < label0 0.928571428571 28 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.9L LIMITED'
+						MAX_DEPTH < label0 1 9 >
+				<Split_Feature:	SubModel : '4D SEDAN L300'
+						MAX_DEPTH < label0 1 9 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.4L'
+						MAX_DEPTH < label0 0.571428571429 7 >
+				<Split_Feature:	SubModel : '4D UTILITY 5.3L SLE'
+						MAX_DEPTH < label0 1 11 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L'
+						MAX_DEPTH < label0 0.966666666667 30 >
+				<Split_Feature:	SubModel : 'REG CAB 3.9L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '2D QUAD COUPE LEVEL 3'
+						MIN_CHILDREN < label1 0.5 2 >
+				<Split_Feature:	SubModel : '4D SEDAN TOURING TURBO'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'CREW CAB 5.6L'
+						MAX_DEPTH < label0 1 8 >
+				<Split_Feature:	SubModel : '2D COUPE'
+						MAX_DEPTH < label0 0.979591836735 49 >
+				<Split_Feature:	SubModel : '4D SEDAN 6SP'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D CUV 3.0L LIMITED'
+						MAX_DEPTH < label0 1 8 >
+				<Split_Feature:	SubModel : '4D WAGON SPORT'
+						MIN_CHILDREN < label0 0.666666666667 3 >
+				<Split_Feature:	SubModel : '4D SEDAN EXECUTIVE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN 1.8'
+						MAX_DEPTH < label0 0.8 5 >
+				<Split_Feature:	SubModel : '4D WAGON'
+						MAX_DEPTH < label0 0.933333333333 30 >
+				<Split_Feature:	SubModel : '4D SEDAN AUTO'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'MEGA CAB 5.7L SLT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.3L'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'MINIVAN 2.4L LX'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.5L LS'
+						MAX_DEPTH < label0 0.75 8 >
+				<Split_Feature:	SubModel : '4D SUV 2.3L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN CUSTOM'
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	SubModel : 'QUAD CAB 3.9L SLT'
+						MIN_CHILDREN < label0 0.666666666667 3 >
+				<Split_Feature:	SubModel : '4D SUV 3.0L LUXURY'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 5.3L LT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN 2.7L'
+						MAX_DEPTH < label0 1 8 >
+				<Split_Feature:	SubModel : '2D COUPE SE1'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 4.0L FFV XLT'
+						MAX_DEPTH < label0 0.777777777778 18 >
+				<Split_Feature:	SubModel : '4D SUV HARDTOP 2.5L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN TOURING'
+						MAX_DEPTH < label0 1 22 >
+				<Split_Feature:	SubModel : '2D COUPE SS'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN SS'
+						MIN_CHILDREN < label1 0.5 2 >
+				<Split_Feature:	SubModel : '2D COUPE SE'
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY S'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D WAGON LAREDO FFV'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 5.9L SLT'
+						MAX_DEPTH < label0 0.714285714286 7 >
+				<Split_Feature:	SubModel : '4D SUV 5.4L XLS'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '4D PASSENGER 3.8L SE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D CUV 3.5L GLS'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN DE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'CREW CAB 4.8L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.7L SR5'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 4.0L FFV XLS'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN GT2'
+						MAX_DEPTH < label0 1 15 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L FFV SE'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D WAGON LW200'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 2.2L LT'
+						MAX_DEPTH < label0 1 14 >
+				<Split_Feature:	SubModel : '2D COUPE LIMTED'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L SXT'
+						MAX_DEPTH < label0 0.933333333333 15 >
+				<Split_Feature:	SubModel : '4D HATCHBACK ZX5'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.5L'
+						MIN_CHILDREN < label0 0.75 4 >
+				<Split_Feature:	SubModel : '4D SUV 5.3L FFV LT'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '2D SUV 4.0L SPORT XLS'
+						MAX_DEPTH < label0 1 8 >
+				<Split_Feature:	SubModel : '4D SEDAN GS'
+						MAX_DEPTH < label0 0.8 5 >
+				<Split_Feature:	SubModel : '4D CUV 3.0L SEL'
+						MAX_DEPTH < label0 0.941176470588 34 >
+				<Split_Feature:	SubModel : 'WAGON LX'
+						MIN_CHILDREN < label1 0.5 2 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.9L LS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L'
+						MAX_DEPTH < label0 0.885714285714 35 >
+				<Split_Feature:	SubModel : 'REG CAB 4.2L XL'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY LS'
+						MAX_DEPTH < label0 1 13 >
+				<Split_Feature:	SubModel : '4D CUV'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D UTILITY 4.8L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D MINIVAN EXT 3.5L'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN LEVEL 3'
+						MAX_DEPTH < label0 1 14 >
+				<Split_Feature:	SubModel : '4D SUV 2.2L LS'
+						MAX_DEPTH < label0 0.833333333333 6 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.4L'
+						MIN_CHILDREN < label1 1 2 >
+				<Split_Feature:	SubModel : '2D CONVERTIBLE TOURING'
+						MAX_DEPTH < label0 1 14 >
+				<Split_Feature:	SubModel : '4D SEDAN PREMIER'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN EX AUTO'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D UTILITY 5.3L FFV LT'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 4.8L LS'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : 'SPORT UTILITY'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '2D COUPE EX 5SP'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN ZX4 SE'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 4.2L LT'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SEDAN ES HIGHLINE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D WAGON LL BEAN'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN'
+						MAX_DEPTH < label0 0.91847826087 368 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY XL7'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN CX'
+						MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	r2_minus_r1_avg : '\'(-5883.4--4482.8]\''
+				CONF_CLASS < label0 1 48 >
+		<Split_Feature:	r2_minus_r1_avg : '\'(13725-15125.6]\''
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	r2_minus_r1_avg : '\'(12324.4-13725]\''
+				CONF_CLASS < label0 1 11 >
+		<Split_Feature:	r2_minus_r1_avg : '\'(-3082.2--1681.6]\''
+				<GROW: SubModel >
+				<Split_Feature:	SubModel : '4D SUV 4.6L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN LTZ'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 4.6L XLT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '2D COUPE GT PREMIUM'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D UTILITY 5.3L'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SPORT'
+						MAX_DEPTH < label0 0.818181818182 11 >
+				<Split_Feature:	SubModel : 'WAGON 3.5L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN SXT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN S'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SUV 5.3L FFV LS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D WAGON SE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L ST'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV CXL'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.6L STX'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.4L LARIAT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'QUAD CAB 3.9L SPORT'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.3L SLE'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN LX'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN LT 3.5L FFV'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 5.7L HEMI'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 5.3L XLT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV ULTRA'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.6L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '5D HATCHBACK I'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '2D QUAD COUPE LEVEL 2'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 5.4L XLT'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D SEDAN LS PREMIUM'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY XLS'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SUV LS'
+						MAX_DEPTH < label0 1 11 >
+				<Split_Feature:	SubModel : 'REG CAB 4.7L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'REG CAB 3.5L LS'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN LT'
+						MAX_DEPTH < label0 1 12 >
+				<Split_Feature:	SubModel : '4D SUV 4.8L LS'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN LS 3.5L FFV'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV LT'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY ES'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.6L XLT'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.4L'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : 'REG CAB 4.3L'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'QUAD CAB 4.7L BIG HORN'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 3.7L SLT'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN L300'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN GT'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.3L LS'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN I'
+						MAX_DEPTH < label0 0.857142857143 7 >
+				<Split_Feature:	SubModel : '2D QUAD COUPE LEVEL 3'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'CREW CAB 5.4L FFV FX4'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '4D HATCHBACK ZX5 SE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV 4.8L'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '2D COUPE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'QUAD CAB 5.7L SLT'
+						MAX_DEPTH < label0 0.8 5 >
+				<Split_Feature:	SubModel : '4D SUV 4.0L XLT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D CUV 3.0L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D WAGON SX'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D CUV 3.0L LIMITED'
+						MIN_CHILDREN < label1 0.5 4 >
+				<Split_Feature:	SubModel : '2D COUPE GT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L ADVENTURER'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '2D COUPE LX AUTO'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN EXECUTIVE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '2D CONVERTIBLE'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D SEDAN LIMITED'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D WAGON'
+						MAX_DEPTH < label0 1 10 >
+				<Split_Feature:	SubModel : '4D SEDAN 2.4I'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D CUV 3.0L SEL'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'CREW CAB 5.3L LS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN SE'
+						MAX_DEPTH < label0 0.75 12 >
+				<Split_Feature:	SubModel : '4D SUV-PICKUP 5.3L'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.3L'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '2D COUPE GS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D UTILITY 4.2L SLE'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SUV RENEGADE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D CUV 2.3L XLS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.5L LS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN T5'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D UTILITY 4.2L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV'
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	SubModel : '4D SEDAN LIMITED AWD'
+						MIN_CHILDREN < label1 1 2 >
+				<Split_Feature:	SubModel : '4D SUV 3.0L LUXURY'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'CREW CAB 5.7L LIMITED'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '4D UTILITY 5.3L FFV LS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D WAGON LW300'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 3.7L'
+						MAX_DEPTH < label0 0.923076923077 13 >
+				<Split_Feature:	SubModel : '4D SUV 3.0L PREMIER'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV 4.0L FFV XLT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'CREW CAB 5.6L LE'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN LXI'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '2D COUPE GL2'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN ES'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.2L W/T'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '2D COUPE SS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV 5.7L LIMITED'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY LE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.4L XL'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN XE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '2D COUPE SE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 5.7L SLT'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN SE1'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY S'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 4.8L LS'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 4.2L'
+						MAX_DEPTH < label0 0.954545454545 22 >
+				<Split_Feature:	SubModel : '4D WAGON LIMITED'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV LIMITED'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D CUV 3.5L GLS'
+						MIN_CHILDREN < label1 0.5 2 >
+				<Split_Feature:	SubModel : 'CREW CAB 6.0L LT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D WAGON CINCO'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '2D HATCHBACK'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '2D SPYDER GT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN GT2'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.6L FX2 SPORT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.9L LT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN EX'
+						MAX_DEPTH < label0 0.714285714286 7 >
+				<Split_Feature:	SubModel : '4D SUV 5.7L HEMI SLT'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SUV 4.0L FFV XLS'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '2D COUPE LXI'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'QUAD CAB 5.7L'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D SPORTBACK LS'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 2.2L'
+						MAX_DEPTH < label0 1 10 >
+				<Split_Feature:	SubModel : '4D CUV 2.2L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'QUAD CAB 5.7L BIG HORN'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L SPORT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'QUAD CAB 3.7L'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'WAGON LX'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 4.2L LS'
+						MAX_DEPTH < label0 1 8 >
+				<Split_Feature:	SubModel : '4D SEDAN O-Z RALLY'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L'
+						MAX_DEPTH < label0 0.8 5 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY LS'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L SE'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SUV SPORT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'CREW CAB 4.7L LIMITED'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '5D HATCHBACK S'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D CUV'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.3L'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'CREW CAB 5.3L'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D MINIVAN EXT 3.5L'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '2D CONVERTIBLE LIMITED'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY EX'
+						MAX_DEPTH < label0 0.833333333333 6 >
+				<Split_Feature:	SubModel : '4D SEDAN SEL AWD'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN LEVEL 3'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 2.2L LS'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'QUAD CAB 4.7L'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'QUAD CAB 3.7L SLT'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'CREW CAB 4.6L XLT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D CUV 2.7L GLS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D PASSENGER 3.9L SES'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN PREMIER'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D CUV 2.3L XLT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN LT 3.8L FFV'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN EX AUTO'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D UTILITY 5.3L FFV LT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV CX'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D CUV 3.0L SE'
+						MAX_DEPTH < label0 0.833333333333 6 >
+				<Split_Feature:	SubModel : 'SPORT UTILITY'
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	SubModel : '4D SEDAN LS'
+						MAX_DEPTH < label0 1 14 >
+				<Split_Feature:	SubModel : 'CREW CAB 5.6L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D CUV 3.0L XLT'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY SE'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SUV 2.2L 1LT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 4.0L XLS'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN SEL'
+						MAX_DEPTH < label0 1 11 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L FFV SLT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '2D EXT CAB 4.0L XL'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '5D SEDAN GS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN'
+						MAX_DEPTH < label0 0.875 40 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L SLT'
+						MAX_DEPTH < label0 1 9 >
+				<Split_Feature:	SubModel : '4D SEDAN GTP'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.3L SLE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D CUV 3.0L XLS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D CROSSOVER SEL'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN 3.5L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 5.7L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 3.5L LS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN CX'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D WAGON LAREDO'
+						MAX_DEPTH < label0 0.909090909091 11 >
+		<Split_Feature:	r2_minus_r1_avg : '\'(15125.6-16526.2]\''
+				CONF_CLASS < label0 1 5 >
+		<Split_Feature:	r2_minus_r1_avg : '\'(9523.2-10923.8]\''
+				CONF_CLASS < label0 0.95 40 >
+		<Split_Feature:	r2_minus_r1_avg : '\'(-281-1119.6]\''
+				<GROW: Auction >
+				<Split_Feature:	Auction : OTHER
+						MAX_DEPTH < label0 0.752357008171 4773 >
+				<Split_Feature:	Auction : MANHEIM
+						MAX_DEPTH < label0 0.848524640816 12946 >
+				<Split_Feature:	Auction : ADESA
+						MAX_DEPTH < label0 0.722222222222 4950 >
+		<Split_Feature:	r2_minus_r1_avg : '\'(5321.4-6722]\''
+				<GROW: VehBCost >
+				<Split_Feature:	VehBCost : '\'(11390.8-13289.1]\''
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	VehBCost : '\'(3797.6-5695.9]\''
+						MAX_DEPTH < label0 0.939393939394 33 >
+				<Split_Feature:	VehBCost : '\'(1899.3-3797.6]\''
+						MIN_CHILDREN < label1 1 4 >
+				<Split_Feature:	VehBCost : '\'(7594.2-9492.5]\''
+						MAX_DEPTH < label0 1 9 >
+				<Split_Feature:	VehBCost : '\'(5695.9-7594.2]\''
+						MAX_DEPTH < label0 0.888888888889 9 >
+		<Split_Feature:	r2_minus_r1_avg : '\'(-14287--12886.4]\''
+				MIN_CHILDREN < label0 0.666666666667 3 >
+		<Split_Feature:	r2_minus_r1_avg : '\'(-15687.6--14287]\''
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	r2_minus_r1_avg : '\'(-10085.2--8684.6]\''
+				CONF_CLASS < label0 1 6 >
+ <Split_Feature:	WheelType : Special
+		<GROW: SubModel >
+		<Split_Feature:	SubModel : '2D CONVERTIBLE DREAM CRUISER'
+				MIN_CHILDREN < label1 1 3 >
+		<Split_Feature:	SubModel : 'MINIVAN 3.3L LX'
+				MIN_CHILDREN < label1 1 3 >
+		<Split_Feature:	SubModel : '4D SEDAN 2.7L SE'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '4D SUV 4.6L XLT'
+				<GROW: r2_minus_r1_avg >
+				<Split_Feature:	r2_minus_r1_avg : '\'(-281-1119.6]\''
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	r2_minus_r1_avg : '\'(2520.2-3920.8]\''
+						MIN_CHILDREN < label1 1 2 >
+				<Split_Feature:	r2_minus_r1_avg : '\'(-1681.6--281]\''
+						MIN_CHILDREN < label1 1 4 >
+		<Split_Feature:	SubModel : '4D SPORT TOURER'
+				MIN_CHILDREN < label1 1 1 >
+		<Split_Feature:	SubModel : '4D SUV 5.4L'
+				MIN_CHILDREN < label1 1 1 >
+		<Split_Feature:	SubModel : '4D SEDAN CLASSIC'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : '4D SEDAN SXT'
+				MIN_CHILDREN < label0 1 4 >
+		<Split_Feature:	SubModel : '4D SEDAN S'
+				CONF_CLASS < label0 1 7 >
+		<Split_Feature:	SubModel : '4D WAGON SE'
+				MIN_CHILDREN < label0 1 3 >
+		<Split_Feature:	SubModel : '4D SUV 4.7L SPORT'
+				MIN_CHILDREN < label1 1 1 >
+		<Split_Feature:	SubModel : '4D SUV 5.4L EDDIE BAUER'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '4D SUV 5.3L'
+				MIN_CHILDREN < label0 1 4 >
+		<Split_Feature:	SubModel : 'QUAD CAB 4.7L SLT'
+				<GROW: MMRCurrentAuctionAveragePrice >
+				<Split_Feature:	MMRCurrentAuctionAveragePrice : '\'(3572.2-4762.933333]\''
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	MMRCurrentAuctionAveragePrice : '\'(7144.4-8335.133333]\''
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	MMRCurrentAuctionAveragePrice : '\'(5953.666667-7144.4]\''
+						MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : 'EXT CAB 4.8L'
+				MIN_CHILDREN < label0 1 3 >
+		<Split_Feature:	SubModel : 'EXT CAB 4.6L STX'
+				MIN_CHILDREN < label0 1 3 >
+		<Split_Feature:	SubModel : 'EXT CAB 5.4L LARIAT'
+				MIN_CHILDREN < label0 1 3 >
+		<Split_Feature:	SubModel : '4D WAGON GS'
+				MIN_CHILDREN < label0 1 3 >
+		<Split_Feature:	SubModel : '4D UTILITY 5.3L LS'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : '4D SEDAN LX'
+				CONF_CLASS < label0 1 10 >
+		<Split_Feature:	SubModel : '4D CUV 2.2L'
+				MIN_CHILDREN < label0 1 3 >
+		<Split_Feature:	SubModel : '2D COUPE ZX3'
+				CONF_CLASS < label0 1 5 >
+		<Split_Feature:	SubModel : 'CREW CAB 5.4L HARLEY DAVIDSON'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '4D UTILITY 4.8L SLE'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '2D QUAD COUPE LEVEL 2'
+				<GROW: r2_avg_minus_vehbc >
+				<Split_Feature:	r2_avg_minus_vehbc : '\'(-667.633333-1513.6]\''
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	r2_avg_minus_vehbc : '\'(1513.6-3694.833333]\''
+						MIN_CHILDREN < label1 1 2 >
+		<Split_Feature:	SubModel : '4D SUV 5.4L XLT'
+				<GROW: VNST >
+				<Split_Feature:	VNST : OK
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	VNST : AZ
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	VNST : CO
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	VNST : LA
+						MIN_CHILDREN < label1 1 1 >
+		<Split_Feature:	SubModel : '4D SEDAN LS PREMIUM'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '4D SEDAN LT 3.5L'
+				MIN_CHILDREN < label1 1 2 >
+		<Split_Feature:	SubModel : 'EXT CAB 3.7L'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '4D SEDAN LT'
+				CONF_CLASS < label0 1 5 >
+		<Split_Feature:	SubModel : 'QUAD CAB 4.7L LARAMIE'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '4D SEDAN LS 3.5L FFV'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : '4D SEDAN 1LT'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : '4D SUV LT'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '4D SEDAN L300'
+				<GROW: vehbc_minus_a1_avg >
+				<Split_Feature:	vehbc_minus_a1_avg : '\'(770.312-2962.590667]\''
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	vehbc_minus_a1_avg : '\'(-1421.966667-770.312]\''
+						MIN_CHILDREN < label1 1 1 >
+		<Split_Feature:	SubModel : '4D UTILITY 5.3L SLE'
+				MIN_CHILDREN < label0 1 3 >
+		<Split_Feature:	SubModel : '2D COUPE ZX2'
+				MIN_CHILDREN < label1 1 1 >
+		<Split_Feature:	SubModel : 'REG CAB 4.2L STX'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '4D UTILITY 5.3L FFV'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : 'MINIVAN 3.8L'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : 'EXT CAB 4.3L W/T'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '4D CUV 2.3L XLS'
+				MIN_CHILDREN < label0 1 3 >
+		<Split_Feature:	SubModel : 'QUAD CAB 4.7L BIG HORN'
+				MIN_CHILDREN < label1 1 2 >
+		<Split_Feature:	SubModel : '4D SPORT UTILITY DX'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : '4D SEDAN GT1'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '4D SEDAN I'
+				<GROW: vehbc_minus_a1_avg >
+				<Split_Feature:	vehbc_minus_a1_avg : '\'(-1421.966667-770.312]\''
+						MAX_DEPTH < label0 1 8 >
+				<Split_Feature:	vehbc_minus_a1_avg : '\'(770.312-2962.590667]\''
+						MIN_CHILDREN < label1 1 4 >
+		<Split_Feature:	SubModel : '2D QUAD COUPE LEVEL 3'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : '4D SEDAN EX'
+				CONF_CLASS < label0 1 8 >
+		<Split_Feature:	SubModel : '4D SUV 4.8L'
+				MIN_CHILDREN < label0 1 3 >
+		<Split_Feature:	SubModel : '2D COUPE'
+				<GROW: vehbc_minus_a1_clean >
+				<Split_Feature:	vehbc_minus_a1_clean : '\'(-3237--1020.8]\''
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	vehbc_minus_a1_clean : '\'(-1020.8-1195.4]\''
+						MAX_DEPTH < label0 0.933333333333 15 >
+		<Split_Feature:	SubModel : 'PASSENGER 3.9L SE'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : 'QUAD CAB 5.7L SLT'
+				CONF_CLASS < label0 1 5 >
+		<Split_Feature:	SubModel : '4D SUV 4.0L SPORT TRAC'
+				MIN_CHILDREN < label1 1 1 >
+		<Split_Feature:	SubModel : 'EXT CAB 4.8L LS'
+				MIN_CHILDREN < label0 1 3 >
+		<Split_Feature:	SubModel : '4D SUV 4.0L XLT'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '4D WAGON SXT'
+				MIN_CHILDREN < label0 1 4 >
+		<Split_Feature:	SubModel : '4D SPORT UTILITY XE'
+				CONF_CLASS < label0 1 6 >
+		<Split_Feature:	SubModel : 'QUAD CAB 4.7L ST'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '2D COUPE LT'
+				MIN_CHILDREN < label0 1 4 >
+		<Split_Feature:	SubModel : '2D COUPE LX AUTO'
+				MIN_CHILDREN < label0 1 3 >
+		<Split_Feature:	SubModel : '4D SPORT UTILITY I'
+				MIN_CHILDREN < label0 1 4 >
+		<Split_Feature:	SubModel : '2D CONVERTIBLE'
+				<GROW: Auction >
+				<Split_Feature:	Auction : OTHER
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	Auction : MANHEIM
+						MAX_DEPTH < label0 1 5 >
+		<Split_Feature:	SubModel : '4D SEDAN LIMITED'
+				<GROW: VNST >
+				<Split_Feature:	VNST : NM
+						MIN_CHILDREN < label1 1 3 >
+				<Split_Feature:	VNST : TX
+						MAX_DEPTH < label0 1 11 >
+				<Split_Feature:	VNST : LA
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	VNST : MO
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	VNST : NC
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	VNST : AZ
+						MIN_CHILDREN < label1 1 1 >
+		<Split_Feature:	SubModel : '4D WAGON'
+				CONF_CLASS < label0 1 6 >
+		<Split_Feature:	SubModel : '2D COUPE SVT'
+				MIN_CHILDREN < label0 1 3 >
+		<Split_Feature:	SubModel : 'REG CAB 4.6L STX'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : 'CREW CAB 5.3L LS'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '4D SUV 5.3L LS'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : '4D SEDAN SE'
+				<GROW: Color >
+				<Split_Feature:	Color : BLUE
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	Color : GOLD
+						MIN_CHILDREN < label1 1 2 >
+				<Split_Feature:	Color : GREY
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	Color : GREEN
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	Color : WHITE
+						MAX_DEPTH < label0 1 8 >
+				<Split_Feature:	Color : SILVER
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	Color : RED
+						MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '4D SUV-PICKUP 5.3L'
+				<GROW: Auction >
+				<Split_Feature:	Auction : OTHER
+						MIN_CHILDREN < label1 1 3 >
+				<Split_Feature:	Auction : MANHEIM
+						MIN_CHILDREN < label0 1 4 >
+		<Split_Feature:	SubModel : 'EXT CAB 4.3L'
+				<GROW: r2_minus_r1_clean >
+				<Split_Feature:	r2_minus_r1_clean : '\'(-2470.666667--835.5]\''
+						MIN_CHILDREN < label1 1 2 >
+				<Split_Feature:	r2_minus_r1_clean : '\'(-835.5-799.666667]\''
+						MIN_CHILDREN < label0 1 3 >
+		<Split_Feature:	SubModel : '4D WAGON EX'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : '4D SEDAN CE'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : '2D COUPE GL'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '4D UTILITY 4.2L SLE'
+				CONF_CLASS < label0 1 7 >
+		<Split_Feature:	SubModel : 'REG CAB 2.3L EDGE'
+				CONF_CLASS < label0 1 7 >
+		<Split_Feature:	SubModel : '4D UTILITY 4.2L'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '4D SEDAN CUSTOM'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '4D SUV'
+				<GROW: VehOdo >
+				<Split_Feature:	VehOdo : '\'(84918.6-88768.4]\''
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	VehOdo : '\'(61819.8-65669.6]\''
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	VehOdo : '\'(81068.8-84918.6]\''
+						MIN_CHILDREN < label1 1 3 >
+				<Split_Feature:	VehOdo : '\'(69519.4-73369.2]\''
+						MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '4D UTILITY 5.3L FFV LS'
+				MIN_CHILDREN < label0 0.75 4 >
+		<Split_Feature:	SubModel : '4D SEDAN 2.7L'
+				MIN_CHILDREN < label0 1 3 >
+		<Split_Feature:	SubModel : 'PASSENGER EXT 3.5L'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : '4D SUV 3.7L'
+				MIN_CHILDREN < label0 1 3 >
+		<Split_Feature:	SubModel : '4D SUV 4.2L LS'
+				<GROW: vehbc_minus_a1_clean >
+				<Split_Feature:	vehbc_minus_a1_clean : '\'(1195.4-3411.6]\''
+						MIN_CHILDREN < label1 1 4 >
+				<Split_Feature:	vehbc_minus_a1_clean : '\'(-1020.8-1195.4]\''
+						MAX_DEPTH < label0 1 9 >
+		<Split_Feature:	SubModel : '4D SEDAN ES'
+				<GROW: MMRCurrentAuctionAveragePrice >
+				<Split_Feature:	MMRCurrentAuctionAveragePrice : '\'(3572.2-4762.933333]\''
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	MMRCurrentAuctionAveragePrice : '\'(4762.933333-5953.666667]\''
+						MIN_CHILDREN < label1 1 2 >
+				<Split_Feature:	MMRCurrentAuctionAveragePrice : '\'(5953.666667-7144.4]\''
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	MMRCurrentAuctionAveragePrice : '\'(2381.466667-3572.2]\''
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	MMRCurrentAuctionAveragePrice : '\'(7144.4-8335.133333]\''
+						MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '4D SEDAN TOURING'
+				MIN_CHILDREN < label0 1 3 >
+		<Split_Feature:	SubModel : '4D SEDAN GT'
+				<GROW: MMRAcquisitionAuctionAveragePrice >
+				<Split_Feature:	MMRAcquisitionAuctionAveragePrice : '\'(7144.4-8335.133333]\''
+						MAX_DEPTH < label0 1 9 >
+				<Split_Feature:	MMRAcquisitionAuctionAveragePrice : '\'(5953.666667-7144.4]\''
+						MIN_CHILDREN < label1 1 3 >
+		<Split_Feature:	SubModel : '4D SPORT UTILITY 2.5X'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : '2D EXT CAB 3.0L EDGE'
+				MIN_CHILDREN < label0 1 4 >
+		<Split_Feature:	SubModel : 'EXT CAB 5.4L XL'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : 'REG CAB 2.5L'
+				MIN_CHILDREN < label1 1 1 >
+		<Split_Feature:	SubModel : '4D SEDAN SXT FFV'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : '2D COUPE SE'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '4D SUV 5.7L SLT'
+				CONF_CLASS < label0 1 5 >
+		<Split_Feature:	SubModel : '4D SEDAN SE1'
+				MIN_CHILDREN < label0 1 4 >
+		<Split_Feature:	SubModel : 'REG CAB 4.8L LS'
+				MIN_CHILDREN < label0 1 3 >
+		<Split_Feature:	SubModel : 'WAGON 2.7L'
+				<GROW: BYRNO >
+				<Split_Feature:	BYRNO : 21047
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	BYRNO : 835
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	BYRNO : 20740
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	BYRNO : 19064
+						MIN_CHILDREN < label1 1 3 >
+				<Split_Feature:	BYRNO : 25100
+						MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '4D SUV 5.4L XLS'
+				MIN_CHILDREN < label1 0.5 2 >
+		<Split_Feature:	SubModel : '4D SEDAN SE COMFORT'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '4D SPORT UTILITY'
+				MIN_CHILDREN < label1 0.5 2 >
+		<Split_Feature:	SubModel : '4D SUV 4.2L'
+				CONF_CLASS < label0 1 5 >
+		<Split_Feature:	SubModel : 'REG CAB 3.7L'
+				CONF_CLASS < label0 1 6 >
+		<Split_Feature:	SubModel : '4D SEDAN GLS'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : 'CREW CAB 4.8L'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : '4D SUV 4.7L LIMITED'
+				MIN_CHILDREN < label0 1 3 >
+		<Split_Feature:	SubModel : '3D EXT CAB 4.3L'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '4D SUV 4.0L FFV XLS'
+				<GROW: MMRCurrentRetailCleanPrice >
+				<Split_Feature:	MMRCurrentRetailCleanPrice : '\'(8212.4-9581.133333]\''
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	MMRCurrentRetailCleanPrice : '\'(6843.666667-8212.4]\''
+						MIN_CHILDREN < label1 1 2 >
+		<Split_Feature:	SubModel : '4D SUV HARDTOP 2.0L'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : '4D SPORT UTILITY LS'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '4D SEDAN GS'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : 'EXT CAB 5.6L LE'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : 'EXT CAB 4.7L SR5'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : 'WAGON 3.5L SXT'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '4D SUV 2.2L LT'
+				MIN_CHILDREN < label0 1 3 >
+		<Split_Feature:	SubModel : '4D SEDAN LEVEL 2'
+				MIN_CHILDREN < label0 0.75 4 >
+		<Split_Feature:	SubModel : '2D COUPE GT'
+				MIN_CHILDREN < label0 1 3 >
+		<Split_Feature:	SubModel : 'QUAD CAB 5.7L'
+				<GROW: Color >
+				<Split_Feature:	Color : BLUE
+						MIN_CHILDREN < label1 1 2 >
+				<Split_Feature:	Color : BLACK
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	Color : GREY
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	Color : GOLD
+						MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : 'MINIVAN 3.8L LIMITED'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : '4D SEDAN LE'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '4D SUV 5.3L FFV'
+				<GROW: WarrantyCost >
+				<Split_Feature:	WarrantyCost : '\'(1869.2-2103.733333]\''
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	WarrantyCost : '\'(1634.666667-1869.2]\''
+						MIN_CHILDREN < label1 1 3 >
+		<Split_Feature:	SubModel : '4D SEDAN R/T'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : 'QUAD CAB 5.7L BIG HORN'
+				MIN_CHILDREN < label1 1 2 >
+		<Split_Feature:	SubModel : 'QUAD CAB 3.7L'
+				MIN_CHILDREN < label0 1 3 >
+		<Split_Feature:	SubModel : 'PASSENGER EXT 3.9L LS'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : 'CREW CAB 5.6L XE'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : '4D SEDAN O-Z RALLY'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : '4D SUV 4.7L'
+				<GROW: BYRNO >
+				<Split_Feature:	BYRNO : 22916
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	BYRNO : 18111
+						MIN_CHILDREN < label1 1 1 >
+		<Split_Feature:	SubModel : 'JEEP X'
+				MIN_CHILDREN < label0 1 3 >
+		<Split_Feature:	SubModel : 'MINIVAN 3.3L SE'
+				MIN_CHILDREN < label1 1 1 >
+		<Split_Feature:	SubModel : '4D SUV SPORT'
+				CONF_CLASS < label0 1 5 >
+		<Split_Feature:	SubModel : '2D CONVERTIBLE GTC'
+				MIN_CHILDREN < label0 1 3 >
+		<Split_Feature:	SubModel : '4D CUV'
+				MIN_CHILDREN < label0 1 3 >
+		<Split_Feature:	SubModel : 'REG CAB 3.0L EDGE'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : 'EXT CAB 5.3L'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : '4D SPORT UTILITY EX'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : '4D SUV 4.0L FFV XLT'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : '4D SEDAN LEVEL 3'
+				MIN_CHILDREN < label0 1 3 >
+		<Split_Feature:	SubModel : '4D SUV 2.2L LS'
+				CONF_CLASS < label0 1 10 >
+		<Split_Feature:	SubModel : 'QUAD CAB 4.7L'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : '4D SEDAN SEL'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : '4D SUV 4.7L SLT'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : 'CREW CAB 4.6L XLT'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '4D SEDAN SPECIAL'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : 'WAGON 3.5L'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '4D SUV 5.3L FFV LS'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : 'MINIVAN 3.8L ES'
+				<GROW: r2_clean_minus_vehbc >
+				<Split_Feature:	r2_clean_minus_vehbc : '\'(1446.4-3656.2]\''
+						MIN_CHILDREN < label1 1 3 >
+				<Split_Feature:	r2_clean_minus_vehbc : '\'(3656.2-5866]\''
+						MIN_CHILDREN < label0 1 3 >
+		<Split_Feature:	SubModel : '4D SUV 4.8L LS'
+				<GROW: VehicleAge >
+				<Split_Feature:	VehicleAge : '\'(5-6]\''
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	VehicleAge : '\'(4-5]\''
+						MIN_CHILDREN < label1 1 2 >
+		<Split_Feature:	SubModel : '4D SEDAN LS'
+				<GROW: Auction >
+				<Split_Feature:	Auction : OTHER
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	Auction : MANHEIM
+						MAX_DEPTH < label0 0.882352941176 17 >
+				<Split_Feature:	Auction : ADESA
+						MIN_CHILDREN < label1 1 2 >
+		<Split_Feature:	SubModel : '2D COUPE ZX5 S'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : 'CREW CAB 5.4L LARIAT'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '4D CUV 3.0L XLT'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : '4D SUV 2.2L 1LT'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : '4D SUV 4.0L XLS'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : 'CREW CAB 4.7L SR5'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : '4D SUV 5.7L LIMITED'
+				MIN_CHILDREN < label0 1 4 >
+		<Split_Feature:	SubModel : '4D SEDAN'
+				<GROW: vehbc_minus_a1_clean >
+				<Split_Feature:	vehbc_minus_a1_clean : '\'(1195.4-3411.6]\''
+						MAX_DEPTH < label1 0.5 8 >
+				<Split_Feature:	vehbc_minus_a1_clean : '\'(-3237--1020.8]\''
+						MAX_DEPTH < label0 1 16 >
+				<Split_Feature:	vehbc_minus_a1_clean : '\'(-1020.8-1195.4]\''
+						MAX_DEPTH < label0 0.898648648649 148 >
+				<Split_Feature:	vehbc_minus_a1_clean : '\'(-5453.2--3237]\''
+						MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : '4D SEDAN L200'
+				MIN_CHILDREN < label0 1 4 >
+		<Split_Feature:	SubModel : 'MINIVAN 3.3L SXT'
+				MIN_CHILDREN < label0 1 3 >
+		<Split_Feature:	SubModel : '4D SEDAN GX'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '4D CUV 3.0L XLS'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '4D MINIVAN EXT 3.4L'
+				MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	SubModel : '2D COUPE LS'
+				<GROW: vehbc_minus_a1_avg >
+				<Split_Feature:	vehbc_minus_a1_avg : '\'(770.312-2962.590667]\''
+						MAX_DEPTH < label0 0.833333333333 6 >
+				<Split_Feature:	vehbc_minus_a1_avg : '\'(-1421.966667-770.312]\''
+						MIN_CHILDREN < label1 1 1 >
+		<Split_Feature:	SubModel : '4D WAGON 2.5I'
+				MIN_CHILDREN < label0 1 2 >
+		<Split_Feature:	SubModel : '4D WAGON LAREDO'
+				MIN_CHILDREN < label0 1 2 >
+ <Split_Feature:	WheelType : Covers
+		<GROW: VehBCost >
+		<Split_Feature:	VehBCost : '\'(1899.3-3797.6]\''
+				<GROW: SubModel >
+				<Split_Feature:	SubModel : '4D SEDAN GL1'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SEDAN L300'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '2D COUPE SE'
+						MAX_DEPTH < label0 0.666666666667 24 >
+				<Split_Feature:	SubModel : '4D SEDAN SXT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L LX'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D SEDAN SL'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN SXT FFV'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN SL1'
+						MAX_DEPTH < label0 0.944444444444 18 >
+				<Split_Feature:	SubModel : '2D SUV 4.0L SPORT'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN EX'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : 'MINIVAN 2.4L EC'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN CLASSIC'
+						MAX_DEPTH < label0 0.854166666667 48 >
+				<Split_Feature:	SubModel : '2D COUPE'
+						MAX_DEPTH < label0 0.977777777778 45 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.4L'
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	SubModel : '4D SEDAN LEVEL 1'
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	SubModel : 'REG CAB 2.3L'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SEDAN S'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.4L ENTERTAINER'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D WAGON SE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN GL'
+						MAX_DEPTH < label0 0.777777777778 27 >
+				<Split_Feature:	SubModel : 'REG CAB 2.2L'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN GLS'
+						MAX_DEPTH < label0 0.944444444444 18 >
+				<Split_Feature:	SubModel : '4D SEDAN GXE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '2D HATCHBACK GS'
+						MIN_CHILDREN < label1 0.5 2 >
+				<Split_Feature:	SubModel : '4D SEDAN SE COMFORT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '2D QUAD COUPE LEVEL 2'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D WAGON GS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN DX'
+						MAX_DEPTH < label1 0.75 8 >
+				<Split_Feature:	SubModel : '4D SEDAN SE FFV'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '2D HATCHBACK'
+						MAX_DEPTH < label0 0.769230769231 13 >
+				<Split_Feature:	SubModel : '4D SEDAN LX'
+						MAX_DEPTH < label0 0.75 104 >
+				<Split_Feature:	SubModel : '4D SEDAN GS'
+						MAX_DEPTH < label0 0.8 15 >
+				<Split_Feature:	SubModel : '2D COUPE ZX3'
+						MAX_DEPTH < label0 0.777777777778 9 >
+				<Split_Feature:	SubModel : '4D SEDAN LS'
+						MAX_DEPTH < label0 0.777777777778 18 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.9L LX'
+						MIN_CHILDREN < label1 1 2 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L SE'
+						MIN_CHILDREN < label0 0.75 4 >
+				<Split_Feature:	SubModel : '4D SEDAN SL2'
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L FFV SE'
+						MAX_DEPTH < label1 0.6 10 >
+				<Split_Feature:	SubModel : '4D SEDAN SE'
+						MAX_DEPTH < label0 0.817307692308 104 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.9L SE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '2D HATCHBACK ZX3'
+						MIN_CHILDREN < label1 1 2 >
+				<Split_Feature:	SubModel : '2D COUPE GS'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SEDAN LS PREMIUM'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '2D COUPE LS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN LEVEL 2'
+						MAX_DEPTH < label0 0.75 12 >
+				<Split_Feature:	SubModel : 'REG CAB 2.3L EDGE'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D SEDAN GL2'
+						MAX_DEPTH < label0 0.7 10 >
+				<Split_Feature:	SubModel : '4D SEDAN'
+						MAX_DEPTH < label0 0.738019169329 313 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.4L VALUE'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN CUSTOM'
+						MAX_DEPTH < label0 0.695652173913 23 >
+				<Split_Feature:	SubModel : '4D SEDAN L200'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN SE1'
+						MAX_DEPTH < label0 0.666666666667 9 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.8L'
+						MAX_DEPTH < label0 0.909090909091 11 >
+				<Split_Feature:	SubModel : '4D SEDAN SES DURATEC'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN ZX4'
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	SubModel : 'REG CAB 3.0L EDGE'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '2D COUPE LX'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '3D COUPE SC1'
+						MAX_DEPTH < label0 0.6 5 >
+				<Split_Feature:	SubModel : '4D PASSENGER 3.8L SE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L FFV SPORT'
+						MAX_DEPTH < label0 0.636363636364 11 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.4L'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '2D COUPE ZX2'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.8L LX'
+						MAX_DEPTH < label0 0.666666666667 33 >
+				<Split_Feature:	SubModel : '4D SEDAN ES'
+						MAX_DEPTH < label0 0.909090909091 11 >
+				<Split_Feature:	SubModel : '4D MINIVAN 3.4L VALUE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'MINIVAN 2.4L'
+						MIN_CHILDREN < label0 0.666666666667 3 >
+				<Split_Feature:	SubModel : 'MINIVAN 2.4L SE'
+						MAX_DEPTH < label0 0.6 5 >
+		<Split_Feature:	VehBCost : '\'(9492.5-11390.8]\''
+				CONF_CLASS < label0 0.96386630533 1107 >
+		<Split_Feature:	VehBCost : '\'(5695.9-7594.2]\''
+				<GROW: SubModel >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L LX'
+						MAX_DEPTH < label0 0.927927927928 111 >
+				<Split_Feature:	SubModel : '4D SUV 4.6L XLT'
+						MAX_DEPTH < label1 0.714285714286 7 >
+				<Split_Feature:	SubModel : '4D SPORT TOURER'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '2D SUV 4.0L SPORT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SPORT'
+						MAX_DEPTH < label0 0.858585858586 99 >
+				<Split_Feature:	SubModel : '4D SEDAN CLASSIC'
+						MAX_DEPTH < label0 1 38 >
+				<Split_Feature:	SubModel : 'MINIVAN 2.4L SE'
+						MAX_DEPTH < label0 0.833333333333 6 >
+				<Split_Feature:	SubModel : '4D SEDAN SXT'
+						MAX_DEPTH < label0 0.875 16 >
+				<Split_Feature:	SubModel : 'REG CAB 2.3L'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN S'
+						MAX_DEPTH < label0 0.936363636364 110 >
+				<Split_Feature:	SubModel : '4D EXT CAB 3.0L FFV XLT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L EL'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN SX'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'QUAD CAB 4.7L SLT'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '2D COUPE LX 5SP'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.6L STX'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN LUXURY'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.4L LARIAT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN EX AUTO'
+						MAX_DEPTH < label0 1 10 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY SR5'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY LX AUTO'
+						MIN_CHILDREN < label1 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN LX AUTO'
+						MAX_DEPTH < label0 0.916666666667 24 >
+				<Split_Feature:	SubModel : '4D SEDAN LT 3.9L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN LX'
+						MAX_DEPTH < label0 0.962264150943 212 >
+				<Split_Feature:	SubModel : '4D CUV 2.2L'
+						MAX_DEPTH < label0 0.925925925926 54 >
+				<Split_Feature:	SubModel : 'REG CAB 2.3L EDGE'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '2D COUPE ZX3'
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	SubModel : 'REG CAB 6.0L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '2D QUAD COUPE LEVEL 2'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : 'EXT CAB LS 3.7L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '2D COUPE DX AUTO'
+						MIN_CHILDREN < label1 0.5 2 >
+				<Split_Feature:	SubModel : '4D CUV 3.0L XLS'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : BASE
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN LT 3.5L'
+						MAX_DEPTH < label0 0.991869918699 123 >
+				<Split_Feature:	SubModel : 'EXT CAB 3.7L'
+						MAX_DEPTH < label0 1 12 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY LX'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '4D SUV LS'
+						MAX_DEPTH < label0 0.907407407407 54 >
+				<Split_Feature:	SubModel : 'REG CAB 4.7L'
+						MAX_DEPTH < label0 0.7 10 >
+				<Split_Feature:	SubModel : '4D SEDAN CUSTOM'
+						MAX_DEPTH < label0 0.666666666667 24 >
+				<Split_Feature:	SubModel : 'WAGON 4D'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN SE1'
+						MAX_DEPTH < label0 0.888888888889 27 >
+				<Split_Feature:	SubModel : '4D SEDAN LS 3.5L FFV'
+						MAX_DEPTH < label0 0.947916666667 96 >
+				<Split_Feature:	SubModel : '4D SUV LT'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.5L'
+						MAX_DEPTH < label0 0.940972222222 288 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.4L'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.8L LS'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'REG CAB 4.2L STX'
+						MAX_DEPTH < label0 0.846153846154 13 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.7L FFV ST'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.9L SEL'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN CE'
+						MAX_DEPTH < label0 0.924242424242 132 >
+				<Split_Feature:	SubModel : 'REG CAB 4.3L'
+						MAX_DEPTH < label0 0.911764705882 34 >
+				<Split_Feature:	SubModel : 'EXT CAB 3.0L EDGE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN L300'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.5L LS'
+						MAX_DEPTH < label0 0.947368421053 38 >
+				<Split_Feature:	SubModel : 'REG CAB 2.9L LS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN GT1'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN I'
+						MAX_DEPTH < label0 0.910447761194 67 >
+				<Split_Feature:	SubModel : '4D SEDAN EX'
+						MAX_DEPTH < label0 0.950724637681 345 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L SPORT'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '2D COUPE'
+						MAX_DEPTH < label0 0.938053097345 113 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.9L SE'
+						MAX_DEPTH < label0 1 63 >
+				<Split_Feature:	SubModel : '4D HATCHBACK'
+						MAX_DEPTH < label0 0.8 10 >
+				<Split_Feature:	SubModel : '4D WAGON SXT'
+						MAX_DEPTH < label0 0.864077669903 206 >
+				<Split_Feature:	SubModel : '4D CUV 3.0L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L LIMITED'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY XE'
+						MAX_DEPTH < label0 0.6 5 >
+				<Split_Feature:	SubModel : '4D CUV 3.0L XLT'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '2D COUPE LT'
+						MAX_DEPTH < label0 1 19 >
+				<Split_Feature:	SubModel : '2D COUPE GT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'EXT CAB 2.9L LS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 4.7L SLT'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '2D EXT CAB 3.0L SE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '2D COUPE LX AUTO'
+						MAX_DEPTH < label0 1 10 >
+				<Split_Feature:	SubModel : '2D CONVERTIBLE LX'
+						MIN_CHILDREN < label0 0.666666666667 3 >
+				<Split_Feature:	SubModel : '4D SEDAN EXECUTIVE'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D HATCHBACK S'
+						MAX_DEPTH < label0 0.947368421053 19 >
+				<Split_Feature:	SubModel : '2D CONVERTIBLE'
+						MAX_DEPTH < label0 1 18 >
+				<Split_Feature:	SubModel : '4D HATCHBACK AWD'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN LIMITED'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN 1.8'
+						MAX_DEPTH < label0 0.973333333333 75 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L'
+						MAX_DEPTH < label0 0.666666666667 6 >
+				<Split_Feature:	SubModel : '4D WAGON'
+						MAX_DEPTH < label0 0.953870211102 1279 >
+				<Split_Feature:	SubModel : '4D HATCHBACK ZX5 S'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 4.6L STX'
+						MAX_DEPTH < label1 0.5 6 >
+				<Split_Feature:	SubModel : '4D WAGON SE'
+						MAX_DEPTH < label0 0.727272727273 22 >
+				<Split_Feature:	SubModel : '4D SEDAN SE'
+						MAX_DEPTH < label0 0.924603174603 252 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.3L'
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	SubModel : '2D COUPE GS'
+						MAX_DEPTH < label0 1 14 >
+				<Split_Feature:	SubModel : '4D WAGON EX'
+						MAX_DEPTH < label0 0.785714285714 28 >
+				<Split_Feature:	SubModel : '2D COUPE GL'
+						MAX_DEPTH < label0 1 18 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L SXT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D CUV 2.3L XLS'
+						MAX_DEPTH < label0 0.894736842105 38 >
+				<Split_Feature:	SubModel : '4D SEDAN GL2'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.5L LS'
+						MAX_DEPTH < label0 0.961038961039 77 >
+				<Split_Feature:	SubModel : '4D WAGON LS'
+						MAX_DEPTH < label0 0.948717948718 39 >
+				<Split_Feature:	SubModel : '4D SUV 2.2L PANEL LS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV'
+						MAX_DEPTH < label0 0.913043478261 69 >
+				<Split_Feature:	SubModel : '4D WAGON LX'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.6L LARIAT'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'REG CAB 5.7L SLT'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L LX'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'PASSENGER 4.2L SE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '2D COUPE GLS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.7L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 3.7L'
+						MAX_DEPTH < label0 0.85 20 >
+				<Split_Feature:	SubModel : '4D SEDAN LS CLASSIC'
+						MAX_DEPTH < label0 0.948717948718 39 >
+				<Split_Feature:	SubModel : '4D HARDTOP LX'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN LXI'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D WAGON S'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SEDAN ES'
+						MAX_DEPTH < label0 0.953846153846 130 >
+				<Split_Feature:	SubModel : '4D SEDAN TOURING'
+						MAX_DEPTH < label0 0.830769230769 65 >
+				<Split_Feature:	SubModel : '4D SEDAN GT'
+						MAX_DEPTH < label0 0.981132075472 53 >
+				<Split_Feature:	SubModel : 'REG CAB 3.7L ST'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '2D EXT CAB 3.0L EDGE'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L'
+						MAX_DEPTH < label0 0.940934065934 728 >
+				<Split_Feature:	SubModel : 'REG CAB 4.8L SLE'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN XE'
+						MAX_DEPTH < label0 1 16 >
+				<Split_Feature:	SubModel : '4D SEDAN SXT FFV'
+						MAX_DEPTH < label0 0.980434782609 460 >
+				<Split_Feature:	SubModel : '4D SUV 5.7L SLT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.8L'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SEDAN LT'
+						MAX_DEPTH < label0 0.927234927235 481 >
+				<Split_Feature:	SubModel : 'REG CAB 4.8L LS'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY DX'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN LEVEL 1'
+						MAX_DEPTH < label0 0.761904761905 21 >
+				<Split_Feature:	SubModel : 'WAGON 2.7L'
+						MAX_DEPTH < label0 1 60 >
+				<Split_Feature:	SubModel : 'REG CAB 4.8L'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D SUV 5.9L SLT'
+						MIN_CHILDREN < label0 0.666666666667 3 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY'
+						MAX_DEPTH < label0 1 16 >
+				<Split_Feature:	SubModel : 'REG CAB 4.7L FFV'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 3.7L'
+						MAX_DEPTH < label0 0.941176470588 17 >
+				<Split_Feature:	SubModel : '4D SEDAN GLS'
+						MAX_DEPTH < label0 0.983870967742 62 >
+				<Split_Feature:	SubModel : '5D MINIVAN CE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'REG CAB 4.3L SLE'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN DE'
+						MAX_DEPTH < label0 1 25 >
+				<Split_Feature:	SubModel : '2D COUPE EX AUTO'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN GXE'
+						MIN_CHILDREN < label1 1 2 >
+				<Split_Feature:	SubModel : '4D SUV 4.0L FFV XLS'
+						MAX_DEPTH < label0 0.682926829268 41 >
+				<Split_Feature:	SubModel : '2D HATCHBACK'
+						MAX_DEPTH < label0 1 20 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY LS'
+						MAX_DEPTH < label0 1 13 >
+				<Split_Feature:	SubModel : '4D SEDAN GS'
+						MAX_DEPTH < label0 1 14 >
+				<Split_Feature:	SubModel : '4D SEDAN L200'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D SEDAN 2.5L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'EXT MINIVAN 3.3L LX'
+						MAX_DEPTH < label0 1 26 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L FFV SE'
+						MAX_DEPTH < label0 0.975 40 >
+				<Split_Feature:	SubModel : '4D SUV 4.2L LS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.9L LT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN VALUE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV 2.2L LT'
+						MAX_DEPTH < label0 1 9 >
+				<Split_Feature:	SubModel : 'REG CAB 2.8L'
+						MAX_DEPTH < label0 1 16 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L SXT'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'REG CAB 4.3L LS'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.9L LX'
+						MAX_DEPTH < label0 0.954022988506 87 >
+				<Split_Feature:	SubModel : '4D SEDAN SEL AWD'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L LXI'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D UTILITY 5.3L FFV LS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.4L VALUE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.9L'
+						MAX_DEPTH < label0 0.96875 32 >
+				<Split_Feature:	SubModel : '4D SEDAN 1.8S'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN ZX4'
+						MAX_DEPTH < label0 1 24 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L LXI'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN LE'
+						MAX_DEPTH < label0 0.821428571429 28 >
+				<Split_Feature:	SubModel : '4D SEDAN 2.5 S'
+						MAX_DEPTH < label0 1 27 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L FFV SPORT'
+						MAX_DEPTH < label0 0.571428571429 7 >
+				<Split_Feature:	SubModel : '4D SEDAN LT 3.5L FFV'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '2D SUV 4.0L SPORT XLS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '2D SPYDER GT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L SPORT'
+						MAX_DEPTH < label0 1 8 >
+				<Split_Feature:	SubModel : 'QUAD CAB 3.7L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'WAGON LX'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.9L LS'
+						MAX_DEPTH < label0 0.96875 64 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.3L LS'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 4.0L FFV XLT'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D SEDAN DX AUTO'
+						MAX_DEPTH < label0 1 9 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L'
+						MAX_DEPTH < label0 0.8 5 >
+				<Split_Feature:	SubModel : 'REG CAB 2.7L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 4.2L XL'
+						MAX_DEPTH < label0 0.555555555556 9 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.9L LS'
+						MAX_DEPTH < label0 0.982456140351 57 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L SE'
+						MAX_DEPTH < label0 0.970588235294 68 >
+				<Split_Feature:	SubModel : '4D SUV SPORT'
+						MAX_DEPTH < label0 1 48 >
+				<Split_Feature:	SubModel : 'REG CAB 3.0L EDGE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D MINIVAN EXT 3.5L'
+						MAX_DEPTH < label0 1 9 >
+				<Split_Feature:	SubModel : 'EXT CAB 5.3L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 5.4L XL'
+						MAX_DEPTH < label0 0.6 5 >
+				<Split_Feature:	SubModel : '4D SPORT TOURING'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY EX'
+						MAX_DEPTH < label0 1 9 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.9L'
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	SubModel : 'EXT CAB 2.4L SE'
+						MIN_CHILDREN < label1 1 2 >
+				<Split_Feature:	SubModel : '4D SUV 2.2L LS'
+						MAX_DEPTH < label0 0.984771573604 197 >
+				<Split_Feature:	SubModel : '4D SEDAN SEL'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.4L'
+						MAX_DEPTH < label0 0.888888888889 27 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY XLS'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L EL'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '2D CONVERTIBLE TOURING'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D PASSENGER 3.9L SES'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SUV 4.0L XLT'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D MINIVAN 3.4L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '5D SEDAN ZX5'
+						MAX_DEPTH < label0 0.8 5 >
+				<Split_Feature:	SubModel : '4D SEDAN DX'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '4D SUV CX'
+						MAX_DEPTH < label0 0.878787878788 33 >
+				<Split_Feature:	SubModel : '4D CUV 3.0L SE'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'REG CAB 5.3L'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN 2.5 SE'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN XR'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN LS'
+						MAX_DEPTH < label0 0.963215974777 1903 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L SLT'
+						MAX_DEPTH < label0 1 9 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L LX POPULAR'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY SE'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 3.7L SXT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV 2.2L 1LT'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SUV 4.0L XLS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.2L W/T'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'QUAD CAB 3.7L ST'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN'
+						MAX_DEPTH < label0 0.927210164108 3778 >
+				<Split_Feature:	SubModel : '2D HATCHBACK ZX3'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L SXT'
+						MAX_DEPTH < label0 0.571428571429 7 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L EX'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN SE FFV'
+						MAX_DEPTH < label0 1 8 >
+				<Split_Feature:	SubModel : '4D SEDAN LEVEL 2'
+						MAX_DEPTH < label0 0.877272727273 220 >
+				<Split_Feature:	SubModel : '4D WAGON CX'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D MINIVAN EXT 3.4L'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '2D COUPE LS'
+						MAX_DEPTH < label0 0.95652173913 69 >
+				<Split_Feature:	SubModel : '4D SEDAN ZX4 SE'
+						MAX_DEPTH < label0 0.833333333333 6 >
+				<Split_Feature:	SubModel : '4D SEDAN CX'
+						MAX_DEPTH < label0 0.948275862069 58 >
+				<Split_Feature:	SubModel : 'MINIVAN 2.4L'
+						MAX_DEPTH < label0 0.877192982456 57 >
+				<Split_Feature:	SubModel : '4D CUV 2.0L XLS'
+						MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	VehBCost : '\'(11390.8-13289.1]\''
+				<GROW: r2_avg_minus_vehbc >
+				<Split_Feature:	r2_avg_minus_vehbc : '\'(3694.833333-5876.066667]\''
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	r2_avg_minus_vehbc : '\'(1513.6-3694.833333]\''
+						MAX_DEPTH < label0 0.666666666667 6 >
+				<Split_Feature:	r2_avg_minus_vehbc : '\'(5876.066667-8057.3]\''
+						MIN_CHILDREN < label1 1 2 >
+				<Split_Feature:	r2_avg_minus_vehbc : '\'(-667.633333-1513.6]\''
+						MIN_CHILDREN < label0 1 1 >
+		<Split_Feature:	VehBCost : '\'(7594.2-9492.5]\''
+				CONF_CLASS < label0 0.957162812354 6443 >
+		<Split_Feature:	VehBCost : '\'(3797.6-5695.9]\''
+				<GROW: SubModel >
+				<Split_Feature:	SubModel : '4D SEDAN GL1'
+						MIN_CHILDREN < label1 0.5 2 >
+				<Split_Feature:	SubModel : '2D COUPE ZX3 SES'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L LX'
+						MAX_DEPTH < label0 0.898550724638 69 >
+				<Split_Feature:	SubModel : '4D SEDAN SL1'
+						MAX_DEPTH < label0 0.842105263158 19 >
+				<Split_Feature:	SubModel : '4D SPORT'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SEDAN CLASSIC'
+						MAX_DEPTH < label0 0.905844155844 308 >
+				<Split_Feature:	SubModel : 'MINIVAN 2.4L SE'
+						MAX_DEPTH < label0 0.775 40 >
+				<Split_Feature:	SubModel : '4D SEDAN SXT'
+						MAX_DEPTH < label0 0.823529411765 17 >
+				<Split_Feature:	SubModel : 'REG CAB 2.3L'
+						MAX_DEPTH < label0 0.625 8 >
+				<Split_Feature:	SubModel : '4D SEDAN S'
+						MAX_DEPTH < label0 0.926829268293 82 >
+				<Split_Feature:	SubModel : '2D COUPE GX'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D WAGON SE'
+						MAX_DEPTH < label0 0.869565217391 23 >
+				<Split_Feature:	SubModel : 'REG CAB 2.2L'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L EL'
+						MIN_CHILDREN < label1 1 2 >
+				<Split_Feature:	SubModel : 'REG CAB 4.7L'
+						MAX_DEPTH < label1 0.5 8 >
+				<Split_Feature:	SubModel : '4D SEDAN LX AUTO'
+						MAX_DEPTH < label0 0.777777777778 9 >
+				<Split_Feature:	SubModel : '4D SEDAN LX'
+						MAX_DEPTH < label0 0.814285714286 210 >
+				<Split_Feature:	SubModel : '4D CUV 2.2L'
+						MAX_DEPTH < label0 0.857142857143 14 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L LXI'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '2D COUPE ZX3'
+						MAX_DEPTH < label0 0.878048780488 41 >
+				<Split_Feature:	SubModel : '4D SEDAN SE SVG'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN SEL FFV'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '2D QUAD COUPE LEVEL 2'
+						MAX_DEPTH < label0 0.95 20 >
+				<Split_Feature:	SubModel : '2D SEDAN GX'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN LS PREMIUM'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : BASE
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D SEDAN LT 3.5L'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN SE FFV'
+						MAX_DEPTH < label0 0.904761904762 42 >
+				<Split_Feature:	SubModel : '4D SEDAN ZX4'
+						MAX_DEPTH < label0 0.916256157635 203 >
+				<Split_Feature:	SubModel : 'REG CAB 3.5L LS'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN SE1'
+						MAX_DEPTH < label0 0.766666666667 30 >
+				<Split_Feature:	SubModel : '4D SEDAN SES DURATEC'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN L300'
+						MAX_DEPTH < label0 0.894736842105 19 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.4L'
+						MAX_DEPTH < label0 0.806451612903 31 >
+				<Split_Feature:	SubModel : 'REG CAB 4.2L STX'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.9L SEL'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN CE'
+						MAX_DEPTH < label0 0.739130434783 23 >
+				<Split_Feature:	SubModel : 'REG CAB 4.3L'
+						MAX_DEPTH < label0 0.888888888889 18 >
+				<Split_Feature:	SubModel : '4D SEDAN SES'
+						MAX_DEPTH < label1 0.714285714286 7 >
+				<Split_Feature:	SubModel : '4D WAGON LW300'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN LX 5SP'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SPORTBACK LS'
+						MAX_DEPTH < label1 0.6 5 >
+				<Split_Feature:	SubModel : '2D HATCHBACK GS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.5L LS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN I'
+						MAX_DEPTH < label0 0.75 8 >
+				<Split_Feature:	SubModel : '4D SEDAN EX'
+						MAX_DEPTH < label0 0.885593220339 236 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.6L HERITAGE XL'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '2D COUPE'
+						MAX_DEPTH < label0 0.897959183673 196 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.9L SE'
+						MAX_DEPTH < label0 0.947826086957 115 >
+				<Split_Feature:	SubModel : '4D WAGON SXT'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D CUV 3.0L'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN GL'
+						MAX_DEPTH < label0 0.9 20 >
+				<Split_Feature:	SubModel : '4D WAGON SX'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.4L ENTERTAINER'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN GXE'
+						MAX_DEPTH < label0 0.823529411765 17 >
+				<Split_Feature:	SubModel : 'EXT CAB 3.0L EDGE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D WAGON GS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D HATCHBACK S'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '2D CONVERTIBLE'
+						MAX_DEPTH < label0 0.777777777778 36 >
+				<Split_Feature:	SubModel : '4D SEDAN ZTS'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SEDAN LIMITED'
+						MAX_DEPTH < label0 0.823529411765 17 >
+				<Split_Feature:	SubModel : '4D SEDAN 1.8'
+						MAX_DEPTH < label0 0.934210526316 76 >
+				<Split_Feature:	SubModel : '4D WAGON'
+						MAX_DEPTH < label0 0.811320754717 53 >
+				<Split_Feature:	SubModel : '4D HATCHBACK ZX5 S'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D SEDAN SL2'
+						MAX_DEPTH < label0 0.785714285714 14 >
+				<Split_Feature:	SubModel : 'REG CAB 4.6L STX'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN SE'
+						MAX_DEPTH < label0 0.906071019473 873 >
+				<Split_Feature:	SubModel : '2D COUPE GS'
+						MAX_DEPTH < label0 1 21 >
+				<Split_Feature:	SubModel : '4D WAGON EX'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '2D COUPE GL'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'MINIVAN 2.4L LX'
+						MAX_DEPTH < label0 0.857142857143 7 >
+				<Split_Feature:	SubModel : 'REG CAB 2.3L EDGE'
+						MAX_DEPTH < label0 0.764705882353 17 >
+				<Split_Feature:	SubModel : '4D SEDAN GL2'
+						MAX_DEPTH < label0 0.912280701754 57 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.5L LS'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D CUV 2.3L XLS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN CUSTOM'
+						MAX_DEPTH < label0 0.936507936508 126 >
+				<Split_Feature:	SubModel : '4D WAGON LX'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY ES'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '2D COUPE DX 5SP'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'REG CAB 3.7L LS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '2D COUPE SE1'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 3.4L'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN LXI'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '2D COUPE GL2'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN ES'
+						MAX_DEPTH < label0 0.899441340782 179 >
+				<Split_Feature:	SubModel : '4D SEDAN TOURING'
+						MAX_DEPTH < label0 0.935483870968 93 >
+				<Split_Feature:	SubModel : 'EXT CAB 3.9L SXT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN GT'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : 'REG CAB 2.2L FFV'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L'
+						MAX_DEPTH < label0 0.883895131086 267 >
+				<Split_Feature:	SubModel : '4D WAGON ZX5'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 2.5L'
+						MIN_CHILDREN < label0 0.75 4 >
+				<Split_Feature:	SubModel : '4D SEDAN SXT FFV'
+						MAX_DEPTH < label0 0.985130111524 538 >
+				<Split_Feature:	SubModel : '2D COUPE SE'
+						MAX_DEPTH < label0 0.817073170732 82 >
+				<Split_Feature:	SubModel : '4D SEDAN LT'
+						MAX_DEPTH < label0 1 33 >
+				<Split_Feature:	SubModel : 'REG CAB 4.8L LS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 4.6L XL'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN LEVEL 1'
+						MAX_DEPTH < label0 0.932773109244 119 >
+				<Split_Feature:	SubModel : '4D SEDAN SL'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'REG CAB 4.8L'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY'
+						MAX_DEPTH < label0 0.833333333333 6 >
+				<Split_Feature:	SubModel : 'WAGON DX'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 3.7L'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN GLS'
+						MAX_DEPTH < label0 0.894736842105 76 >
+				<Split_Feature:	SubModel : '4D SEDAN SE COMFORT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN ZX4 S'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '3D EXT CAB 4.3L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D MINIVAN EXT 3.4L'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 4.0L FFV XLS'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '4D SUV HARDTOP 2.0L'
+						MAX_DEPTH < label0 0.6 5 >
+				<Split_Feature:	SubModel : 'CARGO EXT 3.5L LT'
+						MIN_CHILDREN < label1 1 3 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.9L LS'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN GS'
+						MAX_DEPTH < label0 0.823529411765 85 >
+				<Split_Feature:	SubModel : '2D HATCHBACK ZX3'
+						MAX_DEPTH < label0 1 19 >
+				<Split_Feature:	SubModel : 'EXT MINIVAN 3.3L LX'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L FFV SE'
+						MAX_DEPTH < label0 0.852459016393 122 >
+				<Split_Feature:	SubModel : '4D WAGON LW200'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN VALUE AUTO'
+						MIN_CHILDREN < label1 1 2 >
+				<Split_Feature:	SubModel : 'REG CAB 2.8L'
+						MAX_DEPTH < label0 0.769230769231 13 >
+				<Split_Feature:	SubModel : '4D SEDAN LEVEL 2'
+						MAX_DEPTH < label0 0.888489208633 278 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.9L LX'
+						MAX_DEPTH < label0 0.908163265306 98 >
+				<Split_Feature:	SubModel : '4D WAGON CINCO'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 5.7L SLT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.4L VALUE'
+						MAX_DEPTH < label0 0.777777777778 9 >
+				<Split_Feature:	SubModel : '4D CUV'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.9L'
+						MAX_DEPTH < label0 0.818181818182 66 >
+				<Split_Feature:	SubModel : '2D HATCHBACK'
+						MAX_DEPTH < label0 0.846153846154 13 >
+				<Split_Feature:	SubModel : '4D SEDAN 1.8S'
+						MAX_DEPTH < label0 0.8125 16 >
+				<Split_Feature:	SubModel : '3D COUPE SC2'
+						MIN_CHILDREN < label1 0.666666666667 3 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.5L'
+						MAX_DEPTH < label0 0.944444444444 36 >
+				<Split_Feature:	SubModel : '3D COUPE SC1'
+						MAX_DEPTH < label0 0.833333333333 6 >
+				<Split_Feature:	SubModel : '4D SEDAN 2.5 S'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L FFV SPORT'
+						MAX_DEPTH < label0 0.787878787879 33 >
+				<Split_Feature:	SubModel : '4D HATCHBACK ZX5 SE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 2.4L XE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D MINIVAN EXT 3.4L GL'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L SPORT'
+						MAX_DEPTH < label0 1 18 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.8L'
+						MAX_DEPTH < label0 0.944444444444 18 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.9L LS'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SUV 4.7L'
+						MAX_DEPTH < label0 0.8 5 >
+				<Split_Feature:	SubModel : 'REG CAB 4.2L XL'
+						MAX_DEPTH < label0 0.777777777778 9 >
+				<Split_Feature:	SubModel : '4D SPORT UTILITY LS'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L SE'
+						MAX_DEPTH < label0 0.933333333333 90 >
+				<Split_Feature:	SubModel : '4D SUV SPORT'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : '2D COUPE LX'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'EXT CAB 3.9L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '2D EXT CAB 2.3L XL'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 3.0L EDGE'
+						MAX_DEPTH < label0 1 11 >
+				<Split_Feature:	SubModel : '2D EXT CAB 2.3L EDGE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D WAGON SPORT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SEDAN LEVEL 3'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : '4D SUV 2.2L LS'
+						MAX_DEPTH < label0 0.571428571429 7 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.4L LS'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '4D SEDAN SEL'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : '2D COUPE ZX3 S'
+						MAX_DEPTH < label0 1 6 >
+				<Split_Feature:	SubModel : '4D WAGON ZXW'
+						MAX_DEPTH < label0 0.923076923077 13 >
+				<Split_Feature:	SubModel : 'CARGO 3.9L'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.8L EL'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '2D CONVERTIBLE TOURING'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D MINIVAN 3.4L'
+						MAX_DEPTH < label0 0.6 5 >
+				<Split_Feature:	SubModel : 'REG CAB 5.3L LS'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '5D SEDAN ZX5'
+						MAX_DEPTH < label0 1 8 >
+				<Split_Feature:	SubModel : '4D SEDAN DX'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '4D SUV CX'
+						MIN_CHILDREN < label1 1 1 >
+				<Split_Feature:	SubModel : 'EXT CAB 4.0L EDGE'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : '2D COUPE EX 5SP'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : '4D SEDAN LS'
+						MAX_DEPTH < label0 0.900188323917 531 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L LX POPULAR'
+						MAX_DEPTH < label0 0.818181818182 11 >
+				<Split_Feature:	SubModel : 'MINIVAN 2.4L EC'
+						MAX_DEPTH < label0 0.8 5 >
+				<Split_Feature:	SubModel : '2D SEDAN'
+						MAX_DEPTH < label0 1 7 >
+				<Split_Feature:	SubModel : '4D SUV 4.6L EDDIE BAUER'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'PASSENGER EXT 3.4L LS'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '4D SEDAN'
+						MAX_DEPTH < label0 0.860851808635 3428 >
+				<Split_Feature:	SubModel : '4D SEDAN L200'
+						MAX_DEPTH < label0 0.766666666667 60 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L FFV EL'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'MINIVAN 3.3L SXT'
+						MIN_CHILDREN < label0 1 1 >
+				<Split_Feature:	SubModel : 'REG CAB 3.7L ST'
+						MAX_DEPTH < label0 1 5 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.4L'
+						MAX_DEPTH < label0 0.976377952756 127 >
+				<Split_Feature:	SubModel : '4D SEDAN GX'
+						MIN_CHILDREN < label0 1 2 >
+				<Split_Feature:	SubModel : 'PASSENGER 3.8L LX'
+						MAX_DEPTH < label1 0.595238095238 42 >
+				<Split_Feature:	SubModel : '4D SEDAN ZX4 SE'
+						MAX_DEPTH < label0 0.882352941176 17 >
+				<Split_Feature:	SubModel : '2D COUPE LT'
+						MIN_CHILDREN < label0 1 4 >
+				<Split_Feature:	SubModel : '2D COUPE LS'
+						MAX_DEPTH < label0 0.95652173913 23 >
+				<Split_Feature:	SubModel : '4D MINIVAN 3.4L VALUE'
+						MIN_CHILDREN < label0 1 3 >
+				<Split_Feature:	SubModel : 'MINIVAN 2.4L'
+						MAX_DEPTH < label0 0.915492957746 71 >
+				<Split_Feature:	SubModel : '4D CUV 2.0L XLS'
+		
