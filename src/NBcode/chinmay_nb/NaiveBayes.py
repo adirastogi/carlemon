@@ -23,7 +23,6 @@ def find_distinct_values_feature(training_data,testing_data,all_features):
 	values_in_features = {}
 	total_data = training_data + testing_data
 	for feature in all_features:
-		zero_value_flag = 0
 		distinct_values = set()
 		for example in total_data:
 			distinct_values.add(example[feature])
