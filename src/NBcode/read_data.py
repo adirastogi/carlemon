@@ -63,6 +63,10 @@ class InputReader:
 
         return X,Y;
 
+    #substitutest the class label with +1/-1 for naive bayes/Adaboost to work,
+    #they do not expect the class label in input
+    #IsBadBuy=1 --> +1
+    #IsBadBuy=0 --> -1
     def read_csv(self,filename):
         X= []
         Y = []  
@@ -80,7 +84,8 @@ class InputReader:
 
         return X,Y
 
-
+    # reads the CSV file without removing the class label as it is needed by
+    #the dt implementation. it expects the class label in training
     def read_csv_dt(self,filename):
         X= []
         Y = []  
@@ -100,7 +105,8 @@ class InputReader:
         return X,Y
 
 
-
+    #takes out the class label if it is there in the data
+    #Naive bayes / Adaboost/ Dt dont expect the data to be in the class label
     def read_csv_test(self,filename):
         X= []
         with open(filename,'r') as csvfile:
@@ -108,11 +114,16 @@ class InputReader:
             for row in reader:
                 x ={}
                 for k in row.keys():
-                    x[k] =  row[k]
+                    if k=='IsBadBuy':
+                        continue;
+                    else:
+                        x[k] =  row[k]
                 X+=[x];
         return X
 
-
+    # does the inverse mappting 
+    # +1-->IsBadBuy=1
+    # -1-->IsBadBuy=0
     def write_predictions(self,filename,predictions):
         with open(filename,'w') as predfile:
             predfile.write("IsBadBuy\n")

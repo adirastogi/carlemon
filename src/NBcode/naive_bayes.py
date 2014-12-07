@@ -93,12 +93,13 @@ class NBclassifier:
             test_attrs = x.keys();
             # take the union of the attribute list in training and test
             attr_list = set(test_attrs) | set(train_attrs);
-            #print "predicting example ",x,"\n";
+            print "predicting example ",x,"\n";
+
             # test each class label to see if it gives max_prob
             for y in self.p_y.keys():
                 count_y = self.p_y[y];
                 prob = float(count_y)/(self.num_train_examples)
-                #print"P(",y,")=",prob
+                print"P(",y,")=",prob
                 for attr_idx in attr_list:
                     #attribute seen in training data
                     if attr_idx in self.p_X_y:
@@ -113,12 +114,16 @@ class NBclassifier:
                             exp_term = float(mean_diff_sq)/(2.0*float(var))
                             multiplier_term = 1/(float(math.sqrt(2.0*math.pi*var)))
                             attr_prob = multiplier_term*float(math.exp(-exp_term))
+                            print "P(%s=%s|%s)=%f"%(attr_idx,attr_val,y,attr_prob);
                         #If the attribute is nominal
                         else:
                             if (attr_val,y) in p_x_y:
                                 attr_prob = float(p_x_y[(attr_val,y)]+1)/(count_y+self.count_distinct_x_y[attr_idx,y]);
+                                #debug
+                                print "P(%s=%s|%s)=%f"%(attr_idx,attr_val,y,attr_prob);
                             else:
                                 attr_prob = float(1)/(count_y+self.count_distinct_x_y[(attr_idx,y)]+1);
+                                print "P(%s=@@@%s|%s)=%f, ---- %d,%d  "%(attr_idx,attr_val,y,attr_prob,count_y,self.count_distinct_x_y[(attr_idx,y)]);
                     #attribute not seen in training data
                     else:
                         #If the attribute is numeric
@@ -128,13 +133,13 @@ class NBclassifier:
                         #If the attribute is nominal
                         else:
                             attr_prob = float(1)/(count_y+2);
-                            #debug
-                            #attr_val = x[attr_idx];
-                            #print "P(*%s=%s|%s)=%.3f"%(attr_idx,attr_val,y,attr_prob);
-                            #debug
+                            attr_val = x[attr_idx];
+                            print "P(*%s=%s|%s)=%f"%(attr_idx,attr_val,y,attr_prob);
+
+                    #debug
                     prob = prob*attr_prob;
                 #debug
-                #print ;
+                print ;
                 if prob > max_prob:
                     max_prob = prob;
                     pred_label = y;
@@ -142,8 +147,8 @@ class NBclassifier:
             # set the class label as the maximum observed over all the labels.
             Y_pred += [pred_label];
             #debug
-            #print "predicted label ",pred_label," with probability ",max_prob
-            #print "---------------"
+            print "predicted label ",pred_label," with probability ",max_prob
+            print "---------------"
         #return the vector of predictions
         assert(len(X)==len(Y_pred));
         return Y_pred;

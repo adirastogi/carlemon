@@ -7,7 +7,7 @@ class AdaBoost:
     '''This contains the sampling version of AdaBoost suitable for use with the
     Naive Bayes classifier'''
     def __init__(self):
-        self.num_iters =15  #no of iterattions to run it for
+        self.num_iters =10  #no of iterattions to run it for
         self.data_X=[]  # the X training data for the boosted classifier
         self.data_Y=[]  # the training labels for the boosted classifier.
         self.classifiers=[]
@@ -80,7 +80,7 @@ class AdaBoost:
             #train and predict 
             #debug
 
-            samples_idx = self.sample_data(2000);
+            samples_idx = self.sample_data(72000);
             train_X = [self.data_X[idx] for idx in samples_idx];
             train_Y = [self.data_Y[idx] for idx in samples_idx];
 
