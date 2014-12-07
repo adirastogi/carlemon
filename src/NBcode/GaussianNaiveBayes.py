@@ -215,7 +215,7 @@ def csv_process(train_file,test_file):
 
 if __name__ == "__main__":
 	if(len(sys.argv)) != 4:
-		print usage("NaiveBayes.py")
+		print usage("GaussianNaiveBayes.py")
 		sys.exit(1)
 	else:
 		train_file_name = sys.argv[1]
